@@ -5,32 +5,30 @@
 
 
 class Matrix(object):
-    def __init__(self,row,col):
-        self.data =[[0]*col for i in range(row)]
+    def __init__(self,file):
+        f = open(file)
+        self.matrix ={}
+        # c is the name of the column
+        c = f.readline().split()
+        for i in f:
+            r = i.split()
+            rowname = r.pop(0)
+            t = {}
+            for j in range(len(c)):
+                t[c[j]] = r[j]
+            self.matrix[rowname] = t
+
 
     def __str__(self):
         s =''
-        for i in range(len(self.data)):
-            s += str(self.data[i])+'\n'
-        return s
+        for key in self.matrix:
+            pass
 
-    def set(self,row,col,n):
-        self.data[row][col] =n
 
     def get(self,row,col):
         return self.data[row][col]
 
 
 
-
-
-f = open("BLOSUM50.txt")
-a = Matrix(2,3)
-for i in f:
-    if(i[0]!='#'):
-        print(i.strip().split(" "))
-        print(len(i.strip().split("  ")))
-
-
-
-
+A = Matrix("BLOSUM50.txt")
+print(A)
