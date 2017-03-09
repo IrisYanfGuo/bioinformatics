@@ -14,5 +14,5 @@ def read_fasta(filename):
     return proteins
 
 # test
-print(read_fasta("WW-sequence.fasta"))
-print(read_fasta("protein-sequences.fasta"))
+#print(read_fasta("WW-sequence.fasta"))
+#print(read_fasta("protein-sequences.fasta"))

@@ -20,17 +20,17 @@ class Matrix(object):
 
 
     def get(self,row,col):
-        return self.data[row][col]
+        return self.matrix[row][col]
 
     def print(self):
         for key in self.matrix:
             for key2 in self.matrix[key]:
-                
+
                 print("{0:3d}".format(self.matrix[key][key2]),end="")
 
             print()
 
 
 
-A = Matrix("BLOSUM50.txt")
-A.print()
+#A = Matrix("BLOSUM50.txt")
+#A.print()
