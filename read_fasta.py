@@ -1,20 +1,18 @@
-f = open("WW-sequence.fasta")
-d =[]
-for i in f:
-    i
+def read_fasta(filename):
+    f = open(filename)
+    proteins = []
+    d = f.read().split(">")
 
-#print(d)
-f.close()
+    # deal with the  "" before the first ""
+    d.pop(0)
+    for i in d:
+        t = i.splitlines()
+        # get rid of the line of the protein name
+        t.pop(0)
+        s = "".join(t)
+        proteins.append(s)
+    return proteins
 
-f2= open("WW-sequence.fasta")
-proteins = []
-d = f2.read().split(">")
-d.pop(0)
-for i in d:
-    t = i.splitlines()
-    t.pop(0)
-    s = ''.join(t)
-    proteins.append(s)
-
-for i in range(len(proteins)):
-    print(proteins[i])
+# test
+print(read_fasta("WW-sequence.fasta"))
+print(read_fasta("protein-sequences.fasta"))
