@@ -18,7 +18,6 @@ class Matrix(object):
                 t[c[j]] = int(r[j])
             self.matrix[rowname] = t
 
-
     def get(self,row,col):
         return self.matrix[row][col]
 
