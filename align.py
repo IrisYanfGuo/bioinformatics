@@ -3,8 +3,8 @@ from Matrix import *
 from read_fasta import *
 
 seq_list = read_fasta("WW-sequence.fasta")
-sequ1 = seq_list[0][0:10]
-sequ2 = seq_list[1][0:10]
+sequ1 = seq_list[0][0:6]
+sequ2 = seq_list[1][0:5]
 mat1 = Matrix("BLOSUM50.txt")
 print(sequ1, sequ2)
 
@@ -81,3 +81,24 @@ def score(seq1, seq2, mat, pos1, pos2):
 
 
 print(score(sequ1, sequ2, mat1, len(sequ1), len(sequ2)))
+
+def print_mat2(alist):
+    for i in alist:
+        for j in i:
+            print('{0:4d}'.format(j),end=" ")
+        print()
+
+def print_mat3(alist):
+    for i in alist:
+        print(i)
+
+
+def traceback(dir_m,k,seq1,seq2):
+    allPath = []
+    seq1_len = len(seq1)
+    seq2_len = len(seq2)
+
+
+
+print_mat3(direc_mat)
+print_mat2(score_mat)
