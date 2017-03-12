@@ -8,10 +8,10 @@ I = -6 # affine gap
 
 
 seq_list = read_fasta("protein-sequences.fasta")
-seq11 =seq_list[0]
-seq22 = seq_list[1]
-seq1= 'THISLINE'
-seq2 = 'ISALIGNED'
+seq1 =seq_list[0]
+seq2 = seq_list[1]
+seq11= 'THISLINE'
+seq22 = 'ISALIGNED'
 slen1 = len(seq1)
 slen2 = len(seq2)
 mat1 = Matrix("BLOSUM62.txt")
@@ -161,6 +161,7 @@ def recal(i,j,mat=mat1):
                 else:
                     # vertical, seq1 has a gap
                     direc_mat[i][j][0] = 1
+            recal(i,j)
 
 
         i = i-1
@@ -191,6 +192,7 @@ def recal(i,j,mat=mat1):
                 else:
                     # vertical, seq1 has a gap
                     direc_mat[i][j][0] = 1
+            recal(i, j)
         j = j-1
 
     if i<len(seq1) and j<len(seq2):
@@ -220,6 +222,7 @@ def recal(i,j,mat=mat1):
                 else:
                     # vertical, seq1 has a gap
                     direc_mat[i][j][0] = 1
+            recal(i, j)
 
 
         i = i -1
