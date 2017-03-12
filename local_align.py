@@ -3,8 +3,9 @@ from Matrix import *
 from read_fasta import *
 
 # affine gap penalty
-affine = -0
-gap = -8
+E = -4
+I = -6 # affine gap
+
 
 seq_list = read_fasta("protein-sequences.fasta")
 seq1 ='THISLINE'
@@ -15,10 +16,11 @@ mat1 = Matrix("BLOSUM62.txt")
 print(seq1)
 print(seq2)
 
+
 score_mat = []
 direc_mat = []
 for i in range(len(seq1) + 1):
-    direc_mat.append([[0, 0, 0,0] for i in range(len(seq2) + 1)])
+    direc_mat.append([[0, 0, 0,I,I] for i in range(len(seq2) + 1)])
 
 for i in range(len(seq1) + 1):
     score_mat.append([0 for i in range(len(seq2) + 1)])
@@ -37,56 +39,151 @@ def print_mat3(alist):
         print(i)
 
 
-def local_score(mat):
-    for i in range(1, len(seq1) + 1):
-        for j in range(1, len(seq2) + 1):
+def local_score(mat,istart=1,jstart=1):
+    for i in range(istart, len(seq1) + 1):
+        for j in range(jstart, len(seq2) + 1):
             t1 = score_mat[i - 1][j - 1] + mat.get(seq1[i - 1], seq2[j - 1])
 
             # [s(i,j-n(gap)+g(gap]
-            t2 = []
-            for k in range(j - 1, -1, -1):
-                t = score_mat[i][k] + gap * (j - k) + int((j-k)*(j-k-1)*affine/2)
-                if (t < 0):
-                    break
-                t2.append(t)
 
-            t3 = []
-            for k in range(i - 1, -1, -1):
+            t2 =score_mat[i][j-1] +direc_mat[i][j-1][4]
 
-                t = score_mat[k][j] + gap * (i - k) + int((j-k-1)*(j-k)*affine/2)
-                if (t < 0):
-                    break
-                t3.append(t)
 
-            if len(t2) > 0:
-                t2max = max(t2)
-            else:
-                t2max = -1
-            if len(t3) > 0:
-                t3max = max(t3)
-            else:
-                t3max = -1
 
-            max_score = max(t1, t2max, t3max, 0)
+            t3 = score_mat[i-1][j] + direc_mat[i-1][j][3]
+
+
+
+            max_score = max(t1, t2, t3, 0)
             score_mat[i][j] = max_score
 
             if max_score > 0:
                 if max_score == t1:
                     direc_mat[i][j][2] = 1
+                    direc_mat[i][j][4] = E
 
-                elif max_score == t2max:
+                elif max_score == t2:
                     # horizental
                     direc_mat[i][j][1]=1
+                    direc_mat[i][j][3]=E
                 else:
                     # vertical, seq1 has a gap
                     direc_mat[i][j][0]=1
 
-a,i = max([1,2,3]),argmax([1,2,3])
+
+
+
+def local_trace():
+    # find the largest position(i,j)
+    row_large =[]
+    for i in range(len(score_mat)):
+        row_max = max(score_mat[i])
+        index = score_mat[i].index(row_max)
+        row_large.append([row_max,index])
+
+    t = [row_large[i][0] for i in range(len(row_large))]
+    max_score = max(t)
+    i = t.index(max_score)
+    j = row_large[i][1]
+
+    # i,j is the index of the largest element
+
+    path_pair = []
+    path_up = []
+    path_down = []
+
+    dest_i = i
+    dest_j = j
+    while(score_mat[i][j]!=0):
+        score_mat[i][j] = 0
+        tlist = direc_mat[i][j]
+        if tlist[0]==1:
+            path_up.append(seq1[i-1])
+            path_down.append('-')
+            i = i-1
+        elif tlist[1]==1:
+            path_down.append(seq2[j-1])
+            path_up.append('-')
+            j = j-1
+        else:
+            path_down.append(seq2[j-1])
+            path_up.append(seq1[i-1])
+            i = i -1
+            j= j-1
+
+
+def recal(i,j,mat=mat1):
+    score_mat[i][j] = 0
+    if i< len(seq1)+1:
+        if direc_mat[i+1][j][0]==1:
+            # do recalculate
+            t1 = score_mat[i - 1][j - 1] + mat.get(seq1[i - 1], seq2[j - 1])
+
+            # [s(i,j-n(gap)+g(gap]
+
+            t2 = score_mat[i][j - 1] + direc_mat[i][j - 1][4]
+
+            t3 = score_mat[i - 1][j] + direc_mat[i - 1][j][3]
+
+            max_score = max(t1, t2, t3, 0)
+            score_mat[i][j] = max_score
+
+            if max_score > 0:
+                if max_score == t1:
+                    direc_mat[i][j][2] = 1
+                    direc_mat[i][j][4] = E
+
+                elif max_score == t2:
+                    # horizental
+                    direc_mat[i][j][1] = 1
+                    direc_mat[i][j][3] = E
+                else:
+                    # vertical, seq1 has a gap
+                    direc_mat[i][j][0] = 1
+            recal(i+1,j)
+    if j < len(seq2)+1:
+        if direc_mat[i][j+1][1] ==1:
+            t1 = score_mat[i - 1][j - 1] + mat.get(seq1[i - 1], seq2[j - 1])
+
+            # [s(i,j-n(gap)+g(gap]
+
+            t2 = score_mat[i][j - 1] + direc_mat[i][j - 1][4]
+
+            t3 = score_mat[i - 1][j] + direc_mat[i - 1][j][3]
+
+            max_score = max(t1, t2, t3, 0)
+            score_mat[i][j] = max_score
+
+            if max_score > 0:
+                if max_score == t1:
+                    direc_mat[i][j][2] = 1
+                    direc_mat[i][j][4] = E
+
+                elif max_score == t2:
+                    # horizental
+                    direc_mat[i][j][1] = 1
+                    direc_mat[i][j][3] = E
+                else:
+                    # vertical, seq1 has a gap
+                    direc_mat[i][j][0] = 1
+                    recal(i,j+1)
+    if i<len(seq1)+1 and len(seq2)+1:
+        if direc_mat[i+1][j+1][2] ==1:
+
+
+
+
+
+
 
 
 
 
 local_score(mat1)
 print_mat2(score_mat)
-print_mat3(direc_mat)
+local_trace()
+print()
+print_mat2(score_mat)
+
+
 
