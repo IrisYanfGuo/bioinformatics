@@ -7,8 +7,8 @@ E = -4
 I = -6 # affine gap
 
 seq_list = read_fasta("WW-sequence.fasta")
-seq1 =seq_list[0][1:30]
-seq2 =seq_list[1][1:20]
+seq1 =seq_list[0]
+seq2 =seq_list[1][:-4]
 sequ1 = 'THISLINE'
 sequ2 = 'ISALIGNED'
 slen1 = len(seq1)
@@ -90,38 +90,60 @@ def traceback():
     path_pair = []
     path_up = []
     path_down = []
+    mark1 =[]
+    mark2 =[]
 
     # use queue to trace multiple path
-    queue = []
-    queue.append([slen1, slen2])
-    while len(queue) != 0:
-        t = queue.pop(0)
-        i = t[0]
-        j = t[1]
-        while (i > 0 and j > 0):
-            tlist = direc_mat[i][j]
-            if tlist[0] == 1:
-                path_up.append('-')
-                j = j - 1
-                path_down.append(seq2[j])
-            elif tlist[1] == 1:
-                path_down.append('-')
-                i = i - 1
-                path_up.append(seq1[i])
-            elif tlist[2] == 1:
-                i = i - 1
-                j = j - 1
-                path_up.append(seq1[i])
-                path_down.append(seq2[j])
-        path_pair.append([path_up, path_down])
+
+
+
+
+    i = len(seq1)
+    j = len(seq2)
+
+
+    while (i > 0 and j > 0):
+        tlist = direc_mat[i][j]
+        if tlist[0] == 1:
+            path_up.insert(0, '-')
+            mark1.insert(0,' ')
+            mark2.insert(0,' ')
+            j = j - 1
+            path_down.insert(0, seq2[j])
+        elif tlist[1] == 1:
+            path_down.insert(0, '-')
+            mark1.insert(0, ' ')
+            mark2.insert(0, ' ')
+            i = i - 1
+            path_up.insert(0, seq1[i])
+        elif tlist[2] == 1:
+            i = i - 1
+            j = j - 1
+            if seq1[i]==seq2[j]:
+                mark1.insert(0,'.')
+                mark2.insert(0,'.')
+            elif mat1.get(seq1[i],seq2[j])>0:
+                mark1.insert(0,' ')
+                mark2.insert(0,'.')
+            else:
+                mark1.insert(0,' ')
+                mark2.insert(0,' ')
+            path_up.insert(0, seq1[i])
+            path_down.insert(0, seq2[j])
+    path_pair.append([path_up, mark1,mark2,path_down])
     return path_pair
 
 
 def print_pathpair(alist):
     for path in alist:
         path_u = ''.join(path[0])
-        path_d = ''.join(path[1])
+        path_d = ''.join(path[3])
+        mark1=''.join(path[1])
+        mark2 = ''.join(path[2])
+
         print(path_u)
+        print(mark1)
+        print(mark2)
         print(path_d)
 
 

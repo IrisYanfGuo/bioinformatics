@@ -8,10 +8,10 @@ I = -6 # affine gap
 
 
 seq_list = read_fasta("protein-sequences.fasta")
-seq1 =seq_list[0]
-seq2 = seq_list[1]
+seq1 =seq_list[0][:100]
+seq2= seq_list[1][:100]
 seq11= 'THISLINE'
-seq22 = 'ISALIGNED'
+seq22= 'ISALIGNED'
 slen1 = len(seq1)
 slen2 = len(seq2)
 mat1 = Matrix("BLOSUM62.txt")
@@ -96,36 +96,39 @@ def local_trace():
     path_up = []
     path_down = []
 
-    dest_i = i
-    dest_j = j
+    path_up.insert(0,str(i))
+    path_down.insert(0,str(j))
 
     recal_pair=[]
+    print("score=",score_mat[i][j])
     while(score_mat[i][j]!=0):
         score_mat[i][j] = 0
         tlist = direc_mat[i][j]
         if tlist[0]==1:
-            path_up.append(seq1[i-1])
-            path_down.append('-')
+            path_up.insert(0,seq1[i-1])
+            path_down.insert(0,'-')
             recal_pair.append([i,j])
             direc_mat[i][j][0]==0
             i = i-1
         elif tlist[1]==1:
-            path_down.append(seq2[j-1])
-            path_up.append('-')
+            path_down.insert(0,seq2[j-1])
+            path_up.insert(0,'-')
             direc_mat[i][j][1]==0
             recal_pair.append([i, j])
             j = j-1
 
         else:
-            path_down.append(seq2[j-1])
-            path_up.append(seq1[i-1])
+            path_down.insert(0,seq2[j-1])
+            path_up.insert(0,seq1[i-1])
             direc_mat[i][j][2] ==0
             recal_pair.append([i, j])
             i = i -1
             j= j-1
+    path_up.insert(0,str(i))
+    path_down.insert(0,str(j))
     print(''.join(path_up))
     print(''.join(path_down))
-    print("recal_pair:",recal_pair)
+   # print("recal_pair:",recal_pair)
 
     for k in range(len(recal_pair)-1,-1,-1):
         t=recal_pair[k]
@@ -135,6 +138,9 @@ def local_trace():
 
 def recal(i,j,mat=mat1):
     score_mat[i][j] = 0
+    if i< len(seq1) and j <len(seq2):
+        if direc_mat[i+1][j][0]==0 and direc_mat[i][j+1][1]==0 and direc_mat[i+1][j+1][2]==0:
+            return
     if i< len(seq1):
         i = i+1
         if direc_mat[i][j][0]==1:
@@ -239,11 +245,14 @@ def recal(i,j,mat=mat1):
 
 
 local_score(mat1)
-print_mat2(score_mat)
-print_mat3(direc_mat)
+#print_mat2(score_mat)
+#print_mat3(direc_mat)
 
 local_trace()
-print_mat2(score_mat)
+local_trace()
+local_trace()
+
+#print_mat2(score_mat)
 
 
 
