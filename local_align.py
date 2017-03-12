@@ -36,9 +36,11 @@ def print_mat2(alist):
         print()
 
 
-def print_mat3(alist):
+def print_mat3(alist,n=3):
     for i in alist:
-        print(i)
+        for j in i:
+            print(j[0:n],end='')
+        print()
 
 
 def local_score(mat,istart=1,jstart=1):
@@ -97,31 +99,37 @@ def local_trace():
     dest_i = i
     dest_j = j
 
+    recal_pair=[]
     while(score_mat[i][j]!=0):
         score_mat[i][j] = 0
         tlist = direc_mat[i][j]
         if tlist[0]==1:
             path_up.append(seq1[i-1])
             path_down.append('-')
-            recal(i,j)
+            recal_pair.append([i,j])
             direc_mat[i][j][0]==0
             i = i-1
         elif tlist[1]==1:
             path_down.append(seq2[j-1])
             path_up.append('-')
             direc_mat[i][j][1]==0
-            recal(i,j)
+            recal_pair.append([i, j])
             j = j-1
 
         else:
             path_down.append(seq2[j-1])
             path_up.append(seq1[i-1])
             direc_mat[i][j][2] ==0
-            recal(i,j)
+            recal_pair.append([i, j])
             i = i -1
             j= j-1
     print(''.join(path_up))
     print(''.join(path_down))
+    print("recal_pair:",recal_pair)
+
+    for k in range(len(recal_pair)-1,-1,-1):
+        t=recal_pair[k]
+        recal(recal_pair[k][0],recal_pair[k][1])
 
 
 
@@ -132,7 +140,6 @@ def recal(i,j,mat=mat1):
         if direc_mat[i][j][0]==1:
             # do recalculate
             t1 = score_mat[i - 1][j - 1] + mat.get(seq1[i - 1], seq2[j - 1])
-
             # [s(i,j-n(gap)+g(gap]
 
             t2 = score_mat[i][j - 1] + direc_mat[i][j - 1][4]
@@ -154,7 +161,9 @@ def recal(i,j,mat=mat1):
                 else:
                     # vertical, seq1 has a gap
                     direc_mat[i][j][0] = 1
-            recal(i,j)
+
+
+        i = i-1
 
     if j < len(seq2):
         j = j+1
@@ -182,7 +191,7 @@ def recal(i,j,mat=mat1):
                 else:
                     # vertical, seq1 has a gap
                     direc_mat[i][j][0] = 1
-            recal(i,j)
+        j = j-1
 
     if i<len(seq1) and j<len(seq2):
         i = i+1
@@ -211,7 +220,10 @@ def recal(i,j,mat=mat1):
                 else:
                     # vertical, seq1 has a gap
                     direc_mat[i][j][0] = 1
-            recal(i,j)
+
+
+        i = i -1
+        j = j -1
 
 
 
@@ -229,7 +241,7 @@ print_mat3(direc_mat)
 
 local_trace()
 print_mat2(score_mat)
-print()
+
 
 
 
