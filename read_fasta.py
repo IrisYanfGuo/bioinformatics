@@ -14,5 +14,7 @@ def read_fasta(filename):
     return proteins
 
 # test
-#print(read_fasta("WW-sequence.fasta"))
-#print(read_fasta("protein-sequences.fasta"))
+# j = read_fasta("WW-homo-136.fasta")
+# print(len(j),j[0])
+# print(len(j[0]))
+# print(read_fasta("protein-sequences.fasta"))
