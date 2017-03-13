@@ -7,9 +7,11 @@ E = -4
 I = -6 # affine gap
 
 
-seq_list = read_fasta("protein-sequences.fasta")
-seq1 =seq_list[0][:100]
-seq2= seq_list[1][:100]
+seq_list = read_fasta("WW-sequence.fasta")
+seq_list2 = read_fasta("WW-homo-136.fasta")
+
+seq1 =seq_list2[0]
+seq2= seq_list[1]
 seq11= 'THISLINE'
 seq22= 'ISALIGNED'
 slen1 = len(seq1)
@@ -96,8 +98,8 @@ def local_trace():
     path_up = []
     path_down = []
 
-    path_up.insert(0,str(i))
-    path_down.insert(0,str(j))
+    #path_up.insert(0,str(i))
+    #path_down.insert(0,str(j))
 
     recal_pair=[]
     print("score=",score_mat[i][j])
@@ -124,8 +126,8 @@ def local_trace():
             recal_pair.append([i, j])
             i = i -1
             j= j-1
-    path_up.insert(0,str(i))
-    path_down.insert(0,str(j))
+    #path_up.insert(0,str(i))
+    #path_down.insert(0,str(j))
     print(''.join(path_up))
     print(''.join(path_down))
    # print("recal_pair:",recal_pair)
@@ -248,6 +250,8 @@ local_score(mat1)
 #print_mat2(score_mat)
 #print_mat3(direc_mat)
 
+local_trace()
+local_trace()
 local_trace()
 local_trace()
 local_trace()

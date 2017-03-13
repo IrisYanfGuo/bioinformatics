@@ -6,49 +6,17 @@ from read_fasta import *
 E = -4
 I = -6 # affine gap
 
-seq_list = read_fasta("WW-sequence.fasta")
-seq1 =seq_list[0]
-seq2 =seq_list[1][:-4]
+seq_list = read_fasta("WW-homo-136.fasta")
+seq_list2 = read_fasta("WW-sequence.fasta")
+seq111 =seq_list[0]
+seq2222 =seq_list[1][:-4]
 sequ1 = 'THISLINE'
 sequ2 = 'ISALIGNED'
-slen1 = len(seq1)
-slen2 = len(seq2)
 mat1 = Matrix("BLOSUM50.txt")
-print(seq1, seq2)
-
-score_mat = []
-direc_mat = []
-for i in range(len(seq1) + 1):
-    # default, opening gap
-    direc_mat.append([[0, 0, 0,I,I] for i in range(len(seq2) + 1)])
-
-for i in range(len(seq1) + 1):
-    score_mat.append([0 for i in range(len(seq2) + 1)])
-# initialize
-score_mat[0][0] = 0
-
-direc_mat[0][1] = [0,1,0,I,E]
-score_mat[0][1]=I
-direc_mat[1][0]=[1,0,0,E,I]
-score_mat[1][0]=I
-
-for i in range(2, len(seq2)+1):
-    direc_mat[0][i] = [0,1,0,I,E]
-    score_mat[0][i] = score_mat[0][i-1] + direc_mat[0][i-1][4]
-for i in range(2, len(seq1)+1):
-    direc_mat[i][0] = [1,0,0,E,I]
-    score_mat[i][0] = score_mat[i-1][0]+ direc_mat[i-1][0][3]
-# create the direction mat
 
 
-# [0,1,0] means seq 2 has a gap
-# [1,0,0] means seq1 has a gap
-# [0,0,1] means diagonal
 
-    # print(direc_mat)
-
-
-def score2(mat):
+def score2(mat,seq1,seq2,score_mat,direc_mat):
     for i in range(1, len(seq1) + 1):
         for j in range(1, len(seq2) + 1):
 
@@ -84,9 +52,7 @@ def print_mat3(alist):
         print(i)
 
 
-def traceback():
-    i = slen1
-    j = slen2
+def traceback(direc_mat,seq1,seq2):
     path_pair = []
     path_up = []
     path_down = []
@@ -147,12 +113,43 @@ def print_pathpair(alist):
         print(path_d)
 
 
-print(score2(mat1))
-print_pathpair(traceback())
+#print_mat3(direc_mat)
 #print_mat2(score_mat)
 #print_mat3(direc_mat)
-print_mat2(score_mat)
-print_mat3(direc_mat)
+
+def fun(seq1,seq2):
+    score_mat = []
+    direc_mat = []
+    for i in range(len(seq1) + 1):
+        # default, opening gap
+        direc_mat.append([[0, 0, 0, I, I] for i in range(len(seq2) + 1)])
+
+    for i in range(len(seq1) + 1):
+        score_mat.append([0 for i in range(len(seq2) + 1)])
+    # initialize
+    score_mat[0][0] = 0
+
+    direc_mat[0][1] = [0, 1, 0, I, E]
+    score_mat[0][1] = I
+    direc_mat[1][0] = [1, 0, 0, E, I]
+    score_mat[1][0] = I
+
+    for i in range(2, len(seq2) + 1):
+        direc_mat[0][i] = [0, 1, 0, I, E]
+        score_mat[0][i] = score_mat[0][i - 1] + direc_mat[0][i - 1][4]
+    for i in range(2, len(seq1) + 1):
+        direc_mat[i][0] = [1, 0, 0, E, I]
+        score_mat[i][0] = score_mat[i - 1][0] + direc_mat[i - 1][0][3]
+
+    print("score:",score2(mat1,seq1,seq2,score_mat,direc_mat))
+    print_pathpair(traceback(direc_mat,seq1,seq2))
+    print()
 
 
 
+
+
+for i in seq_list:
+    for j in seq_list:
+        if i!=j:
+            fun(i,j)
