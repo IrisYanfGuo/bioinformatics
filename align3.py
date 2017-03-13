@@ -62,8 +62,6 @@ def traceback(direc_mat,seq1,seq2):
     # use queue to trace multiple path
 
 
-
-
     i = len(seq1)
     j = len(seq2)
 
