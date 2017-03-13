@@ -9,7 +9,7 @@ I = -6 # affine gap
 seq_list = read_fasta("WW-homo-136.fasta")
 seq_list2 = read_fasta("WW-sequence.fasta")
 seq111 =seq_list[0]
-seq2222 =seq_list[1][:-4]
+seq2222 =seq_list[1]
 sequ1 = 'THISLINE'
 sequ2 = 'ISALIGNED'
 mat1 = Matrix("BLOSUM50.txt")
@@ -159,6 +159,4 @@ def fun(seq1,seq2):
 
 
 
-
-
-fun(seq111,sequ2)
+fun(sequ1,sequ2)

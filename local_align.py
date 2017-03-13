@@ -8,7 +8,7 @@ I = -6 # affine gap
 
 
 seq_list = read_fasta("WW-sequence.fasta")
-seq_list2 = read_fasta("WW-homo-136.fasta")
+seq_list2 = read_fasta("protein-sequences.fasta")
 
 seq1 =seq_list2[0]
 seq2= seq_list[1]
@@ -79,7 +79,7 @@ def local_score(mat,istart=1,jstart=1):
 
 
 
-def local_trace():
+def local_trace(k=5):
     # find the largest position(i,j)
     row_large =[]
     for i in range(len(score_mat)):
@@ -101,35 +101,56 @@ def local_trace():
     #path_up.insert(0,str(i))
     #path_down.insert(0,str(j))
 
-    recal_pair=[]
-    print("score=",score_mat[i][j])
-    while(score_mat[i][j]!=0):
-        score_mat[i][j] = 0
-        tlist = direc_mat[i][j]
-        if tlist[0]==1:
-            path_up.insert(0,seq1[i-1])
-            path_down.insert(0,'-')
-            recal_pair.append([i,j])
-            direc_mat[i][j][0]==0
-            i = i-1
-        elif tlist[1]==1:
-            path_down.insert(0,seq2[j-1])
-            path_up.insert(0,'-')
-            direc_mat[i][j][1]==0
-            recal_pair.append([i, j])
-            j = j-1
+    queue = []
+    queue.append([path_up[0:len(path_up)], path_down[0:len(path_down)], i, j])
 
+    recal_pair=[]
+
+    print("score=",score_mat[i][j])
+    while (len(queue) > 0):
+        t = queue.pop(0)
+        i = t[2]
+        j = t[3]
+        path_up = t[0]
+        path_down = t[1]
+
+        if score_mat[i][j] == 0:
+            path_pair.append([path_up,path_down])
+        # scan all possible path and append it to the queue
         else:
-            path_down.insert(0,seq2[j-1])
-            path_up.insert(0,seq1[i-1])
-            direc_mat[i][j][2] ==0
-            recal_pair.append([i, j])
-            i = i -1
-            j= j-1
-    #path_up.insert(0,str(i))
-    #path_down.insert(0,str(j))
-    print(''.join(path_up))
-    print(''.join(path_down))
+            if direc_mat[i][j][0] == 1:
+                path_up.insert(0, '-')
+                j = j - 1
+
+                path_down.insert(0, seq2[j])
+                recal_pair.append([i,j])
+                if len(queue) < k:
+                    queue.append([path_up[0:len(path_up)], path_down[0:len(path_down)], i, j])
+                j = j + 1
+            if direc_mat[i][j][1] == 1:
+                path_down.insert(0, '-')
+                i = i - 1
+                path_up.insert(0, seq1[i])
+                recal_pair.append([i,j])
+                if len(queue) < k:
+                    queue.append([path_up[0:len(path_up)], path_down[0:len(path_down)], i, j])
+                i = i + 1
+
+            if direc_mat[i][j][2] == 1:
+                i = i - 1
+                j = j - 1
+                path_up.insert(0, seq1[i])
+                path_down.insert(0, seq2[j])
+                recal_pair.append([i,j])
+                if len(queue) < k:
+                    queue.append([path_up[0:len(path_up)], path_down[0:len(path_down)], i, j])
+                i = i + 1
+                j = j + 1
+
+        for i in range(len(path_pair)):
+            print("path ",i+1,":")
+            print(''.join(path_pair[i][0]))
+            print(''.join(path_pair[i][1]))
    # print("recal_pair:",recal_pair)
 
     for k in range(len(recal_pair)-1,-1,-1):
@@ -250,9 +271,6 @@ local_score(mat1)
 #print_mat2(score_mat)
 #print_mat3(direc_mat)
 
-local_trace()
-local_trace()
-local_trace()
 local_trace()
 local_trace()
 
