@@ -52,7 +52,7 @@ def print_mat3(alist):
         print(i)
 
 
-def traceback(direc_mat,seq1,seq2):
+def traceback(direc_mat,seq1,seq2,k=4):
     path_pair = []
     path_up = []
     path_down = []
@@ -71,7 +71,18 @@ def traceback(direc_mat,seq1,seq2):
         path_down=t[1]
 
         if i ==0 or j ==0:
-            path_pair.append([path_up,path_down])
+            if j==0 and i ==0 :
+                path_pair.append([path_up,path_down])
+            elif i ==0:
+                for m in range(j+1,-1,-1):
+                    path_up.insert(0,'-')
+                    path_down.insert(0,seq2[m])
+                path_pair.append([path_up,path_down])
+            else:
+                for m in range(i+1,-1,-1):
+                    path_down.insert(0,'-')
+                    path_up.insert(0,seq1[m])
+                path_pair.append([path_up,path_down])
         #scan all possible path and append it to the queue
         else:
             if direc_mat[i][j][0] == 1:
@@ -79,14 +90,15 @@ def traceback(direc_mat,seq1,seq2):
                 j = j - 1
 
                 path_down.insert(0, seq2[j])
-
-                queue.append([path_up[0:len(path_up)], path_down[0:len(path_down)], i, j])
+                if len(queue)<k :
+                    queue.append([path_up[0:len(path_up)], path_down[0:len(path_down)], i, j])
                 j = j+1
             if direc_mat[i][j][1] == 1:
                 path_down.insert(0, '-')
                 i = i - 1
                 path_up.insert(0, seq1[i])
-                queue.append([path_up[0:len(path_up)], path_down[0:len(path_down)], i, j])
+                if len(queue)<k :
+                    queue.append([path_up[0:len(path_up)], path_down[0:len(path_down)], i, j])
                 i = i+1
 
             if direc_mat[i][j][2] == 1:
@@ -95,7 +107,8 @@ def traceback(direc_mat,seq1,seq2):
                 path_up.insert(0, seq1[i])
                 path_down.insert(0, seq2[j])
 
-                queue.append([path_up[0:len(path_up)], path_down[0:len(path_down)], i, j])
+                if len(queue)<k :
+                    queue.append([path_up[0:len(path_up)], path_down[0:len(path_down)], i, j])
                 i = i+1
                 j = j+1
 
@@ -148,4 +161,4 @@ def fun(seq1,seq2):
 
 
 
-fun(sequ1,sequ2)
+fun(seq111,sequ2)
