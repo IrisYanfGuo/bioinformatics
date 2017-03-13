@@ -61,53 +61,54 @@ def traceback(direc_mat,seq1,seq2):
 
     # use queue to trace multiple path
 
+    queue = []
+    queue.append([path_up[0:len(path_up)], path_down[0:len(path_down)], len(seq1), len(seq2)])
+    while(len(queue)>0):
+        t = queue.pop(0)
+        i = t[2]
+        j = t[3]
+        path_up = t[0]
+        path_down=t[1]
 
-    i = len(seq1)
-    j = len(seq2)
+        if i ==0 or j ==0:
+            path_pair.append([path_up,path_down])
+        #scan all possible path and append it to the queue
+        else:
+            if direc_mat[i][j][0] == 1:
+                path_up.insert(0, '-')
+                j = j - 1
+
+                path_down.insert(0, seq2[j])
+
+                queue.append([path_up[0:len(path_up)], path_down[0:len(path_down)], i, j])
+                j = j+1
+            if direc_mat[i][j][1] == 1:
+                path_down.insert(0, '-')
+                i = i - 1
+                path_up.insert(0, seq1[i])
+                queue.append([path_up[0:len(path_up)], path_down[0:len(path_down)], i, j])
+                i = i+1
+
+            if direc_mat[i][j][2] == 1:
+                i = i - 1
+                j = j - 1
+                path_up.insert(0, seq1[i])
+                path_down.insert(0, seq2[j])
+
+                queue.append([path_up[0:len(path_up)], path_down[0:len(path_down)], i, j])
+                i = i+1
+                j = j+1
 
 
-    while (i > 0 and j > 0):
-        tlist = direc_mat[i][j]
-        if tlist[0] == 1:
-            path_up.insert(0, '-')
-            mark1.insert(0,' ')
-            mark2.insert(0,' ')
-            j = j - 1
-            path_down.insert(0, seq2[j])
-        elif tlist[1] == 1:
-            path_down.insert(0, '-')
-            mark1.insert(0, ' ')
-            mark2.insert(0, ' ')
-            i = i - 1
-            path_up.insert(0, seq1[i])
-        elif tlist[2] == 1:
-            i = i - 1
-            j = j - 1
-            if seq1[i]==seq2[j]:
-                mark1.insert(0,'.')
-                mark2.insert(0,'.')
-            elif mat1.get(seq1[i],seq2[j])>0:
-                mark1.insert(0,' ')
-                mark2.insert(0,'.')
-            else:
-                mark1.insert(0,' ')
-                mark2.insert(0,' ')
-            path_up.insert(0, seq1[i])
-            path_down.insert(0, seq2[j])
-    path_pair.append([path_up, mark1,mark2,path_down])
     return path_pair
 
 
 def print_pathpair(alist):
     for path in alist:
         path_u = ''.join(path[0])
-        path_d = ''.join(path[3])
-        mark1=''.join(path[1])
-        mark2 = ''.join(path[2])
+        path_d = ''.join(path[1])
 
         print(path_u)
-        print(mark1)
-        print(mark2)
         print(path_d)
 
 
@@ -147,7 +148,4 @@ def fun(seq1,seq2):
 
 
 
-for i in seq_list:
-    for j in seq_list:
-        if i!=j:
-            fun(i,j)
+fun(sequ1,sequ2)
