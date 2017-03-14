@@ -10,8 +10,8 @@ I = -6 # affine gap
 seq_list = read_fasta("WW-sequence.fasta")
 seq_list2 = read_fasta("protein-sequences.fasta")
 
-seq1 =seq_list2[0]
-seq2= seq_list2[1]
+seq1 =seq_list[3]
+seq2= seq_list2[1][:100]
 seq11= 'THISLINE'
 seq22= 'ISALIGNED'
 slen1 = len(seq1)
@@ -48,6 +48,7 @@ def print_mat3(alist,n=3):
 def local_score(mat,istart=1,jstart=1):
     for i in range(istart, len(seq1) + 1):
         for j in range(jstart, len(seq2) + 1):
+
             t1 = score_mat[i - 1][j - 1] + mat.get(seq1[i - 1], seq2[j - 1])
 
             # [s(i,j-n(gap)+g(gap]
@@ -66,20 +67,21 @@ def local_score(mat,istart=1,jstart=1):
             if max_score > 0:
                 if max_score == t1:
                     direc_mat[i][j][2] = 1
-                    direc_mat[i][j][4] = E
+
 
                 elif max_score == t2:
                     # horizental
                     direc_mat[i][j][1]=1
-                    direc_mat[i][j][3]=E
+                    direc_mat[i][j][4]=E
                 else:
                     # vertical, seq1 has a gap
                     direc_mat[i][j][0]=1
+                    direc_mat[i][j][3] = E
 
 
 
 
-def local_trace(k=5):
+def local_trace(k=3):
     # find the largest position(i,j)
     row_large =[]
     for i in range(len(score_mat)):
@@ -91,6 +93,8 @@ def local_trace(k=5):
     max_score = max(t)
     i = t.index(max_score)
     j = row_large[i][1]
+
+    print(i,j)
 
     # i,j is the index of the largest element
 
@@ -276,7 +280,6 @@ def recal(i,j,mat=mat1):
 local_score(mat1)
 #print_mat2(score_mat)
 #print_mat3(direc_mat)
-
 local_trace()
 local_trace()
 

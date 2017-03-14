@@ -2,12 +2,16 @@ from read_fasta import *
 from Matrix import *
 from numpy import *
 
+gap =-4
+
 blosum = Matrix("BLOSUM62.txt")
 
-amino = ['A', 'Q', 'L', 'S', 'R', 'E', 'K', 'T', 'N', 'G', 'M', 'W', 'D', 'H', 'F', 'Y', 'C', 'I', 'P', 'V', '-']
+amino = ['A', 'Q', 'L', 'S', 'R', 'E', 'K', 'T', 'N', 'G', 'M', 'W', 'D', 'H', 'F', 'Y', 'C', 'I', 'P', 'V']
 # print(amino)
 
 seq_aligned = read_fasta("WW-aligned-136.fasta")
+seq2 =seq_aligned[0]
+print(len(seq2))
 for i in seq_aligned:
     print(i)
 fua = {}
@@ -16,7 +20,7 @@ fua = {}
 def print_mat2(alist):
     for i in alist:
         for j in i:
-            print('{0:4d}'.format(j), end=" ")
+            print('{0:4f}'.format(j), end=" ")
         print()
 
 
@@ -47,10 +51,10 @@ for i in amino:
 # print_fua(fua)
 f = open("pa.txt")
 
+print_fua(fua)
 # construct the pa dictionary
 # what's the Pa for '-'?
 pa = {}
-pa['-'] = 1
 for line in f:
     t = line.split()
     for i in range(0, len(t), 2):
@@ -109,16 +113,16 @@ lseq2 = len(mua['A'])
 score_mat = []
 direc_mat = []
 
-for i in range(len(seq11) + 1):
-    direc_mat.append([[0, 0, 0] for i in range(lseq2 + 1)])
-for i in range(len(seq11) + 1):
-    score_mat.append([0 for i in range(lseq2 + 1)])
+for i in range(len(seq1)+1):
+    direc_mat.append([[0, 0, 0] for i in range(lseq2)])
+for i in range(len(seq1)+1):
+    score_mat.append([0 for i in range(lseq2)])
 
 
 def print_mat2(alist):
     for i in alist:
         for j in i:
-            print('{0:4d}'.format(j), end=" ")
+            print('{0:4f}'.format(j), end=" ")
         print()
 
 
@@ -130,13 +134,14 @@ def print_mat3(alist, n=3):
 
 
 def local_pssm(istart=1, jstart=1):
-    for i in range(istart, len(seq1) + 1):
-        for j in range(jstart, lseq2 + 1):
+    for i in range(istart, len(seq1)):
+        for j in range(jstart,lseq2):
             t1 = score_mat[i - 1][j - 1] + mua[seq1[i]][j]
 
-            t2 = score_mat[i][j - 1] + mua['-'][j - 1]
+            t2 = score_mat[i][j - 1] + gap
 
-            t3 = score_mat[i - 1][j] + mua['-'][j]
+            ## ??? doubt
+            t3 = score_mat[i - 1][j] + gap
 
             max_score = max(t1, t2, t3, 0)
             score_mat[i][j] = max_score
@@ -150,47 +155,96 @@ def local_pssm(istart=1, jstart=1):
                     direc_mat[i][j][0] = 1
 
 
-def local_trace(k=5):
-    # find the largest position(i,j)
-    row_large = []
-    for i in range(len(score_mat)):
-        row_max = max(score_mat[i])
-        index = score_mat[i].index(row_max)
-        row_large.append([row_max, index])
+def traceback(k=1):
+    path_pair = []
+    path_down = []
+    path_up=[]
 
-    t = [row_large[i][0] for i in range(len(row_large))]
-    max_score = max(t)
-    i = t.index(max_score)
-    j = row_large[i][1]
+    # find the largest element in the j column
+    t = [score_mat[i][lseq2] for i in range(len(seq1))]
+    i = argmax(t)
 
-    path = []
-    path_seq2 = []
-    recal_pair=[]
+    print('score:',score_mat[i][lseq2])
 
     queue = []
-    queue.append([path_seq2[0:len([path_seq2])],i,j])
-
-    print("score=", score_mat[i][j])
-
-    while(len(queue)>0):
+    queue.append([path_up[0:len(path_up)], path_down[0:len(path_down)], i, lseq2])
+    while (len(queue) > 0):
         t = queue.pop(0)
-        path_seq2 = t[0]
-        i = t[1]
-        j = t[2]
+        i = t[2]
+        j = t[3]
+        path_up = t[0]
+        path_down = t[1]
 
-        if score_mat[i][j] ==0:
-            path.append(path_seq2)
+        if j==0:
+            path_pair.append([path_up,path_down])
+        # scan all possible path and append it to the queue
         else:
-            if direc_mat[i][j][0]==1:
-                recal_pair.append(i,j)
-                if len(queue)<k :
-                    queue.append([path_seq2[0:len(path_seq2)],i,j])
-            if direc_mat[i][j][1]==1 :
-                recal_pair.append(i,j)
+            if direc_mat[i][j][0] == 1:
+                path_up.insert(0, '-')
+                j = j - 1
 
-                path_seq2
+                path_down.insert(0, seq2[j])
+                if len(queue) < k:
+                    queue.append([path_up[0:len(path_up)], path_down[0:len(path_down)], i, j])
+                j = j + 1
+                path_up = path_up[1:]
+                path_down = path_down[1:]
+            if direc_mat[i][j][1] == 1:
+                path_down.insert(0, '-')
+                i = i - 1
+                path_up.insert(0, seq1[i])
+                if len(queue) < k:
+                    queue.append([path_up[0:len(path_up)], path_down[0:len(path_down)], i, j])
+                i = i + 1
+                path_up = path_up[1:]
+                path_down = path_down[1:]
+
+            if direc_mat[i][j][2] == 1:
+                i = i - 1
+                j = j - 1
+                path_up.insert(0, seq1[i])
+                path_down.insert(0, seq2[j])
+
+                if len(queue) < k:
+                    queue.append([path_up[0:len(path_up)], path_down[0:len(path_down)], i, j])
+                i = i + 1
+                j = j + 1
+                path_up = path_up[1:]
+                path_down = path_down[1:]
+
+    return path_pair
 
 
+
+
+def print_pathpair(alist):
+    for path in alist:
+        path_u = ''.join(path[0])
+        path_d = ''.join(path[1])
+
+        print(path_u)
+        print(path_d)
+
+
+
+
+
+
+
+
+def print_pathpair(alist):
+    for path in alist:
+        path_u = ''.join(path[0])
+        path_d = ''.join(path[1])
+
+        print(path_u)
+        print(path_d)
+
+local_pssm()
+#print(lseq2)
+#print(len(seq1))
+# print_mat3(direc_mat)
+print_pathpair(traceback(1))
 
 
 
