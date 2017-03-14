@@ -11,7 +11,7 @@ seq_list = read_fasta("WW-sequence.fasta")
 seq_list2 = read_fasta("protein-sequences.fasta")
 
 seq1 =seq_list2[0]
-seq2= seq_list[1]
+seq2= seq_list2[1]
 seq11= 'THISLINE'
 seq22= 'ISALIGNED'
 slen1 = len(seq1)
@@ -126,6 +126,8 @@ def local_trace(k=5):
                 recal_pair.append([i,j])
                 if len(queue) < k:
                     queue.append([path_up[0:len(path_up)], path_down[0:len(path_down)], i, j])
+                path_up = path_up[1:]
+                path_down = path_down[1:]
                 j = j + 1
             if direc_mat[i][j][1] == 1:
                 path_down.insert(0, '-')
@@ -135,6 +137,8 @@ def local_trace(k=5):
                 if len(queue) < k:
                     queue.append([path_up[0:len(path_up)], path_down[0:len(path_down)], i, j])
                 i = i + 1
+                path_up = path_up[1:]
+                path_down = path_down[1:]
 
             if direc_mat[i][j][2] == 1:
                 i = i - 1
@@ -146,6 +150,8 @@ def local_trace(k=5):
                     queue.append([path_up[0:len(path_up)], path_down[0:len(path_down)], i, j])
                 i = i + 1
                 j = j + 1
+                path_up = path_up[1:]
+                path_down = path_down[1:]
 
         for i in range(len(path_pair)):
             print("path ",i+1,":")

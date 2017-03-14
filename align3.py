@@ -4,15 +4,18 @@ from read_fasta import *
 
 # affine gap penalty
 E = -4
-I = -6 # affine gap
+I = -4 # affine gap
 
-seq_list = read_fasta("WW-homo-136.fasta")
+seq_list = read_fasta("protein-sequences.fasta")
 seq_list2 = read_fasta("WW-sequence.fasta")
-seq111 =seq_list[0]
-seq2222 =seq_list[1]
+seq111 =seq_list2[2]
+print(len(seq111))
+
+seq2222 =seq_list2[3]
+print(len(seq2222))
 sequ1 = 'THISLINE'
 sequ2 = 'ISALIGNED'
-mat1 = Matrix("BLOSUM50.txt")
+mat1 = Matrix("BLOSUM62.txt")
 
 
 
@@ -93,6 +96,8 @@ def traceback(direc_mat,seq1,seq2,k=4):
                 if len(queue)<k :
                     queue.append([path_up[0:len(path_up)], path_down[0:len(path_down)], i, j])
                 j = j+1
+                path_up = path_up[1:]
+                path_down = path_down[1:]
             if direc_mat[i][j][1] == 1:
                 path_down.insert(0, '-')
                 i = i - 1
@@ -100,6 +105,8 @@ def traceback(direc_mat,seq1,seq2,k=4):
                 if len(queue)<k :
                     queue.append([path_up[0:len(path_up)], path_down[0:len(path_down)], i, j])
                 i = i+1
+                path_up = path_up[1:]
+                path_down = path_down[1:]
 
             if direc_mat[i][j][2] == 1:
                 i = i - 1
@@ -111,6 +118,9 @@ def traceback(direc_mat,seq1,seq2,k=4):
                     queue.append([path_up[0:len(path_up)], path_down[0:len(path_down)], i, j])
                 i = i+1
                 j = j+1
+                path_up = path_up[1:]
+                path_down = path_down[1:]
+
 
 
     return path_pair
@@ -159,4 +169,5 @@ def fun(seq1,seq2):
 
 
 
-fun(sequ1,sequ2)
+fun(seq111,seq2222)
+print(seq2222)
