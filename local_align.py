@@ -45,9 +45,9 @@ def print_mat3(alist,n=3):
         print()
 
 
-def local_score(mat,istart=1,jstart=1):
-    for i in range(istart, len(seq1) + 1):
-        for j in range(jstart, len(seq2) + 1):
+def local_score(mat):
+    for i in range(1, len(seq1) + 1):
+        for j in range(1, len(seq2) + 1):
 
             t1 = score_mat[i - 1][j - 1] + mat.get(seq1[i - 1], seq2[j - 1])
 

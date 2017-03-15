@@ -2,11 +2,11 @@ from read_fasta import *
 from Matrix import *
 from numpy import *
 
-gap =-1
+base =-1.3
 
 blosum = Matrix("BLOSUM62.txt")
 
-amino = ['A', 'Q', 'L', 'S', 'R', 'E', 'K', 'T', 'N', 'G', 'M', 'W', 'D', 'H', 'F', 'Y', 'C', 'I', 'P', 'V',]
+amino = ['A', 'Q', 'L', 'S', 'R', 'E', 'K', 'T', 'N', 'G', 'M', 'W', 'D', 'H', 'F', 'Y', 'C', 'I', 'P', 'V','-']
 # print(amino)
 
 seq_aligned = read_fasta("WW-aligned-136.fasta")
@@ -14,8 +14,10 @@ seq2 =seq_aligned[0]
 
 print(len(seq2))
 for i in seq_aligned:
-    print(i)
+    pass
+    #print(i)
 fua = {}
+
 
 
 def print_mat2(alist):
@@ -53,9 +55,11 @@ for i in amino:
 # print_fua(fua)
 f = open("pa.txt")
 
-print_fua(fua)
+#print_fua(fua)
 # construct the pa dictionary
 # what's the Pa for '-'?
+
+
 pa = {}
 for line in f:
     t = line.split()
@@ -63,6 +67,12 @@ for line in f:
         tt = t[i]
         pa[tt] = float(t[i + 1]) / 100
 
+count =0
+for i in seq_aligned:
+    for j in i:
+        if j=='-':
+            count +=1
+pa['-'] = count/(len(seq_aligned)*len(seq_aligned))
 Nseq = len(seq_aligned)
 alpa = Nseq - 1
 beta = sqrt(Nseq)
@@ -77,6 +87,7 @@ for key in fua:
     pua[key] = t
 
 # calculate the mua, the final PSSM matrix
+
 mua = {}
 for key in pua:
     t = []
@@ -88,9 +99,9 @@ gap1=[]
 for i in range(len(seq_aligned[0])):
     gap1.append(fre('-',i))
 print(gap1)
-gap2 =[i/2+gap for i in gap1]
+gap2 =[(tanh(i)-0.8) for i in gap1]
 print(gap2)
-
+print(pua['A'])
 # print_fua(pua)
 print_fua(mua)
 
@@ -258,11 +269,13 @@ def traceback(k=1):
                 path_up = path_up[1:]
                 path_down = path_down[1:]
 
+            score_mat[i][j]=0
+
     print(len(recal_pair))
     for k in range(len(recal_pair)-1,-1,-1):
         t=recal_pair[k]
-        #print(t,end=' ')
-        #recal(recal_pair[k][0],recal_pair[k][1])
+        print(t,end=' ')
+        recal(recal_pair[k][0],recal_pair[k][1])
 
     return path_pair
 
@@ -289,11 +302,10 @@ def recal(i,j):
             # do recalculate
             t1 = score_mat[i - 1][j - 1] + mua[seq1[i]][j]
 
-            t2 = score_mat[i][j - 1] + gap
+            t2 = score_mat[i][j - 1] + gap2[j - 1]
 
             ## ??? doubt
-            t3 = score_mat[i - 1][j] + gap
-
+            t3 = score_mat[i - 1][j] + gap2[j]
             max_score = max(t1, t2, t3, 0)
             score_mat[i][j] = max_score
 
@@ -319,10 +331,10 @@ def recal(i,j):
         if direc_mat[i][j][1] ==1:
             t1 = score_mat[i - 1][j - 1] + mua[seq1[i]][j]
 
-            t2 = score_mat[i][j - 1] + gap
+            t2 = score_mat[i][j - 1] + gap2[j - 1]
 
             ## ??? doubt
-            t3 = score_mat[i - 1][j] + gap
+            t3 = score_mat[i - 1][j] + gap2[j]
 
             max_score = max(t1, t2, t3, 0)
             score_mat[i][j] = max_score
@@ -348,10 +360,10 @@ def recal(i,j):
         if direc_mat[i][j][2] ==1:
             t1 = score_mat[i - 1][j - 1] + mua[seq1[i]][j]
 
-            t2 = score_mat[i][j - 1] + gap
+            t2 = score_mat[i][j - 1] + gap2[j - 1]
 
             ## ??? doubt
-            t3 = score_mat[i - 1][j] + gap
+            t3 = score_mat[i - 1][j] + gap2[j]
 
             max_score = max(t1, t2, t3, 0)
             score_mat[i][j] = max_score
@@ -382,7 +394,7 @@ local_pssm()
 #print(lseq2)
 #print(len(seq1))
 # print_mat3(direc_mat)
-print_pathpair(traceback(2))
+#print_pathpair(traceback(2))
 
 
 
