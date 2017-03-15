@@ -7,11 +7,11 @@ E = -4
 I = -6 # affine gap
 
 
-seq_list = read_fasta("WW-sequence.fasta")
+seq_list = read_fasta("WW-homo-136.fasta")
 seq_list2 = read_fasta("protein-sequences.fasta")
 
 seq1 =seq_list[3]
-seq2= seq_list2[1][:100]
+seq2= seq_list2[1]
 seq11= 'THISLINE'
 seq22= 'ISALIGNED'
 slen1 = len(seq1)
@@ -77,6 +77,38 @@ def local_score(mat,istart=1,jstart=1):
                     # vertical, seq1 has a gap
                     direc_mat[i][j][0]=1
                     direc_mat[i][j][3] = E
+
+
+def print_pathpair(alist):
+    for path in alist:
+        mark1=[]
+        mark2=[]
+        for i in range(len(path[0])):
+            if path[0][i]!='-' and path[1][i]!='-':
+                if path[0][i] == path[1][i]:
+                    mark1.append(':')
+
+                elif mat1.get(path[0][i],path[1][i])>0:
+                    mark1.append('.')
+
+                else:
+                    mark1.append(' ')
+
+            else:
+                mark1.append(' ')
+
+
+        path_u = ''.join(path[0])
+        path_m = ''.join(mark1)
+
+
+        path_d = ''.join(path[1])
+
+
+        print(path_u)
+        print(path_m)
+        print(path_d)
+
 
 
 
@@ -157,10 +189,8 @@ def local_trace(k=3):
                 path_up = path_up[1:]
                 path_down = path_down[1:]
 
-        for i in range(len(path_pair)):
-            print("path ",i+1,":")
-            print(''.join(path_pair[i][0]))
-            print(''.join(path_pair[i][1]))
+        print_pathpair(path_pair)
+
    # print("recal_pair:",recal_pair)
 
     for k in range(len(recal_pair)-1,-1,-1):
@@ -281,6 +311,7 @@ local_score(mat1)
 #print_mat2(score_mat)
 #print_mat3(direc_mat)
 local_trace()
+local_trace(4)
 local_trace()
 
 #print_mat2(score_mat)
