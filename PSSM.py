@@ -215,6 +215,8 @@ def traceback(k=1):
     t = [score_mat[i][lseq2-1] for i in range(len(seq1))]
     i = argmax(t)
 
+    recal_pair=[]
+
 
     print('score:',score_mat[i][lseq2-1])
     print("the coordinate of the starting tracing coordinate:", i)
@@ -241,6 +243,8 @@ def traceback(k=1):
 
                 path_down.insert(0, '*')
 
+                recal_pair.append([i,j])
+
                 if len(queue) < k:
                     queue.append([path_up[0:len(path_up)], path_down[0:len(path_down)], i, j])
                 j = j + 1
@@ -250,6 +254,9 @@ def traceback(k=1):
                 path_down.insert(0, '-')
                 i = i - 1
                 path_up.insert(0, seq1[i])
+
+
+                recal_pair.append([i,j])
 
                 if len(queue) < k:
                     queue.append([path_up[0:len(path_up)], path_down[0:len(path_down)], i, j])
@@ -263,6 +270,7 @@ def traceback(k=1):
                 path_up.insert(0, seq1[i])
                 path_down.insert(0, '*')
 
+                recal_pair.append([i,j])
 
                 if len(queue) < k:
                     queue.append([path_up[0:len(path_up)], path_down[0:len(path_down)], i, j])
@@ -273,7 +281,13 @@ def traceback(k=1):
 
             score_mat[i][j]=0
 
+    #print(path_pair)
 
+    print("recal_pair:",recal_pair)
+
+    for k in range(len(recal_pair) - 1, -1, -1):
+        t = recal_pair[k]
+        recal(recal_pair[k][0], recal_pair[k][1])
 
     return path_pair
 
@@ -291,10 +305,10 @@ def print_pathpair(alist):
 
 def recal(i,j):
     score_mat[i][j] = 0
-    if i< len(seq1)-1 and j <lseq2-1:
+    if i< len(seq1)-2 and j <lseq2-2:
         if direc_mat[i+1][j][0]==0 and direc_mat[i][j+1][1]==0 and direc_mat[i+1][j+1][2]==0:
             return
-    if i< len(seq1)-1:
+    if i< len(seq1)-2:
         i = i+1
         if direc_mat[i][j][0]==1:
             # do recalculate
@@ -319,12 +333,16 @@ def recal(i,j):
                 else:
                     # vertical, seq1 has a gap
                     direc_mat[i][j][0] = 1
+            else:
+                direc_mat[i][j][0]=0
+                direc_mat[i][j][1]=0
+                direc_mat[i][j][2]=0
             recal(i,j)
 
 
         i = i-1
 
-    if j < lseq2-1:
+    if j < lseq2-2:
         j = j+1
         if direc_mat[i][j][1] ==1:
             t1 = score_mat[i - 1][j - 1] + mua[seq1[i]][j]
@@ -349,10 +367,14 @@ def recal(i,j):
                 else:
                     # vertical, seq1 has a gap
                     direc_mat[i][j][0] = 1
+            else:
+                direc_mat[i][j][0]=0
+                direc_mat[i][j][1]=0
+                direc_mat[i][j][2]=0
             recal(i, j)
         j = j-1
 
-    if i<len(seq1)-1 and j<lseq2:
+    if i<len(seq1)-2 and j<lseq2-1:
         i = i+1
         j = j+1
         if direc_mat[i][j][2] ==1:
@@ -376,6 +398,10 @@ def recal(i,j):
                 else:
                     # vertical, seq1 has a gap
                     direc_mat[i][j][0] = 1
+            else:
+                direc_mat[i][j][0]=0
+                direc_mat[i][j][1]=0
+                direc_mat[i][j][2]=0
             recal(i, j)
 
 
@@ -394,6 +420,8 @@ print_mat3(direc_mat,3)
 #print(len(seq1))
 # print_mat3(direc_mat)
 print_pathpair(traceback(2))
+print_pathpair(traceback(2))
+
 
 
 

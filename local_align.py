@@ -10,7 +10,7 @@ I = -6 # affine gap
 seq_list = read_fasta("WW-homo-136.fasta")
 seq_list2 = read_fasta("protein-sequences.fasta")
 
-seq1 =seq_list[3]
+seq1 =seq_list2[0]
 seq2= seq_list2[1]
 seq11= 'THISLINE'
 seq22= 'ISALIGNED'
@@ -113,7 +113,7 @@ def print_pathpair(alist):
 
 
 
-def local_trace(k=3):
+def local_trace(k=4):
     # find the largest position(i,j)
     row_large =[]
     for i in range(len(score_mat)):
@@ -230,7 +230,12 @@ def recal(i,j,mat=mat1):
                 else:
                     # vertical, seq1 has a gap
                     direc_mat[i][j][0] = 1
+            else:
+                direc_mat[i][j][0]=0
+                direc_mat[i][j][1]=0
+                direc_mat[i][j][2]=0
             recal(i,j)
+
 
 
         i = i-1
@@ -261,6 +266,10 @@ def recal(i,j,mat=mat1):
                 else:
                     # vertical, seq1 has a gap
                     direc_mat[i][j][0] = 1
+            else:
+                direc_mat[i][j][0]=0
+                direc_mat[i][j][1]=0
+                direc_mat[i][j][2]=0
             recal(i, j)
         j = j-1
 
@@ -291,6 +300,10 @@ def recal(i,j,mat=mat1):
                 else:
                     # vertical, seq1 has a gap
                     direc_mat[i][j][0] = 1
+            else:
+                direc_mat[i][j][0]=0
+                direc_mat[i][j][1]=0
+                direc_mat[i][j][2]=0
             recal(i, j)
 
 
