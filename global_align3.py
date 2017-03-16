@@ -59,8 +59,6 @@ def traceback(direc_mat,seq1,seq2,k=4):
     path_pair = []
     path_up = []
     path_down = []
-    mark1 =[]
-    mark2 =[]
 
     # use queue to trace multiple path
 
@@ -190,7 +188,9 @@ def fun(seq1,seq2):
     print_pathpair(traceback(direc_mat,seq1,seq2))
     print()
 
-score2()
 
-fun(seq111,seq2222)
-print(seq2222)
+
+for i in range(len(seq_list2)):
+    for j in range(i+1,len(seq_list2)):
+        if i != j:
+            fun(seq_list2[i],seq_list2[j])

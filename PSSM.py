@@ -10,7 +10,7 @@ amino = ['A', 'Q', 'L', 'S', 'R', 'E', 'K', 'T', 'N', 'G', 'M', 'W', 'D', 'H', '
 # print(amino)
 
 seq_aligned = read_fasta("WW-aligned-136.fasta")
-seq2 =seq_aligned[0]
+seq2 =seq_aligned[1]
 
 print(len(seq2))
 for i in seq_aligned:
@@ -215,10 +215,12 @@ def traceback(k=1):
     t = [score_mat[i][lseq2-1] for i in range(len(seq1))]
     i = argmax(t)
 
+
     print('score:',score_mat[i][lseq2-1])
+    print("the coordinate of the starting tracing coordinate:", i)
 
     queue = []
-    recal_pair = []
+
     queue.append([path_up[0:len(path_up)], path_down[0:len(path_down)], i, lseq2-1])
     while (len(queue) > 0):
 
@@ -238,7 +240,7 @@ def traceback(k=1):
                 j = j - 1
 
                 path_down.insert(0, '*')
-                recal_pair.append([i, j])
+
                 if len(queue) < k:
                     queue.append([path_up[0:len(path_up)], path_down[0:len(path_down)], i, j])
                 j = j + 1
@@ -248,7 +250,7 @@ def traceback(k=1):
                 path_down.insert(0, '-')
                 i = i - 1
                 path_up.insert(0, seq1[i])
-                recal_pair.append([i, j])
+
                 if len(queue) < k:
                     queue.append([path_up[0:len(path_up)], path_down[0:len(path_down)], i, j])
                 i = i + 1
@@ -260,7 +262,7 @@ def traceback(k=1):
                 j = j - 1
                 path_up.insert(0, seq1[i])
                 path_down.insert(0, '*')
-                recal_pair.append([i, j])
+
 
                 if len(queue) < k:
                     queue.append([path_up[0:len(path_up)], path_down[0:len(path_down)], i, j])
@@ -271,11 +273,7 @@ def traceback(k=1):
 
             score_mat[i][j]=0
 
-    print(len(recal_pair))
-    for k in range(len(recal_pair)-1,-1,-1):
-        t=recal_pair[k]
-        print(t,end=' ')
-        recal(recal_pair[k][0],recal_pair[k][1])
+
 
     return path_pair
 
@@ -389,12 +387,13 @@ def recal(i,j):
 
 
 
-
 local_pssm()
+print_mat3(direc_mat,3)
+
 #print(lseq2)
 #print(len(seq1))
 # print_mat3(direc_mat)
-#print_pathpair(traceback(2))
+print_pathpair(traceback(2))
 
 
 
