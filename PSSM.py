@@ -10,7 +10,8 @@ amino = ['A', 'Q', 'L', 'S', 'R', 'E', 'K', 'T', 'N', 'G', 'M', 'W', 'D', 'H', '
 # print(amino)
 
 seq_aligned = read_fasta("WW-aligned-136.fasta")
-seq2 =seq_aligned[1]
+seq2 =seq_aligned[0]
+print(len(seq_aligned))
 
 print(len(seq2))
 for i in seq_aligned:
@@ -105,6 +106,14 @@ print(pua['A'])
 # print_fua(pua)
 print_fua(mua)
 
+f = open("mua.txt",'a')
+for key in mua:
+    s = ''+key+":"
+    for j in mua[key]:
+        s += '{0:4f}'.format(j)
+    s += "\n"
+    f.write(s)
+
 
 # print the max value in the matrix
 def max_value(dict=pua):
@@ -126,7 +135,7 @@ def max_value(dict=pua):
 
 
 seq_list = read_fasta("protein-sequences.fasta")
-seq1 = seq_list[0][:1000]
+seq1 = seq_list[0]
 # initialize the score_mat and direc_mat
 lseq2 = len(mua['A'])
 score_mat = []

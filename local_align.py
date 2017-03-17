@@ -7,11 +7,11 @@ E = -4
 I = -6 # affine gap
 
 
-seq_list = read_fasta("WW-homo-136.fasta")
+seq_list = read_fasta("WW-sequence.fasta")
 seq_list2 = read_fasta("protein-sequences.fasta")
 
-seq1 =seq_list2[0]
-seq2= seq_list2[1]
+seq1 =seq_list[0]
+seq2= seq_list2[2]
 seq11= 'THISLINE'
 seq22= 'ISALIGNED'
 slen1 = len(seq1)
@@ -82,7 +82,7 @@ def local_score(mat):
 def print_pathpair(alist):
     for path in alist:
         mark1=[]
-        mark2=[]
+        print("the coordinate of the start-tracing point",path[2],path[3])
         for i in range(len(path[0])):
             if path[0][i]!='-' and path[1][i]!='-':
                 if path[0][i] == path[1][i]:
@@ -151,7 +151,7 @@ def local_trace(k=4):
         path_down = t[1]
 
         if score_mat[i][j] == 0:
-            path_pair.append([path_up,path_down])
+            path_pair.append([path_up,path_down,i,j])
         # scan all possible path and append it to the queue
         else:
             if direc_mat[i][j][0] == 1:
