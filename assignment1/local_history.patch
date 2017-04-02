@@ -1,0 +1,26 @@
+Index: global_align3.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- global_align3.py	(revision )
++++ global_align3.py	(revision )
+@@ -4,14 +4,14 @@
+ 
+ # affine gap penalty
+ E = -4
+-I = -4 # affine gap
++I = -5 # affine gap
+ 
+ seq_list = read_fasta("protein-sequences.fasta")
+ seq_list2 = read_fasta("WW-sequence.fasta")
+-seq111 =seq_list2[2]
++seq111 =seq_list2[0]
+ print(len(seq111))
+ 
+-seq2222 =seq_list2[3]
++seq2222 =seq_list2[2]
+ print(len(seq2222))
+ sequ1 = 'THISLINE'
+ sequ2 = 'ISALIGNED'
+\ No newline at end of file
