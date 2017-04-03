@@ -13,7 +13,6 @@ def read_txt(filename):
     return result
 
 
-cath = read_txt("cath_info.txt")
 
 # print(len(dssp),len(stride),len(cath))
 
@@ -29,12 +28,12 @@ f = open("stru_dict.txt")
 stru_dict = {}
 for i in f.readlines():
     temp = i.strip().split()
-    stru_dict[temp[0].upper()]=temp[1]
+    stru_dict[temp[0].upper()] = temp[1]
 f.close()
-print(stru_dict)
 
 
-def pre_process(file,newfile):
+
+def pre_process(file, newfile):
     '''
     do preprocessing, only for dssp_info and stride_info
     do with uncertain values
@@ -53,15 +52,17 @@ def pre_process(file,newfile):
             i[4] = stru_dict[i[4].upper()]
         s = ''
         for j in i:
-            s += j+' '
+            s += j + ' '
         s += '\n'
         fw.write(s)
 
     return list_2
 
-stride = pre_process("stride_info.txt","stride.txt")
-pre_process("dssp_info.txt","dssp.txt")
-print(stride)
+
+
+
+
+# print(stride)
 
 def fSR(list_2):
     '''
@@ -70,18 +71,31 @@ def fSR(list_2):
     :return: a 2 d dictionary
     '''
     result = {}
+    fS = {}
+    fR = {}
     for i in list_2:
+        # calculate fSR
         if i[4] in result.keys():
-            if i[3] in result[i[4]]:
-                result[i[4]][i[3]] +=1
+            if i[3] in result[i[4]].keys():
+                result[i[4]][i[3]] += 1
             else:
-                temp = {}
-                temp[i[3]] = 1
-                result[i[4]] = temp
+
+                result[i[4]][i[3]] = 1
         else:
             temp = {}
             temp[i[3]] = 1
-            result[i[4]] =temp
-    return result
+            result[i[4]] = temp
+        # calcuate fS
+        if i[4] in fS.keys():
+            fS[i[4]] += 1
+        else:
+            fS[i[4]] = 1
+        # calculate fR
+        if i[3] in fR.keys():
+            fR[i[3]] += 1
+        else:
+            fR[i[3]] = 1
 
-print(fSR(stride))
+    return result, fS, fR
+
+
