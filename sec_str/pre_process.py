@@ -55,6 +55,7 @@ def pre_process(file, newfile):
             s += j + ' '
         s += '\n'
         fw.write(s)
+    fw.close()
 
     return list_2
 
