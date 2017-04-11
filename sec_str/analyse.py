@@ -1,6 +1,6 @@
 from numpy import sqrt
 
-f = open("predict2.txt")
+f = open("aa.txt")
 predict = f.readline().strip()
 right = f.readline()
 print(predict)
@@ -62,4 +62,4 @@ def mcc(predict, right, stru):
 print(mcc(predict, right, 'H'))
 print(mcc(predict,right,'E'))
 print(mcc(predict,right,'C'))
-print((8 * 11 - 6 * 1) / sqrt((14) * (9) * (17) * 12))
+
