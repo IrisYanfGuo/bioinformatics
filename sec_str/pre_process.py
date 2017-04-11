@@ -99,3 +99,4 @@ def fSR(list_2):
     return result, fS, fR
 
 
+
