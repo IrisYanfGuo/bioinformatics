@@ -1,4 +1,4 @@
-f = open("dssp_predict.txt")
+
 
 
 
@@ -42,5 +42,5 @@ def tofasta(file,newfile):
     f.close()
     f2.close()
 
-tofasta('dssp_predict.txt','dssp_protein')
-tofasta('stride.txt','stride_protein')
+tofasta('./txtfile/dssp.txt','./txtfile/dssp_protein')
+tofasta('./txtfile/stride.txt','./txtfile/stride_protein')

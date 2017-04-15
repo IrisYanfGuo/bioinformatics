@@ -33,7 +33,7 @@ fsrm = {}
 amino = []
 for i in amino_dict.keys():
     amino.append(amino_dict[i])
-amino.append('?')
+amino.insert(0,"?")
 # print(amino)
 for i in ['C', 'E', 'H']:
     temp3 = {}
