@@ -46,15 +46,14 @@ def pre_process(file, newfile):
     for i in list_2:
         if i[3].upper() in amino_dict.keys():
             i[3] = amino_dict[i[3].upper()]
-        else:
-            i[3] = "?"
-        if i[4].upper() in stru_dict.keys():
-            i[4] = stru_dict[i[4].upper()]
-        s = ''
-        for j in i:
-            s += j + ' '
-        s += '\n'
-        fw.write(s)
+
+            if i[4].upper() in stru_dict.keys():
+                i[4] = stru_dict[i[4].upper()]
+            s = ''
+            for j in i:
+                s += j + ' '
+            s += '\n'
+            fw.write(s)
 
     return list_2
 

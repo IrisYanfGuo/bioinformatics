@@ -119,7 +119,6 @@
 1w0n A 130 S E 
 1w0n A 131 L C 
 2gpi A 0 G C 
-2gpi A 1 ? C 
 2gpi A 2 N C 
 2gpi A 3 Q C 
 2gpi A 4 S C 
@@ -147,7 +146,6 @@
 2gpi A 26 Q E 
 2gpi A 27 Q C 
 2gpi A 28 G C 
-2gpi A 29 ? E 
 2gpi A 30 V E 
 2gpi A 31 I E 
 2gpi A 32 D E 
@@ -211,7 +209,6 @@
 2gpi A 90 D C 
 1vbw A 1 S C 
 1vbw A 2 R C 
-1vbw A 3 ? C 
 1vbw A 4 Q C 
 1vbw A 5 G C 
 1vbw A 6 K C 
@@ -256,7 +253,6 @@
 1vbw A 45 D C 
 1vbw A 46 F C 
 1vbw A 47 R C 
-1vbw A 48 ? C 
 1vbw A 49 D C 
 1vbw A 50 R E 
 1vbw A 51 V E 
@@ -277,7 +273,6 @@
 1vbw A 66 T E 
 1vbw A 67 I E 
 1vbw A 68 G C 
-2odk A 1 ? C 
 2odk A 2 H C 
 2odk A 3 V E 
 2odk A 4 W E 
@@ -415,7 +410,6 @@
 2zxy A 85 S C 
 2zxy A 86 H C 
 2pr7 A 0 G C 
-2pr7 A 1 ? C 
 2pr7 A 2 R C 
 2pr7 A 3 G E 
 2pr7 A 4 L E 
@@ -504,7 +498,6 @@
 2pr7 A 87 D C 
 2pr7 A 88 L C 
 2pr7 A 89 P C 
-2pr7 A 90 ? C 
 2pr7 A 91 R C 
 2pr7 A 92 D C 
 2pr7 A 93 C E 
@@ -552,7 +545,6 @@
 2pr7 A 135 E C 
 2pr7 A 136 F C 
 2pyq A 0 G C 
-2pyq A 1 ? C 
 2pyq A 2 G C 
 2pyq A 3 K H 
 2pyq A 4 R H 
@@ -572,11 +564,9 @@
 2pyq A 18 K C 
 2pyq A 19 C C 
 2pyq A 20 G C 
-2pyq A 21 ? C 
 2pyq A 22 E C 
 2pyq A 23 P C 
 2pyq A 24 D C 
-2pyq A 25 ? H 
 2pyq A 26 A H 
 2pyq A 27 L H 
 2pyq A 28 L H 
@@ -615,7 +605,6 @@
 2pyq A 61 N H 
 2pyq A 62 F C 
 2pyq A 63 L C 
-2pyq A 64 ? C 
 2pyq A 65 K C 
 2pyq A 66 K C 
 2pyq A 67 L C 
@@ -627,7 +616,6 @@
 2pyq A 73 E H 
 2pyq A 74 S H 
 2pyq A 75 L H 
-2pyq A 76 ? H 
 2pyq A 77 G H 
 2pyq A 78 G H 
 2pyq A 79 I H 
@@ -652,7 +640,6 @@
 2pyq A 98 V H 
 2pyq A 99 Y H 
 2pyq A 100 Y H 
-2pyq A 101 ? H 
 2pyq A 102 L H 
 2pyq A 103 T H 
 2pyq A 104 K H 
@@ -669,7 +656,6 @@
 1jy2 N 36 W C 
 1jy2 N 37 P C 
 1jy2 N 38 F C 
-1jy2 N 39 ? C 
 1jy2 N 40 S C 
 1jy2 N 41 D C 
 1jy2 N 42 E C 
@@ -678,11 +664,9 @@
 1jy2 N 45 N C 
 1jy2 N 46 T C 
 1jy2 N 47 K E 
-1jy2 N 48 ? E 
 1jy2 N 49 P E 
 1jy2 N 50 S C 
 1jy2 N 51 G H 
-1jy2 N 52 ? H 
 1jy2 N 53 R H 
 1jy2 N 54 M H 
 1jy2 N 55 K H 
@@ -979,7 +963,6 @@
 3gix A 141 K C 
 3gix A 142 Y C 
 1eaq A 50 S C 
-1eaq A 51 ? H 
 1eaq A 52 V H 
 1eaq A 53 E H 
 1eaq A 54 V H 
@@ -1034,7 +1017,6 @@
 1eaq A 103 V E 
 1eaq A 104 T E 
 1eaq A 105 V E 
-1eaq A 106 ? E 
 1eaq A 107 A E 
 1eaq A 108 G E 
 1eaq A 109 N E 
@@ -1052,7 +1034,6 @@
 1eaq A 121 T E 
 1eaq A 122 A E 
 1eaq A 123 A E 
-1eaq A 124 ? E 
 1eaq A 125 K E 
 1eaq A 126 N C 
 1eaq A 127 Q C 
@@ -1103,7 +1084,6 @@
 1eaq A 172 G C 
 1eaq A 173 P C 
 3c8l A 0 G C 
-3c8l A 1 ? C 
 3c8l A 2 A C 
 3c8l A 3 R E 
 3c8l A 4 K E 
@@ -1112,9 +1092,7 @@
 3c8l A 7 I E 
 3c8l A 8 I E 
 3c8l A 9 E E 
-3c8l A 10 ? E 
 3c8l A 11 G E 
-3c8l A 12 ? E 
 3c8l A 13 G E 
 3c8l A 14 I E 
 3c8l A 15 D E 
@@ -1155,7 +1133,6 @@
 3c8l A 50 P C 
 3c8l A 51 N C 
 3c8l A 52 E C 
-3c8l A 53 ? C 
 3c8l A 54 I E 
 3c8l A 55 I E 
 3c8l A 56 E E 
@@ -1192,7 +1169,6 @@
 3c8l A 87 S E 
 3c8l A 88 G C 
 3c8l A 89 G C 
-3c8l A 90 ? E 
 3c8l A 91 I E 
 3c8l A 92 V E 
 3c8l A 93 Q E 
@@ -1209,7 +1185,6 @@
 3c8l A 104 N C 
 3c8l A 105 D C 
 3c8l A 106 E E 
-3c8l A 107 ? E 
 3c8l A 108 L E 
 3c8l A 109 I E 
 3c8l A 110 A E 
@@ -1413,7 +1388,6 @@
 3chb D 6 T H 
 3chb D 7 D H 
 3chb D 8 L H 
-3chb D 9 ? H 
 3chb D 10 A C 
 3chb D 11 E C 
 3chb D 12 Y C 
@@ -1490,7 +1464,6 @@
 3chb D 83 E E 
 3chb D 84 K E 
 3chb D 85 L E 
-3chb D 86 ? E 
 3chb D 87 V E 
 3chb D 88 W E 
 3chb D 89 N C 
@@ -1860,9 +1833,7 @@
 1xod A 121 S C 
 1xod A 122 Q C 
 1xod A 123 G C 
-1whz A 1 ? C 
 1whz A 2 W C 
-1whz A 3 ? C 
 1whz A 4 P C 
 1whz A 5 P C 
 1whz A 6 R C 
@@ -1882,7 +1853,6 @@
 1whz A 20 V E 
 1whz A 21 E E 
 1whz A 22 R E 
-1whz A 23 ? E 
 1whz A 24 A E 
 1whz A 25 K E 
 1whz A 26 G C 
@@ -2232,7 +2202,6 @@
 2x1f A 107 H C 
 2x1f A 108 H C 
 2x1f A 109 H C 
-1i8o A 1 ? C 
 1i8o A 2 D C 
 1i8o A 3 A H 
 1i8o A 4 K H 
@@ -2401,12 +2370,10 @@
 1gpq A 54 M E 
 1gpq A 55 S E 
 1gpq A 56 A E 
-1gpq A 57 ? E 
 1gpq A 58 K C 
 1gpq A 59 P C 
 1gpq A 60 H C 
 1gpq A 61 D C 
-1gpq A 62 ? C 
 1gpq A 63 G C 
 1gpq A 64 S C 
 1gpq A 65 Q E 
@@ -2785,12 +2752,10 @@
 2hly A 204 G C 
 2hly A 205 A C 
 2hly A 206 W C 
-1wna A 1 ? C 
 1wna A 2 V E 
 1wna A 3 R E 
 1wna A 4 V C 
 1wna A 5 G C 
-1wna A 6 ? C 
 1wna A 7 R C 
 1wna A 8 A C 
 1wna A 9 A C 
@@ -2883,7 +2848,6 @@
 1wna A 96 P C 
 1wna A 97 G C 
 1wna A 98 E C 
-1wna A 99 ? H 
 1wna A 100 T H 
 1wna A 101 A H 
 1wna A 102 L H 
@@ -2899,7 +2863,6 @@
 1wna A 112 K H 
 1wna A 113 R H 
 1wna A 114 V H 
-1wna A 115 ? H 
 1wna A 116 A H 
 1wna A 117 I H 
 1wna A 118 A C 
@@ -3951,7 +3914,6 @@
 3r9f A 181 K E 
 3r9f A 182 V E 
 3r9f A 183 I C 
-3r9f A 500 ? C 
 2wqk A 2 P C 
 2wqk A 3 T E 
 2wqk A 4 F E 
@@ -4264,7 +4226,6 @@
 3lax A 326 A C 
 3lax A 327 D C 
 3lax A 328 D C 
-3lax A 329 ? C 
 3lax A 330 I E 
 3lax A 331 I E 
 3lax A 332 L E 
@@ -4304,7 +4265,6 @@
 3lax A 366 N E 
 3lax A 367 D E 
 3lax A 368 E E 
-3lax A 369 ? E 
 3lax A 370 T E 
 3lax A 371 V E 
 3lax A 372 E E 
@@ -4662,7 +4622,6 @@
 1pe9 A 295 S C 
 1pe9 A 296 K C 
 1pe9 A 297 A C 
-1pe9 A 298 ? C 
 1pe9 A 299 K C 
 1pe9 A 300 V C 
 1pe9 A 301 V E 
@@ -4690,7 +4649,6 @@
 1pe9 A 323 L C 
 1pe9 A 324 S C 
 1pe9 A 325 G C 
-1pe9 A 326 ? C 
 1pe9 A 327 G C 
 1pe9 A 328 F C 
 1pe9 A 329 S C 
@@ -5052,7 +5010,6 @@
 1luc A 353 E C 
 1luc A 354 K C 
 1luc A 355 Q C 
-3giu A 1 ? C 
 3giu A 2 H E 
 3giu A 3 I E 
 3giu A 4 L E 
@@ -5170,7 +5127,6 @@
 3giu A 116 V H 
 3giu A 117 K H 
 3giu A 118 A H 
-3giu A 119 ? H 
 3giu A 120 T H 
 3giu A 121 Q H 
 3giu A 122 S H 
@@ -5233,7 +5189,6 @@
 3giu A 179 T C 
 3giu A 180 P C 
 3giu A 181 S C 
-3giu A 182 ? C 
 3giu A 183 P C 
 3giu A 184 L H 
 3giu A 185 E H 
@@ -5987,13 +5942,11 @@
 1irq A 69 D C 
 1irq A 70 K C 
 1irq A 71 L C 
-2pq7 A 1 ? C 
 2pq7 A 2 N C 
 2pq7 A 3 L H 
 2pq7 A 4 T H 
 2pq7 A 5 E H 
 2pq7 A 6 L H 
-2pq7 A 7 ? H 
 2pq7 A 8 E H 
 2pq7 A 9 R H 
 2pq7 A 10 I C 
@@ -6027,7 +5980,6 @@
 2pq7 A 38 F H 
 2pq7 A 39 R H 
 2pq7 A 40 V H 
-2pq7 A 41 ? H 
 2pq7 A 42 E H 
 2pq7 A 43 N H 
 2pq7 A 44 A H 
@@ -6080,7 +6032,6 @@
 2pq7 A 91 L C 
 2pq7 A 92 P C 
 2pq7 A 93 T C 
-2pq7 A 94 ? C 
 2pq7 A 95 G C 
 2pq7 A 96 F C 
 2pq7 A 97 D C 
@@ -6140,7 +6091,6 @@
 2pq7 A 194 A H 
 2pq7 A 195 R H 
 2pq7 A 196 K H 
-2pq7 A 197 ? H 
 2pq7 A 198 A H 
 2pq7 A 199 E H 
 2pq7 A 200 D H 
@@ -6525,7 +6475,6 @@
 1nz0 A 38 K E 
 1nz0 A 39 N C 
 1nz0 A 40 G C 
-1nz0 A 41 ? C 
 1nz0 A 42 D C 
 1nz0 A 43 Y C 
 1nz0 A 44 S C 
@@ -6971,12 +6920,10 @@
 1oai A 617 F C 
 1oai A 618 M C 
 1oai A 619 K C 
-1nu0 A 1 ? C 
 1nu0 A 2 S C 
 1nu0 A 3 G C 
 1nu0 A 4 T E 
 1nu0 A 5 L E 
-1nu0 A 6 ? E 
 1nu0 A 7 A E 
 1nu0 A 8 F E 
 1nu0 A 9 D E 
@@ -7035,7 +6982,6 @@
 1nu0 A 62 P E 
 1nu0 A 63 L E 
 1nu0 A 64 N C 
-1nu0 A 65 ? C 
 1nu0 A 66 D C 
 1nu0 A 67 G C 
 1nu0 A 68 T C 
@@ -7097,7 +7043,6 @@
 1nu0 A 131 E H 
 1nu0 A 132 S H 
 1nu0 A 133 Y H 
-1nu0 A 134 ? H 
 1nu0 A 135 E H 
 1nu0 A 136 Q C 
 1nu0 A 137 G C 
@@ -7976,7 +7921,6 @@
 1vqs A -2 H C 
 1vqs A -1 H C 
 1vqs A 0 H C 
-1vqs A 1 ? C 
 1vqs A 2 F E 
 1vqs A 3 Y E 
 1vqs A 4 E E 
@@ -8046,7 +7990,6 @@
 1vqs A 68 A H 
 1vqs A 69 R H 
 1vqs A 70 L H 
-1vqs A 71 ? H 
 1vqs A 72 A H 
 1vqs A 73 D C 
 1vqs A 74 P H 
@@ -8070,7 +8013,6 @@
 1vqs A 92 N E 
 1vqs A 93 K E 
 1vqs A 94 I E 
-1vqs A 95 ? E 
 1vqs A 96 K E 
 1vqs A 97 P E 
 1vqs A 98 A C 
@@ -8079,7 +8021,6 @@
 1vqs A 101 S C 
 1vqs A 102 P C 
 1vqs A 103 L C 
-1vqs A 104 ? C 
 2hc1 A 1676 N C 
 2hc1 A 1677 R C 
 2hc1 A 1678 K C 
@@ -8508,30 +8449,25 @@
 2j8b A 0 M C 
 2j8b A 1 L C 
 2j8b A 2 Q E 
-2j8b A 3 ? E 
 2j8b A 4 Y E 
 2j8b A 5 N C 
-2j8b A 6 ? C 
 2j8b A 7 P C 
 2j8b A 8 N C 
 2j8b A 9 P C 
 2j8b A 10 T C 
 2j8b A 11 A C 
 2j8b A 12 D C 
-2j8b A 13 ? C 
 2j8b A 14 K C 
 2j8b A 15 T C 
 2j8b A 16 A E 
 2j8b A 17 V E 
 2j8b A 18 N E 
-2j8b A 19 ? C 
 2j8b A 20 S C 
 2j8b A 21 S C 
 2j8b A 22 D C 
 2j8b A 23 F C 
 2j8b A 24 D C 
 2j8b A 25 A E 
-2j8b A 26 ? E 
 2j8b A 27 L E 
 2j8b A 28 I E 
 2j8b A 29 T E 
@@ -8544,13 +8480,11 @@
 2j8b A 36 Y E 
 2j8b A 37 N E 
 2j8b A 38 K E 
-2j8b A 39 ? E 
 2j8b A 40 W E 
 2j8b A 41 K C 
 2j8b A 42 F C 
 2j8b A 43 E C 
 2j8b A 44 H C 
-2j8b A 45 ? C 
 2j8b A 46 N C 
 2j8b A 47 F H 
 2j8b A 48 N H 
@@ -8568,13 +8502,10 @@
 2j8b A 60 T E 
 2j8b A 61 Y E 
 2j8b A 62 Y E 
-2j8b A 63 ? E 
-2j8b A 64 ? E 
 2j8b A 65 K C 
 2j8b A 66 K C 
 2j8b A 67 D C 
 2j8b A 68 L C 
-2j8b A 69 ? C 
 2j8b A 70 N C 
 2j8b A 71 F C 
 2j8b A 72 N C 
@@ -8611,7 +8542,6 @@
 2dpf A 26 Q C 
 2dpf A 27 N C 
 2dpf A 28 K C 
-2dpf A 29 ? C 
 2dpf A 30 N C 
 2dpf A 31 L E 
 2dpf A 32 V E 
@@ -8634,7 +8564,6 @@
 2dpf A 49 G C 
 2dpf A 50 S C 
 2dpf A 51 G C 
-2dpf A 52 ? C 
 2dpf A 53 R E 
 2dpf A 54 L E 
 2dpf A 55 T E 
@@ -8659,7 +8588,6 @@
 2dpf A 74 G E 
 2dpf A 75 S C 
 2dpf A 76 A C 
-2dpf A 77 ? C 
 2dpf A 78 W C 
 2dpf A 79 G C 
 2dpf A 80 D C 
@@ -8691,7 +8619,6 @@
 2dpf A 106 P C 
 2dpf A 107 N C 
 2dpf A 108 G C 
-2dpf A 109 ? C 
 2dpf A 110 R C 
 2dpf A 111 R C 
 2iyv A 2 A C 
@@ -9720,7 +9647,6 @@
 1ekq A 195 G C 
 1ekq A 196 A H 
 1ekq A 197 G H 
-1ekq A 198 ? H 
 1ekq A 199 L H 
 1ekq A 200 L H 
 1ekq A 201 T H 
@@ -10038,7 +9964,6 @@
 3cec A 97 E H 
 3cec A 98 Q H 
 3cec A 99 V H 
-3cec A 100 ? H 
 3cec A 101 T C 
 3cec A 102 L C 
 3cec A 103 V C 
@@ -10455,86 +10380,70 @@
 2f6u A 1230 L C 
 2f6u A 1231 P C 
 1ezg A 2 Q C 
-1ezg A 3 ? C 
 1ezg A 4 T C 
 1ezg A 5 G C 
 1ezg A 6 G C 
 1ezg A 7 A C 
 1ezg A 8 D C 
-1ezg A 9 ? C 
 1ezg A 10 T C 
 1ezg A 11 S C 
-1ezg A 12 ? C 
 1ezg A 13 T C 
 1ezg A 14 G C 
 1ezg A 15 A E 
-1ezg A 16 ? E 
 1ezg A 17 T E 
 1ezg A 18 G C 
-1ezg A 19 ? C 
 1ezg A 20 G C 
 1ezg A 21 N C 
-1ezg A 22 ? C 
 1ezg A 23 P C 
 1ezg A 24 N C 
 1ezg A 25 A C 
 1ezg A 26 V C 
 1ezg A 27 T E 
-1ezg A 28 ? E 
 1ezg A 29 T E 
 1ezg A 30 N C 
 1ezg A 31 S C 
 1ezg A 32 Q C 
 1ezg A 33 H C 
-1ezg A 34 ? C 
 1ezg A 35 V C 
 1ezg A 36 K C 
 1ezg A 37 A C 
 1ezg A 38 N C 
 1ezg A 39 T E 
-1ezg A 40 ? E 
 1ezg A 41 T E 
 1ezg A 42 G C 
 1ezg A 43 S C 
 1ezg A 44 T C 
 1ezg A 45 D C 
-1ezg A 46 ? C 
 1ezg A 47 N C 
 1ezg A 48 T C 
 1ezg A 49 A C 
 1ezg A 50 Q C 
 1ezg A 51 T E 
-1ezg A 52 ? E 
 1ezg A 53 T E 
 1ezg A 54 N C 
 1ezg A 55 S C 
 1ezg A 56 K C 
 1ezg A 57 D C 
-1ezg A 58 ? C 
 1ezg A 59 F C 
 1ezg A 60 E C 
 1ezg A 61 A C 
 1ezg A 62 N C 
 1ezg A 63 T E 
-1ezg A 64 ? E 
 1ezg A 65 T E 
 1ezg A 66 D C 
 1ezg A 67 S C 
 1ezg A 68 T C 
 1ezg A 69 N C 
-1ezg A 70 ? C 
 1ezg A 71 Y C 
 1ezg A 72 K C 
 1ezg A 73 A C 
 1ezg A 74 T C 
 1ezg A 75 A E 
-1ezg A 76 ? E 
 1ezg A 77 T E 
 1ezg A 78 N C 
 1ezg A 79 S C 
 1ezg A 80 S C 
 1ezg A 81 G C 
-1ezg A 82 ? C 
 1ezg A 83 P C 
 2o9u X 1001 G C 
 2o9u X 1002 E C 
@@ -12032,18 +11941,15 @@
 1ucs A 64 E C 
 2jkh L 87 K C 
 2jkh L 88 L C 
-2jkh L 89 ? C 
 2jkh L 90 S C 
 2jkh L 91 L C 
 2jkh L 92 D C 
 2jkh L 93 N C 
 2jkh L 94 G C 
 2jkh L 95 D C 
-2jkh L 96 ? C 
 2jkh L 97 D C 
 2jkh L 98 Q C 
 2jkh L 99 F E 
-2jkh L 100 ? E 
 2jkh L 101 H E 
 2jkh L 102 E E 
 2jkh L 103 E E 
@@ -12052,9 +11958,7 @@
 2jkh L 106 S E 
 2jkh L 107 V E 
 2jkh L 108 V E 
-2jkh L 109 ? E 
 2jkh L 110 S E 
-2jkh L 111 ? C 
 2jkh L 112 A C 
 2jkh L 113 R C 
 2jkh L 114 G C 
@@ -12067,7 +11971,6 @@
 2jkh L 121 G C 
 2jkh L 122 K C 
 2jkh L 123 A C 
-2jkh L 124 ? E 
 2jkh L 125 I E 
 2jkh L 126 P E 
 2jkh L 127 T C 
@@ -12075,7 +11978,6 @@
 2jkh L 129 P C 
 2jkh L 130 Y C 
 2jkh L 131 P C 
-2jkh L 132 ? C 
 2jkh L 133 G C 
 2jkh L 134 K C 
 2jkh L 135 Q C 
@@ -12086,7 +11988,6 @@
 2jkh L 140 R C 
 3psm A 1 K C 
 3psm A 2 T E 
-3psm A 3 ? E 
 3psm A 4 E E 
 3psm A 5 N E 
 3psm A 6 L E 
@@ -12097,17 +11998,14 @@
 3psm A 11 R C 
 3psm A 12 G C 
 3psm A 13 P C 
-3psm A 14 ? C 
 3psm A 15 F C 
 3psm A 16 T C 
 3psm A 17 D H 
 3psm A 18 G H 
 3psm A 19 S H 
-3psm A 20 ? H 
 3psm A 21 D H 
 3psm A 22 D H 
 3psm A 23 H H 
-3psm A 24 ? H 
 3psm A 25 K H 
 3psm A 26 N H 
 3psm A 27 K C 
@@ -12118,19 +12016,15 @@
 3psm A 32 K E 
 3psm A 33 G E 
 3psm A 34 R E 
-3psm A 35 ? E 
 3psm A 36 R C 
 3psm A 37 D C 
 3psm A 38 D C 
 3psm A 39 F C 
 3psm A 40 R C 
-3psm A 41 ? E 
 3psm A 42 W E 
-3psm A 43 ? E 
 3psm A 44 T E 
 3psm A 45 R E 
 3psm A 46 N E 
-3psm A 47 ? C 
 1g4y B 413 D C 
 1g4y B 414 T H 
 1g4y B 415 Q H 
@@ -12286,7 +12180,6 @@
 1cc8 A 73 L C 
 1utg A 1 G C 
 1utg A 2 I C 
-1utg A 3 ? C 
 1utg A 4 P H 
 1utg A 5 R H 
 1utg A 6 F H 
@@ -12352,7 +12245,6 @@
 1utg A 66 S C 
 1utg A 67 P C 
 1utg A 68 L C 
-1utg A 69 ? C 
 1utg A 70 M C 
 3q62 A -2 S C 
 3q62 A -1 N C 
@@ -12704,7 +12596,6 @@
 1kq6 A 24 Y E 
 1kq6 A 25 V E 
 1kq6 A 26 Y E 
-1kq6 A 27 ? E 
 1kq6 A 28 F E 
 1kq6 A 29 L E 
 1kq6 A 30 V E 
@@ -12734,7 +12625,6 @@
 1kq6 A 54 L H 
 1kq6 A 55 K H 
 1kq6 A 56 E H 
-1kq6 A 57 ? H 
 1kq6 A 58 F C 
 1kq6 A 59 P C 
 1kq6 A 60 I C 
@@ -12779,7 +12669,6 @@
 1kq6 A 99 S H 
 1kq6 A 100 T H 
 1kq6 A 101 L H 
-1kq6 A 102 ? C 
 1kq6 A 103 S C 
 1kq6 A 104 L C 
 1kq6 A 105 P C 
@@ -12818,7 +12707,6 @@
 1kq6 A 138 T E 
 1kq6 A 139 Y E 
 1kq6 A 140 L E 
-1kq6 A 141 ? C 
 2yve A 1 M C 
 2yve A 2 R C 
 2yve A 3 T C 
@@ -13097,7 +12985,6 @@
 2r2z A 18 Q E 
 2r2z A 19 G C 
 2r2z A 20 R C 
-2r2z A 21 ? C 
 2r2z A 22 L C 
 2r2z A 23 I H 
 2r2z A 24 D H 
@@ -13112,13 +12999,11 @@
 2r2z A 33 D C 
 2r2z A 34 L C 
 2r2z A 35 H C 
-2r2z A 36 ? C 
 2r2z A 37 S C 
 2r2z A 38 D C 
 2r2z A 39 V C 
 2r2z A 40 D C 
 2r2z A 41 T C 
-2r2z A 42 ? H 
 2r2z A 43 A H 
 2r2z A 44 G H 
 2r2z A 45 Y H 
@@ -13150,7 +13035,6 @@
 2r2z A 71 A E 
 2r2z A 72 E E 
 2r2z A 73 E E 
-2r2z A 74 ? E 
 2r2z A 75 E E 
 2r2z A 76 G C 
 2r2z A 77 T C 
@@ -13261,40 +13145,26 @@
 1j34 C 404 G C 
 1j34 C 405 K C 
 1j34 C 406 L C 
-1j34 C 407 ? C 
-1j34 C 408 ? C 
 1j34 C 409 F C 
 1j34 C 410 V C 
 1j34 C 411 R C 
 1j34 C 412 G C 
 1j34 C 413 N C 
 1j34 C 414 L H 
-1j34 C 415 ? H 
 1j34 C 416 R H 
-1j34 C 417 ? H 
-1j34 C 418 ? H 
 1j34 C 419 K C 
-1j34 C 420 ? C 
-1j34 C 421 ? C 
 1j34 C 422 K C 
-1j34 C 423 ? C 
 1j34 C 424 S C 
 1j34 C 425 F H 
-1j34 C 426 ? H 
-1j34 C 427 ? H 
 1j34 C 428 A H 
 1j34 C 429 R H 
-1j34 C 430 ? H 
 1j34 C 431 V H 
 1j34 C 432 F H 
-1j34 C 433 ? C 
 1j34 C 434 N C 
 1j34 C 435 T H 
-1j34 C 436 ? H 
 1j34 C 437 K H 
 1j34 C 438 T H 
 1j34 C 439 T H 
-1j34 C 440 ? H 
 1j34 C 441 F H 
 1j34 C 442 W H 
 1j34 C 443 K H 
@@ -13398,7 +13268,6 @@
 3f6v A 120 T C 
 3f6v A 121 E C 
 3b79 A 0 A C 
-3b79 A 1 ? C 
 3b79 A 2 K C 
 3b79 A 3 D C 
 3b79 A 4 P H 
@@ -13483,7 +13352,6 @@
 3b79 A 83 S E 
 3b79 A 84 I E 
 3b79 A 85 N E 
-3b79 A 86 ? C 
 3b79 A 87 E C 
 3b79 A 88 T C 
 3b79 A 89 R C 
@@ -13497,7 +13365,6 @@
 3b79 A 97 E C 
 3b79 A 98 S C 
 3b79 A 99 G C 
-3b79 A 100 ? C 
 3b79 A 101 V C 
 3b79 A 102 P C 
 3b79 A 103 I E 
@@ -13523,7 +13390,6 @@
 3b79 A 123 K E 
 3b79 A 124 Q C 
 1g66 A 1 S C 
-1g66 A 2 ? C 
 1g66 A 3 P C 
 1g66 A 4 A C 
 1g66 A 5 I E 
@@ -13567,13 +13433,11 @@
 1g66 A 43 Y C 
 1g66 A 44 P C 
 1g66 A 45 A C 
-1g66 A 46 ? C 
 1g66 A 47 G C 
 1g66 A 48 G C 
 1g66 A 49 Q C 
 1g66 A 50 S C 
 1g66 A 51 S C 
-1g66 A 52 ? C 
 1g66 A 53 G C 
 1g66 A 54 G C 
 1g66 A 55 A C 
@@ -13600,7 +13464,6 @@
 1g66 A 76 N H 
 1g66 A 77 S H 
 1g66 A 78 Q H 
-1g66 A 79 ? C 
 1g66 A 80 P C 
 1g66 A 81 S C 
 1g66 A 82 T C 
@@ -13622,7 +13485,6 @@
 1g66 A 98 V H 
 1g66 A 99 A H 
 1g66 A 100 L H 
-1g66 A 101 ? H 
 1g66 A 102 G C 
 1g66 A 103 G C 
 1g66 A 104 G C 
@@ -13668,7 +13530,6 @@
 1g66 A 144 V E 
 1g66 A 145 G C 
 1g66 A 146 T C 
-1g66 A 147 ? C 
 1g66 A 148 A C 
 1g66 A 149 A C 
 1g66 A 150 G C 
@@ -13682,7 +13543,6 @@
 1g66 A 158 G C 
 1g66 A 159 F C 
 1g66 A 160 S C 
-1g66 A 161 ? C 
 1g66 A 162 P C 
 1g66 A 163 S C 
 1g66 A 164 A C 
@@ -13692,15 +13552,12 @@
 1g66 A 168 K E 
 1g66 A 169 S E 
 1g66 A 170 Y E 
-1g66 A 171 ? C 
 1g66 A 172 D C 
 1g66 A 173 A C 
 1g66 A 174 S C 
 1g66 A 175 D C 
 1g66 A 176 P C 
 1g66 A 177 Y C 
-1g66 A 178 ? C 
-1g66 A 179 ? C 
 1g66 A 180 N C 
 1g66 A 181 G C 
 1g66 A 182 S C 
@@ -13820,7 +13677,6 @@
 3m1x A 25 C E 
 3m1x A 26 N C 
 3m1x A 27 G C 
-3m1x A 28 ? E 
 3m1x A 29 V E 
 3m1x A 30 Y E 
 3m1x A 31 C E 
@@ -14176,7 +14032,6 @@
 2fcj A 113 L C 
 2fcj A 114 M C 
 2ril A 0 G C 
-2ril A 1 ? C 
 2ril A 2 S C 
 2ril A 3 A C 
 2ril A 4 P C 
@@ -14207,7 +14062,6 @@
 2ril A 29 R H 
 2ril A 30 D H 
 2ril A 31 F H 
-2ril A 32 ? H 
 2ril A 33 A C 
 2ril A 34 Q C 
 2ril A 35 Q C 
@@ -14249,7 +14103,6 @@
 2ril A 71 A H 
 2ril A 72 Q H 
 2ril A 73 K H 
-2ril A 74 ? H 
 2ril A 75 R H 
 2ril A 76 Q H 
 2ril A 77 A H 
@@ -14258,7 +14111,6 @@
 2ril A 84 E C 
 2ril A 85 G C 
 2ril A 86 L C 
-2ril A 87 ? C 
 2ril A 88 G C 
 2ril A 89 N C 
 2ril A 90 P C 
@@ -14886,7 +14738,6 @@
 3b4q A 192 G H 
 3b4q A 193 F H 
 3b4q A 194 Y H 
-3b4q A 195 ? H 
 3b4q A 196 A H 
 3b4q A 197 N C 
 3b4q A 198 R H 
@@ -15677,7 +15528,6 @@
 1qg8 A 152 N C 
 1qg8 A 153 A C 
 1qg8 A 154 P C 
-1qg8 A 155 ? C 
 1qg8 A 156 A C 
 1qg8 A 157 I C 
 1qg8 A 158 D C 
@@ -15751,7 +15601,6 @@
 1qg8 A 240 Q C 
 1qg8 A 241 R C 
 1qg8 A 242 N C 
-1qg8 A 243 ? H 
 1qg8 A 244 R H 
 1qg8 A 245 E H 
 1qg8 A 246 L H 
@@ -15826,13 +15675,11 @@
 3fia A 64 L H 
 3fia A 65 A H 
 3fia A 66 D C 
-3fia A 67 ? C 
 3fia A 68 N C 
 3fia A 69 N C 
 3fia A 70 D C 
 3fia A 71 G C 
 3fia A 72 R E 
-3fia A 73 ? E 
 3fia A 74 D C 
 3fia A 75 Q H 
 3fia A 76 V H 
@@ -15841,7 +15688,6 @@
 3fia A 79 S H 
 3fia A 80 I H 
 3fia A 81 A H 
-3fia A 82 ? H 
 3fia A 83 K H 
 3fia A 84 L H 
 3fia A 85 I H 
@@ -15861,7 +15707,6 @@
 3fia A 99 P C 
 3fia A 100 P C 
 3fia A 101 V C 
-3fia A 102 ? C 
 3fia A 103 K C 
 1wmh B 14 S C 
 1wmh B 15 I E 
@@ -16155,7 +16000,6 @@
 1mfw A 117 I C 
 1mfw A 118 S C 
 1mfw A 119 S C 
-1mfw A 120 ? C 
 1mfw A 121 D C 
 1mfw A 122 Q C 
 1mfw A 123 L C 
@@ -16193,7 +16037,6 @@
 1fk5 A 1 A C 
 1fk5 A 2 I C 
 1fk5 A 3 S C 
-1fk5 A 4 ? H 
 1fk5 A 5 G H 
 1fk5 A 6 Q H 
 1fk5 A 7 V H 
@@ -16203,7 +16046,6 @@
 1fk5 A 11 I H 
 1fk5 A 12 A C 
 1fk5 A 13 P C 
-1fk5 A 14 ? C 
 1fk5 A 15 I H 
 1fk5 A 16 S H 
 1fk5 A 17 Y H 
@@ -16218,8 +16060,6 @@
 1fk5 A 26 S C 
 1fk5 A 27 A H 
 1fk5 A 28 G H 
-1fk5 A 29 ? H 
-1fk5 A 30 ? H 
 1fk5 A 31 S H 
 1fk5 A 32 G H 
 1fk5 A 33 V H 
@@ -16239,9 +16079,7 @@
 1fk5 A 47 R H 
 1fk5 A 48 A H 
 1fk5 A 49 A H 
-1fk5 A 50 ? H 
 1fk5 A 51 N H 
-1fk5 A 52 ? H 
 1fk5 A 53 L H 
 1fk5 A 54 K H 
 1fk5 A 55 N H 
@@ -16264,7 +16102,6 @@
 1fk5 A 72 P H 
 1fk5 A 73 S H 
 1fk5 A 74 K H 
-1fk5 A 75 ? C 
 1fk5 A 76 G C 
 1fk5 A 77 V C 
 1fk5 A 78 S C 
@@ -16278,14 +16115,12 @@
 1fk5 A 86 S C 
 1fk5 A 87 T C 
 1fk5 A 88 D C 
-1fk5 A 89 ? C 
 1fk5 A 90 S C 
 1fk5 A 91 R C 
 1fk5 A 92 V C 
 1fk5 A 93 N C 
 2oqz A 35 I C 
 2oqz A 36 F C 
-2oqz A 37 ? C 
 2oqz A 38 D C 
 2oqz A 39 Y C 
 2oqz A 40 Y H 
@@ -16294,7 +16129,6 @@
 2oqz A 43 R H 
 2oqz A 44 K H 
 2oqz A 45 V H 
-2oqz A 46 ? H 
 2oqz A 47 A H 
 2oqz A 48 E H 
 2oqz A 49 A H 
@@ -16306,7 +16140,6 @@
 2oqz A 55 K H 
 2oqz A 56 S C 
 2oqz A 57 P C 
-2oqz A 58 ? C 
 2oqz A 59 E C 
 2oqz A 60 E C 
 2oqz A 61 Q C 
@@ -16335,7 +16168,6 @@
 2oqz A 84 W E 
 2oqz A 85 I E 
 2oqz A 86 T E 
-2oqz A 87 ? C 
 2oqz A 88 D C 
 2oqz A 89 D C 
 2oqz A 90 T C 
@@ -16363,14 +16195,12 @@
 2oqz A 112 G C 
 2oqz A 113 E C 
 2oqz A 114 D C 
-2oqz A 115 ? C 
 2oqz A 116 R C 
 2oqz A 117 A C 
 2oqz A 118 G C 
 2oqz A 119 S C 
 2oqz A 120 I E 
 2oqz A 121 F E 
-2oqz A 122 ? E 
 2oqz A 123 D C 
 2oqz A 124 Y C 
 2oqz A 125 R C 
@@ -16390,26 +16220,22 @@
 2oqz A 139 G E 
 2oqz A 140 H C 
 2oqz A 141 R C 
-2oqz A 142 ? C 
 2oqz A 143 K C 
 2oqz A 144 D C 
 2oqz A 145 G C 
 2oqz A 146 S C 
-2oqz A 147 ? C 
 2oqz A 148 F C 
 2oqz A 149 G C 
 2oqz A 150 S C 
 2oqz A 151 L C 
 2oqz A 152 K C 
 2oqz A 153 K C 
-2oqz A 154 ? C 
 2oqz A 155 L C 
 2oqz A 156 D C 
 2oqz A 157 E H 
 2oqz A 158 E H 
 2oqz A 159 F H 
 2oqz A 160 F H 
-2oqz A 161 ? H 
 2oqz A 162 S H 
 2oqz A 163 H C 
 2oqz A 164 R C 
@@ -16481,7 +16307,6 @@
 2oqz A 230 L E 
 2oqz A 231 S E 
 2oqz A 232 T E 
-2oqz A 233 ? C 
 2oqz A 234 D C 
 2oqz A 235 Y C 
 2oqz A 241 A C 
@@ -17242,7 +17067,6 @@
 1nln A 101 P C 
 1nln A 102 D C 
 1nln A 103 R C 
-1nln A 104 ? E 
 1nln A 105 I E 
 1nln A 106 T E 
 1nln A 107 L E 
@@ -18251,7 +18075,6 @@
 1nww A 148 R C 
 1nww A 149 G C 
 2ia7 A 23 A C 
-2ia7 A 24 ? C 
 2ia7 A 25 V C 
 2ia7 A 26 L C 
 2ia7 A 27 S C 
@@ -18277,7 +18100,6 @@
 2ia7 A 47 E C 
 2ia7 A 48 R C 
 2ia7 A 49 V C 
-2ia7 A 50 ? C 
 2ia7 A 51 R C 
 2ia7 A 52 P C 
 2ia7 A 53 D C 
@@ -18662,7 +18484,6 @@
 3kqr A 33 F E 
 3kqr A 34 T E 
 3kqr A 35 L E 
-3kqr A 36 ? E 
 3kqr A 37 F E 
 3kqr A 38 R E 
 3kqr A 39 A E 
@@ -18721,7 +18542,6 @@
 3kqr A 92 V E 
 3kqr A 93 H E 
 3kqr A 94 I E 
-3kqr A 95 ? E 
 3kqr A 96 V E 
 3kqr A 97 S E 
 3kqr A 98 W E 
@@ -18833,7 +18653,6 @@
 3kqr A 204 V C 
 2b97 A 1 A C 
 2b97 A 2 V C 
-2b97 A 3 ? C 
 2b97 A 4 P C 
 2b97 A 5 T C 
 2b97 A 6 G C 
@@ -18843,8 +18662,6 @@
 2b97 A 10 N E 
 2b97 A 11 P E 
 2b97 A 12 L E 
-2b97 A 13 ? E 
-2b97 A 14 ? E 
 2b97 A 15 A E 
 2b97 A 16 T E 
 2b97 A 17 N E 
@@ -18856,7 +18673,6 @@
 2b97 A 23 G E 
 2b97 A 24 V E 
 2b97 A 25 D E 
-2b97 A 26 ? E 
 2b97 A 27 K E 
 2b97 A 28 T C 
 2b97 A 29 P C 
@@ -18873,7 +18689,6 @@
 2b97 A 40 Q H 
 2b97 A 41 A H 
 2b97 A 42 H H 
-2b97 A 43 ? H 
 2b97 A 44 A H 
 2b97 A 45 S H 
 2b97 A 46 K C 
@@ -18882,8 +18697,6 @@
 2b97 A 49 K E 
 2b97 A 50 P E 
 2b97 A 51 L E 
-2b97 A 52 ? E 
-2b97 A 53 ? E 
 2b97 A 54 V C 
 2b97 A 55 A C 
 2b97 A 56 P C 
@@ -18894,7 +18707,6 @@
 2b97 A 61 A E 
 2b97 A 62 L E 
 2b97 A 63 L E 
-2b97 A 64 ? E 
 2b97 A 65 Q E 
 2b97 A 66 K E 
 2b97 A 67 A C 
@@ -20743,7 +20555,6 @@
 1ijy A 5 E C 
 1ijy A 6 L C 
 1ijy A 7 A C 
-1ijy A 8 ? C 
 1ijy A 9 Q E 
 1ijy A 10 E E 
 1ijy A 11 I C 
@@ -20751,7 +20562,6 @@
 1ijy A 13 V C 
 1ijy A 14 P C 
 1ijy A 15 L C 
-1ijy A 16 ? C 
 1ijy A 17 K C 
 1ijy A 18 G C 
 1ijy A 19 I C 
@@ -20788,7 +20598,6 @@
 1ijy A 50 E H 
 1ijy A 51 I H 
 1ijy A 52 Q C 
-1ijy A 53 ? C 
 1ijy A 54 S C 
 1ijy A 55 P C 
 1ijy A 56 D C 
@@ -20797,14 +20606,12 @@
 1ijy A 59 F H 
 1ijy A 60 F H 
 1ijy A 61 L H 
-1ijy A 62 ? H 
 1ijy A 63 S H 
 1ijy A 64 M H 
 1ijy A 65 Y H 
 1ijy A 66 T C 
 1ijy A 67 P C 
 1ijy A 68 I C 
-1ijy A 69 ? C 
 1ijy A 70 L C 
 1ijy A 71 E C 
 1ijy A 72 D C 
@@ -20815,18 +20622,15 @@
 1ijy A 77 L C 
 1ijy A 78 P C 
 1ijy A 79 P C 
-1ijy A 80 ? C 
 1ijy A 81 R H 
 1ijy A 82 S H 
 1ijy A 83 V H 
-1ijy A 84 ? H 
 1ijy A 85 E H 
 1ijy A 86 R H 
 1ijy A 87 A H 
 1ijy A 88 K H 
 1ijy A 89 A H 
 1ijy A 90 G H 
-1ijy A 91 ? H 
 1ijy A 92 A H 
 1ijy A 93 P H 
 1ijy A 94 L H 
@@ -20843,7 +20647,6 @@
 1ijy A 105 R C 
 1ijy A 106 M C 
 1ijy A 107 R C 
-1ijy A 108 ? C 
 1ijy A 109 D C 
 1ijy A 110 R C 
 1ijy A 111 L C 
@@ -20856,7 +20659,6 @@
 1ijy A 118 D C 
 1ijy A 119 T C 
 1ijy A 120 L C 
-1ijy A 121 ? C 
 1ijy A 122 M C 
 1ijy A 123 D C 
 1ijy A 124 Y C 
@@ -21246,12 +21048,10 @@
 2v33 A 298 D E 
 2v33 A 299 L E 
 2v33 A 300 T E 
-2v33 A 301 ? E 
 2v33 A 302 T E 
 2v33 A 303 V E 
 2v33 A 304 A E 
 2v33 A 305 T E 
-2v33 A 306 ? E 
 2v33 A 307 T C 
 2v33 A 308 H C 
 2v33 A 309 S E 
@@ -21273,7 +21073,6 @@
 2v33 A 325 N C 
 2v33 A 326 G E 
 2v33 A 327 D E 
-2v33 A 328 ? E 
 2v33 A 329 S E 
 2v33 A 330 V E 
 2v33 A 331 H E 
@@ -21315,17 +21114,14 @@
 2v33 A 367 V E 
 2v33 A 368 S E 
 2v33 A 369 L E 
-2v33 A 370 ? C 
 2v33 A 371 S C 
 2v33 A 372 A E 
 2v33 A 373 R E 
 2v33 A 374 A E 
 2v33 A 375 T E 
-2v33 A 376 ? E 
 2v33 A 377 S E 
 2v33 A 378 A C 
 2v33 A 379 S C 
-2v33 A 380 ? C 
 2v33 A 381 E C 
 2v33 A 382 P C 
 1vl7 A 11 Y C 
@@ -21466,7 +21262,6 @@
 1xg0 A 1 A C 
 1xg0 A 2 M C 
 1xg0 A 3 D C 
-1xg0 A 4 ? C 
 1xg0 A 5 S C 
 1xg0 A 6 A C 
 1xg0 A 7 K E 
@@ -21607,7 +21402,6 @@
 3lhc A 5 S C 
 3lhc A 6 Q C 
 3lhc A 7 T C 
-3lhc A 8 ? E 
 3lhc A 9 Y E 
 3lhc A 10 N E 
 3lhc A 11 S E 
@@ -21621,7 +21415,6 @@
 3lhc A 19 T E 
 3lhc A 20 S E 
 3lhc A 21 T E 
-3lhc A 22 ? E 
 3lhc A 23 E E 
 3lhc A 24 R C 
 3lhc A 25 T C 
@@ -21656,7 +21449,6 @@
 3lhc A 54 I C 
 3lhc A 55 E C 
 3lhc A 56 A C 
-3lhc A 57 ? E 
 3lhc A 58 R E 
 3lhc A 59 N E 
 3lhc A 60 T E 
@@ -21671,7 +21463,6 @@
 3lhc A 69 A E 
 3lhc A 70 A E 
 3lhc A 71 E E 
-3lhc A 72 ? E 
 3lhc A 73 K E 
 3lhc A 74 T C 
 3lhc A 75 A C 
@@ -21700,7 +21491,6 @@
 3lhc A 98 K E 
 3lhc A 99 Y E 
 3lhc A 100 E C 
-3h0n A 1 ? C 
 3h0n A 2 N C 
 3h0n A 3 L C 
 3h0n A 4 D C 
@@ -21822,7 +21612,6 @@
 3h0n A 120 L H 
 3h0n A 121 V H 
 3h0n A 122 P H 
-3h0n A 123 ? H 
 3h0n A 124 W H 
 3h0n A 125 T H 
 3h0n A 126 A H 
@@ -22010,7 +21799,6 @@
 2xws A 123 R C 
 2xws A 124 I C 
 2xws A 125 G C 
-1sqs A 1 ? C 
 1sqs A 2 N C 
 1sqs A 3 K E 
 1sqs A 4 I E 
@@ -22153,7 +21941,6 @@
 1sqs A 141 F H 
 1sqs A 142 S H 
 1sqs A 143 Y H 
-1sqs A 144 ? C 
 1sqs A 145 G C 
 1sqs A 146 G C 
 1sqs A 147 Q E 
@@ -22176,7 +21963,6 @@
 1sqs A 164 A H 
 1sqs A 165 Q H 
 1sqs A 166 L H 
-1sqs A 167 ? H 
 1sqs A 168 E H 
 1sqs A 169 A H 
 1sqs A 170 T H 
@@ -22220,7 +22006,6 @@
 1sqs A 208 F H 
 1sqs A 209 E H 
 1sqs A 210 K H 
-1sqs A 211 ? H 
 1sqs A 212 Y H 
 1sqs A 213 W H 
 1sqs A 214 E H 
@@ -22245,7 +22030,6 @@
 1c4q A 101 T C 
 1c4q A 102 P C 
 1c4q A 103 D E 
-1c4q A 104 ? E 
 1c4q A 105 V E 
 1c4q A 106 T E 
 1c4q A 107 G E 
@@ -22298,7 +22082,6 @@
 1c4q A 154 T C 
 1c4q A 155 N C 
 1c4q A 156 A C 
-1c4q A 157 ? C 
 1c4q A 158 H C 
 1c4q A 159 N C 
 1c4q A 160 G C 
@@ -23185,7 +22968,6 @@
 3buu A 84 S E 
 3buu A 85 I E 
 3buu A 86 V E 
-3buu A 87 ? E 
 3buu A 88 I E 
 3buu A 89 T E 
 3buu A 90 E E 
@@ -23199,7 +22981,6 @@
 3buu A 98 A E 
 3buu A 99 I E 
 3buu A 100 L E 
-3buu A 101 ? E 
 3buu A 102 K E 
 3buu A 103 G C 
 3buu A 104 R C 
@@ -23208,7 +22989,6 @@
 3buu A 107 W E 
 3buu A 108 V E 
 3buu A 109 F E 
-3buu A 110 ? C 
 3buu A 111 P C 
 3buu A 112 S C 
 3buu A 113 V C 
@@ -23312,14 +23092,12 @@
 3buu A 211 L C 
 3buu A 212 G C 
 3buu A 213 E E 
-3buu A 214 ? E 
 3buu A 215 R E 
 3buu A 216 P E 
 3buu A 217 T E 
 3buu A 218 R E 
 3buu A 219 I E 
 3buu A 220 I E 
-3buu A 221 ? E 
 3buu A 222 E E 
 3buu A 223 D E 
 3buu A 224 A C 
@@ -23336,7 +23114,6 @@
 3buu A 235 Y E 
 3buu A 236 S E 
 3buu A 237 D E 
-3buu A 238 ? E 
 3buu A 239 K E 
 3buu A 240 L E 
 3buu A 241 R C 
@@ -23419,7 +23196,6 @@
 1oi0 A 74 S C 
 1oi0 A 75 P C 
 1oi0 A 76 S C 
-1oi0 A 77 ? C 
 1oi0 A 78 R C 
 1oi0 A 79 P C 
 1oi0 A 80 S C 
@@ -23440,7 +23216,6 @@
 1oi0 A 95 I E 
 1oi0 A 96 I E 
 1oi0 A 97 V E 
-1oi0 A 98 ? E 
 1oi0 A 99 Y C 
 1oi0 A 100 P C 
 1oi0 A 101 Y C 
@@ -23479,7 +23254,6 @@
 2r4q A 184 H C 
 2r4q A 185 T H 
 2r4q A 186 F H 
-2r4q A 187 ? H 
 2r4q A 188 A H 
 2r4q A 189 A H 
 2r4q A 190 D H 
@@ -23530,7 +23304,6 @@
 2r4q A 235 Q C 
 2r4q A 236 V C 
 2r4q A 237 E C 
-2r4q A 238 ? C 
 2r4q A 239 E C 
 2r4q A 240 R C 
 2r4q A 241 F C 
@@ -23558,7 +23331,6 @@
 2r4q A 263 E H 
 2r4q A 264 K H 
 2r4q A 265 A H 
-2r4q A 266 ? H 
 2r4q A 267 N C 
 2r4q A 268 Q C 
 2r4q A 269 D C 
@@ -24155,7 +23927,6 @@
 1lqv A 98 F E 
 1lqv A 99 L E 
 1lqv A 100 G E 
-1lqv A 101 ? E 
 1lqv A 102 E E 
 1lqv A 103 L E 
 1lqv A 104 P C 
@@ -24223,7 +23994,6 @@
 1lqv A 166 E H 
 1lqv A 167 D C 
 1lqv A 168 T H 
-1lqv A 169 ? H 
 1lqv A 170 V H 
 1lqv A 171 Q H 
 1lqv A 172 Y H 
@@ -24335,7 +24105,6 @@
 2cxy A 24 L H 
 2cxy A 25 T H 
 2cxy A 26 F H 
-2cxy A 27 ? H 
 2cxy A 28 E H 
 2cxy A 29 E H 
 2cxy A 30 R C 
@@ -24451,7 +24220,6 @@
 1uwc A 26 A C 
 1uwc A 27 D C 
 1uwc A 28 L C 
-1uwc A 29 ? C 
 1uwc A 30 N C 
 1uwc A 31 I C 
 1uwc A 32 P C 
@@ -24513,10 +24281,8 @@
 1uwc A 88 L C 
 1uwc A 89 P C 
 1uwc A 90 Q C 
-1uwc A 91 ? C 
 1uwc A 92 N C 
 1uwc A 93 D C 
-1uwc A 94 ? C 
 1uwc A 95 E E 
 1uwc A 96 V E 
 1uwc A 97 H E 
@@ -24649,14 +24415,12 @@
 1uwc A 224 T E 
 1uwc A 225 F E 
 1uwc A 226 V E 
-1uwc A 227 ? E 
 1uwc A 228 T C 
 1uwc A 229 G C 
 1uwc A 230 D C 
 1uwc A 231 E C 
 1uwc A 232 V C 
 1uwc A 233 Q C 
-1uwc A 234 ? H 
 1uwc A 235 C H 
 1uwc A 236 E H 
 1uwc A 237 A H 
@@ -24680,7 +24444,6 @@
 1uwc A 255 S C 
 1uwc A 256 G C 
 1uwc A 257 A C 
-1uwc A 258 ? C 
 1uwc A 259 T C 
 1uwc A 260 W C 
 1uwc A 261 V C 
@@ -24886,7 +24649,6 @@
 1pqh A 75 A C 
 1pqh A 76 A C 
 1pqh A 77 H C 
-1pqh A 78 ? C 
 1pqh A 79 A C 
 1pqh A 80 S C 
 1pqh A 81 V C 
@@ -24991,7 +24753,6 @@
 2cc6 A 65 D C 
 2f9h A 3 W C 
 2f9h A 4 K E 
-2f9h A 5 ? E 
 2f9h A 6 Q E 
 2f9h A 7 A E 
 2f9h A 8 T E 
@@ -25009,7 +24770,6 @@
 2f9h A 20 S C 
 2f9h A 21 E C 
 2f9h A 22 K C 
-2f9h A 23 ? E 
 2f9h A 24 I E 
 2f9h A 25 I E 
 2f9h A 26 L E 
@@ -25131,7 +24891,6 @@
 3n08 A 17 K C 
 3n08 A 18 Y C 
 3n08 A 19 S C 
-3n08 A 20 ? C 
 3n08 A 21 Q C 
 3n08 A 22 G C 
 3n08 A 23 V C 
@@ -25210,7 +24969,6 @@
 3n08 A 96 C C 
 3n08 A 97 P C 
 3n08 A 98 P C 
-3n08 A 99 ? C 
 3n08 A 100 P C 
 3n08 A 101 P C 
 3n08 A 102 D C 
@@ -25395,7 +25153,6 @@
 2ob3 A 166 G C 
 2ob3 A 167 I E 
 2ob3 A 168 I E 
-2ob3 A 169 ? E 
 2ob3 A 170 V E 
 2ob3 A 171 A E 
 2ob3 A 172 T C 
@@ -26441,7 +26198,6 @@
 1n08 A 161 F C 
 1n08 A 162 K C 
 1gp0 A 1515 D C 
-1gp0 A 1516 ? C 
 1gp0 A 1517 Q E 
 1gp0 A 1518 V E 
 1gp0 A 1519 T E 
@@ -26478,20 +26234,17 @@
 1gp0 A 1550 M E 
 1gp0 A 1551 S C 
 1gp0 A 1552 I C 
-1gp0 A 1553 ? C 
 1gp0 A 1554 G C 
 1gp0 A 1555 E C 
 1gp0 A 1556 N C 
 1gp0 A 1557 E C 
 1gp0 A 1558 N C 
-1gp0 A 1559 ? C 
 1gp0 A 1560 P C 
 1gp0 A 1561 P C 
 1gp0 A 1562 G C 
 1gp0 A 1563 V C 
 1gp0 A 1564 G C 
 1gp0 A 1565 A E 
-1gp0 A 1566 ? E 
 1gp0 A 1567 F E 
 1gp0 A 1568 G C 
 1gp0 A 1569 Q C 
@@ -26523,7 +26276,6 @@
 1gp0 A 1595 G C 
 1gp0 A 1596 S C 
 1gp0 A 1597 P C 
-1gp0 A 1598 ? C 
 1gp0 A 1599 P C 
 1gp0 A 1600 S C 
 1gp0 A 1601 K C 
@@ -26539,7 +26291,6 @@
 1gp0 A 1611 S E 
 1gp0 A 1612 F E 
 1gp0 A 1613 V E 
-1gp0 A 1614 ? E 
 1gp0 A 1615 R C 
 1gp0 A 1616 P C 
 1gp0 A 1617 E C 
@@ -26559,7 +26310,6 @@
 1gp0 A 1631 K C 
 1gp0 A 1632 Q C 
 1gp0 A 1633 T C 
-1gp0 A 1634 ? C 
 1gp0 A 1635 T E 
 1gp0 A 1636 L E 
 1gp0 A 1637 F E 
@@ -26571,7 +26321,6 @@
 1gp0 A 1643 P C 
 1gp0 A 1644 L C 
 1gp0 A 1645 A C 
-1gp0 A 1646 ? C 
 1gp0 A 1647 E C 
 1rw1 A 2 T C 
 1rw1 A 3 Y E 
@@ -26585,7 +26334,6 @@
 1rw1 A 11 C C 
 1rw1 A 12 D H 
 1rw1 A 13 T H 
-1rw1 A 14 ? H 
 1rw1 A 15 K H 
 1rw1 A 16 K H 
 1rw1 A 17 A H 
@@ -26654,13 +26402,11 @@
 1rw1 A 80 I H 
 1rw1 A 81 E H 
 1rw1 A 82 L H 
-1rw1 A 83 ? H 
 1rw1 A 84 L H 
 1rw1 A 85 A H 
 1rw1 A 86 Q C 
 1rw1 A 87 P C 
 1rw1 A 88 S C 
-1rw1 A 89 ? C 
 1rw1 A 90 I C 
 1rw1 A 91 K C 
 1rw1 A 92 R C 
@@ -26741,10 +26487,8 @@
 1vke A 56 V H 
 1vke A 57 L C 
 1vke A 58 R C 
-1vke A 59 ? C 
 1vke A 60 D H 
 1vke A 61 D H 
-1vke A 62 ? H 
 1vke A 63 I H 
 1vke A 64 R H 
 1vke A 65 Y H 
@@ -27529,7 +27273,6 @@
 1h4x A 54 F E 
 1h4x A 55 M E 
 1h4x A 56 D C 
-1h4x A 57 ? C 
 1h4x A 58 S H 
 1h4x A 59 G H 
 1h4x A 60 V H 
@@ -27740,7 +27483,6 @@
 2fco A 199 T C 
 2fco A 200 R C 
 1vju A 8 H C 
-1vju A 9 ? C 
 1vju A 10 S H 
 1vju A 11 L H 
 1vju A 12 A H 
@@ -27789,7 +27531,6 @@
 1vju A 55 T E 
 1vju A 56 R E 
 1vju A 57 V E 
-1vju A 58 ? E 
 1vju A 59 V E 
 1vju A 60 D C 
 1vju A 61 G C 
@@ -27818,7 +27559,6 @@
 1vju A 95 F E 
 1vju A 96 E E 
 1vju A 97 A E 
-1vju A 98 ? E 
 1vju A 99 G E 
 1vju A 100 V E 
 1vju A 101 S E 
@@ -27939,7 +27679,6 @@
 1vju A 216 K H 
 1vju A 217 G H 
 1vju A 218 Y H 
-1vju A 219 ? H 
 1vju A 220 D H 
 1vju A 221 A H 
 1vju A 222 Y H 
@@ -28764,7 +28503,6 @@
 3lb2 A 135 G C 
 3lb2 A 136 M C 
 1mwq A 0 H C 
-1mwq A 1 ? C 
 1mwq A 2 Y E 
 1mwq A 3 Y E 
 1mwq A 4 V E 
@@ -29092,7 +28830,6 @@
 1fm0 D 80 G C 
 1fm0 D 81 G C 
 2rff A 0 G C 
-2rff A 1 ? C 
 2rff A 2 G C 
 2rff A 3 K C 
 2rff A 4 G C 
@@ -29105,7 +28842,6 @@
 2rff A 11 Q H 
 2rff A 12 I H 
 2rff A 13 R H 
-2rff A 14 ? H 
 2rff A 15 L H 
 2rff A 16 K H 
 2rff A 17 L H 
@@ -29155,15 +28891,12 @@
 2rff A 61 I C 
 2rff A 62 K C 
 2rff A 63 E C 
-2rff A 64 ? C 
 2rff A 65 N C 
 2rff A 66 V H 
 2rff A 67 F H 
 2rff A 68 D H 
 2rff A 69 R H 
-2rff A 70 ? H 
 2rff A 71 Y H 
-2rff A 72 ? H 
 2rff A 73 V H 
 2rff A 74 S C 
 2rff A 75 R C 
@@ -29491,7 +29224,6 @@
 1ji7 A 54 T C 
 1ji7 A 55 F C 
 1ji7 A 56 E C 
-1ji7 A 57 ? C 
 1ji7 A 58 N C 
 1ji7 A 59 G H 
 1ji7 A 60 K H 
@@ -29605,7 +29337,6 @@
 2bog X 77 G C 
 2bog X 78 R C 
 2bog X 79 D C 
-2bog X 80 ? C 
 2bog X 87 G C 
 2bog X 88 A C 
 2bog X 89 P C 
@@ -29644,7 +29375,6 @@
 2bog X 122 M H 
 2bog X 123 S C 
 2bog X 124 S C 
-2bog X 125 ? C 
 2bog X 126 M C 
 2bog X 127 Q H 
 2bog X 128 H H 
@@ -29751,7 +29481,6 @@
 2bog X 229 N C 
 2bog X 230 E C 
 2bog X 231 W C 
-2bog X 232 ? C 
 2bog X 233 D C 
 2bog X 234 P C 
 2bog X 235 S C 
@@ -29786,7 +29515,6 @@
 2bog X 264 A C 
 2bog X 265 D C 
 2bog X 266 G C 
-2bog X 267 ? C 
 2bog X 268 I C 
 2bog X 269 A C 
 2bog X 270 G C 
@@ -29961,10 +29689,8 @@
 1jr8 A 51 L H 
 1jr8 A 52 Y C 
 1jr8 A 53 P C 
-1jr8 A 54 ? C 
 1jr8 A 55 G H 
 1jr8 A 56 E H 
-1jr8 A 57 ? H 
 1jr8 A 58 S H 
 1jr8 A 59 Y H 
 1jr8 A 60 H H 
@@ -29990,7 +29716,6 @@
 1jr8 A 80 M H 
 1jr8 A 81 W H 
 1jr8 A 82 G H 
-1jr8 A 83 ? H 
 1jr8 A 84 H H 
 1jr8 A 85 I H 
 1jr8 A 86 H H 
@@ -30007,7 +29732,6 @@
 1jr8 A 97 I C 
 1jr8 A 98 Y C 
 1jr8 A 99 D C 
-1jr8 A 100 ? C 
 1jr8 A 101 A C 
 1jr8 A 102 T C 
 1jr8 A 103 I H 
@@ -30016,9 +29740,7 @@
 1jr8 A 106 D H 
 1jr8 A 107 Y C 
 1jr8 A 108 D C 
-1jr8 A 109 ? C 
 1jr8 A 110 G C 
-1jr8 A 111 ? C 
 2ofk A 2 Q C 
 2ofk A 3 R C 
 2ofk A 4 C C 
@@ -30444,7 +30166,6 @@
 3d1p A 27 F H 
 3d1p A 28 E H 
 3d1p A 29 D H 
-3d1p A 30 ? H 
 3d1p A 31 K H 
 3d1p A 32 R H 
 3d1p A 33 I H 
@@ -30540,7 +30261,6 @@
 3d1p A 123 P C 
 3d1p A 124 G C 
 3d1p A 125 S H 
-3d1p A 126 ? H 
 3d1p A 127 N H 
 3d1p A 128 D H 
 3d1p A 129 W H 
@@ -30603,7 +30323,6 @@
 1zk5 A 50 G C 
 1zk5 A 51 G C 
 1zk5 A 52 F C 
-1zk5 A 53 ? E 
 1zk5 A 54 V E 
 1zk5 A 55 G E 
 1zk5 A 56 L E 
@@ -30660,7 +30379,6 @@
 1zk5 A 107 S E 
 1zk5 A 108 G E 
 1zk5 A 109 W E 
-1zk5 A 110 ? E 
 1zk5 A 111 V C 
 1zk5 A 112 G C 
 1zk5 A 113 N C 
@@ -31069,7 +30787,6 @@
 2prx A 41 A E 
 2prx A 42 H E 
 2prx A 43 F E 
-2prx A 44 ? C 
 2prx A 45 P C 
 2prx A 46 K C 
 2prx A 47 P C 
@@ -31121,7 +30838,6 @@
 2prx A 106 P C 
 2prx A 107 T C 
 2prx A 108 P C 
-2prx A 109 ? C 
 2prx A 110 G C 
 2prx A 111 V C 
 2prx A 112 E C 
@@ -31152,12 +30868,10 @@
 2prx A 142 R E 
 2prx A 143 G E 
 2prx A 144 H E 
-2prx A 145 ? E 
 2prx A 146 V E 
 2prx A 147 A E 
 2prx A 148 V E 
 2prx A 149 K E 
-2prx A 150 ? C 
 2prx A 151 P C 
 1wpu A 2 T C 
 1wpu A 3 L C 
@@ -31386,7 +31100,6 @@
 2icu A 90 T C 
 2icu A 91 S C 
 2icu A 92 R C 
-2icu A 93 ? C 
 2icu A 94 F C 
 2icu A 95 K H 
 2icu A 96 P H 
@@ -31422,7 +31135,6 @@
 2icu A 132 P C 
 2icu A 133 I E 
 2icu A 134 F E 
-2icu A 135 ? E 
 2icu A 136 A E 
 2icu A 137 A E 
 2icu A 138 I E 
@@ -31470,7 +31182,6 @@
 2icu A 180 R H 
 2icu A 181 E H 
 2icu A 182 W H 
-2icu A 183 ? H 
 2icu A 184 R C 
 2icu A 185 Q C 
 2icu A 186 E C 
@@ -31519,7 +31230,6 @@
 2icu A 229 V C 
 2nr7 A -1 N C 
 2nr7 A 0 A C 
-2nr7 A 1 ? C 
 2nr7 A 2 A C 
 2nr7 A 3 N C 
 2nr7 A 4 V H 
@@ -32037,28 +31747,23 @@
 1gxm A 649 L C 
 1f94 A 1 M C 
 1f94 A 2 E E 
-1f94 A 3 ? E 
 1f94 A 4 Y E 
 1f94 A 5 R E 
-1f94 A 6 ? E 
 1f94 A 7 G E 
 1f94 A 8 V C 
 1f94 A 9 S C 
 1f94 A 10 G E 
-1f94 A 11 ? E 
 1f94 A 12 H E 
 1f94 A 13 L E 
 1f94 A 14 K E 
 1f94 A 15 I E 
 1f94 A 16 T E 
-1f94 A 17 ? C 
 1f94 A 18 S C 
 1f94 A 19 A C 
 1f94 A 20 E C 
 1f94 A 21 E C 
 1f94 A 22 T C 
 1f94 A 23 F E 
-1f94 A 24 ? E 
 1f94 A 25 Y E 
 1f94 A 26 K E 
 1f94 A 27 W E 
@@ -32073,11 +31778,9 @@
 1f94 A 36 W E 
 1f94 A 37 L E 
 1f94 A 38 G E 
-1f94 A 39 ? E 
 1f94 A 40 A E 
 1f94 A 41 K C 
 1f94 A 42 T C 
-1f94 A 43 ? C 
 1f94 A 44 T C 
 1f94 A 45 E C 
 1f94 A 46 I E 
@@ -32089,13 +31792,10 @@
 1f94 A 52 Y E 
 1f94 A 53 N E 
 1f94 A 54 K E 
-1f94 A 55 ? E 
-1f94 A 56 ? E 
 1f94 A 57 T C 
 1f94 A 58 T C 
 1f94 A 59 N C 
 1f94 A 60 L C 
-1f94 A 61 ? C 
 1f94 A 62 N C 
 1f94 A 63 T C 
 1mnn A 33 V C 
@@ -32389,7 +32089,6 @@
 1mnn A 334 S C 
 1mnn A 335 Q C 
 2prv A 0 G C 
-2prv A 1 ? H 
 2prv A 2 I H 
 2prv A 3 Y H 
 2prv A 4 S H 
@@ -32493,7 +32192,6 @@
 2prv A 102 T C 
 2prv A 103 N C 
 2prv A 104 K C 
-2prv A 105 ? C 
 2prv A 106 K C 
 2prv A 107 D C 
 2prv A 108 G C 
@@ -33633,7 +33331,6 @@
 2nwf A 131 H C 
 2nwf A 132 L C 
 2nwf A 133 G C 
-2nwf A 134 ? C 
 2nwf A 135 V C 
 2nwf A 136 P C 
 2nwf A 137 I E 
@@ -33650,7 +33347,6 @@
 2nwf A 148 F E 
 2nwf A 149 C E 
 2nwf A 150 P C 
-2nwf A 151 ? C 
 2nwf A 152 H C 
 2nwf A 153 G C 
 2nwf A 154 S E 
@@ -34036,7 +33732,6 @@
 3q6x A 269 L C 
 3q6x A 270 R C 
 2p8i A 0 G C 
-2p8i A 1 ? C 
 2p8i A 2 T C 
 2p8i A 3 F C 
 2p8i A 4 R C 
@@ -34091,7 +33786,6 @@
 2p8i A 53 P C 
 2p8i A 54 H C 
 2p8i A 55 P C 
-2p8i A 56 ? C 
 2p8i A 57 W E 
 2p8i A 58 S E 
 2p8i A 59 Y E 
@@ -34344,12 +34038,9 @@
 2eng A 8 Y E 
 2eng A 9 W C 
 2eng A 10 D C 
-2eng A 11 ? C 
-2eng A 12 ? C 
 2eng A 13 K C 
 2eng A 14 P C 
 2eng A 15 S C 
-2eng A 16 ? C 
 2eng A 17 G C 
 2eng A 18 W C 
 2eng A 19 A C 
@@ -34364,7 +34055,6 @@
 2eng A 28 V C 
 2eng A 29 F C 
 2eng A 30 S C 
-2eng A 31 ? C 
 2eng A 32 N C 
 2eng A 33 A C 
 2eng A 34 N C 
@@ -34380,7 +34070,6 @@
 2eng A 44 K C 
 2eng A 45 S C 
 2eng A 46 G C 
-2eng A 47 ? C 
 2eng A 48 E C 
 2eng A 49 P C 
 2eng A 50 G C 
@@ -34389,7 +34078,6 @@
 2eng A 53 A C 
 2eng A 54 Y C 
 2eng A 55 S C 
-2eng A 56 ? C 
 2eng A 57 A C 
 2eng A 58 D C 
 2eng A 59 Q C 
@@ -34419,10 +34107,7 @@
 2eng A 83 A H 
 2eng A 84 G H 
 2eng A 85 W H 
-2eng A 86 ? C 
-2eng A 87 ? C 
 2eng A 88 A C 
-2eng A 89 ? E 
 2eng A 90 Y E 
 2eng A 91 E E 
 2eng A 92 L E 
@@ -34463,7 +34148,6 @@
 2eng A 132 F C 
 2eng A 133 D C 
 2eng A 134 G C 
-2eng A 135 ? H 
 2eng A 136 T H 
 2eng A 137 P H 
 2eng A 138 Q H 
@@ -34484,7 +34168,6 @@
 2eng A 153 R C 
 2eng A 154 N C 
 2eng A 155 E C 
-2eng A 156 ? C 
 2eng A 157 D C 
 2eng A 158 R C 
 2eng A 159 F C 
@@ -34495,7 +34178,6 @@
 2eng A 164 K H 
 2eng A 165 P H 
 2eng A 166 G H 
-2eng A 167 ? H 
 2eng A 168 Y H 
 2eng A 169 W H 
 2eng A 170 R H 
@@ -34517,7 +34199,6 @@
 2eng A 186 Q E 
 2eng A 187 V E 
 2eng A 188 Q C 
-2eng A 189 ? C 
 2eng A 190 P C 
 2eng A 191 A H 
 2eng A 192 E H 
@@ -34527,7 +34208,6 @@
 2eng A 196 R H 
 2eng A 197 T H 
 2eng A 198 G C 
-2eng A 199 ? C 
 2eng A 200 R C 
 2eng A 201 R C 
 2eng A 202 N C 
@@ -34986,8 +34666,6 @@
 1g8q A 153 T H 
 1g8q A 154 L H 
 1g8q A 155 D C 
-1g8q A 156 ? C 
-1g8q A 157 ? C 
 1g8q A 158 G C 
 1g8q A 159 S C 
 1g8q A 160 S C 
@@ -35005,7 +34683,6 @@
 1g8q A 172 N C 
 1g8q A 173 N C 
 1g8q A 174 L C 
-1g8q A 175 ? C 
 1g8q A 176 P C 
 1g8q A 177 S C 
 1g8q A 178 G C 
@@ -35020,7 +34697,6 @@
 1g8q A 187 K C 
 1g8q A 188 E C 
 1g8q A 189 D C 
-1g8q A 190 ? H 
 1g8q A 191 H H 
 1g8q A 192 Q H 
 1g8q A 193 K H 
@@ -35075,7 +34751,6 @@
 3iqu A 35 E C 
 3iqu A 36 L C 
 3iqu A 37 S C 
-3iqu A 38 ? H 
 3iqu A 39 E H 
 3iqu A 40 E H 
 3iqu A 41 R H 
@@ -35405,18 +35080,15 @@
 3ku3 B 134 G C 
 3ku3 B 135 N C 
 3ku3 B 136 G C 
-3ku3 B 137 ? E 
 3ku3 B 138 F E 
 3ku3 B 139 E E 
 3ku3 B 140 F E 
 3ku3 B 141 Y C 
 3ku3 B 142 H C 
 3ku3 B 143 K C 
-3ku3 B 144 ? C 
 3ku3 B 145 D C 
 3ku3 B 146 D H 
 3ku3 B 147 E H 
-3ku3 B 148 ? H 
 3ku3 B 149 M H 
 3ku3 B 150 N H 
 3ku3 B 151 S H 
@@ -36327,7 +35999,6 @@
 1oqv A 117 Q H 
 1oqv A 118 A H 
 1oqv A 119 Q H 
-1oqv A 120 ? H 
 1oqv A 121 K H 
 1oqv A 122 T H 
 1oqv A 123 L H 
@@ -36393,7 +36064,6 @@
 1oqv A 183 E H 
 1oqv A 184 K H 
 1oqv A 185 L C 
-1oqv A 186 ? C 
 1oqv A 187 K C 
 1oqv A 188 G C 
 1oqv A 189 T C 
@@ -36734,7 +36404,6 @@
 1s9u A -2 S C 
 1s9u A -1 D C 
 1s9u A 0 A H 
-1s9u A 1 ? H 
 1s9u A 2 T H 
 1s9u A 3 T H 
 1s9u A 4 F H 
@@ -36792,7 +36461,6 @@
 1s9u A 56 V H 
 1s9u A 57 A H 
 1s9u A 58 A H 
-1s9u A 59 ? H 
 1s9u A 60 F H 
 1s9u A 61 K C 
 1s9u A 62 T C 
@@ -36843,7 +36511,6 @@
 1s9u A 107 R H 
 1s9u A 108 Q H 
 1s9u A 109 W H 
-1s9u A 110 ? H 
 1s9u A 111 R H 
 1s9u A 112 E H 
 1s9u A 113 N C 
@@ -36997,7 +36664,6 @@
 1wui L 81 C C 
 1wui L 82 G C 
 1wui L 83 V C 
-1wui L 84 ? C 
 1wui L 85 T C 
 1wui L 86 Y C 
 1wui L 87 T H 
@@ -37459,7 +37125,6 @@
 1wui L 543 F C 
 1wui L 544 D C 
 1wui L 545 P C 
-1wui L 546 ? C 
 1wui L 547 I H 
 1wui L 548 A H 
 1wui L 549 C H 
@@ -37803,18 +37468,14 @@
 2qt1 A 60 A C 
 2qt1 A 61 L C 
 2qt1 A 62 N C 
-2qt1 A 63 ? H 
 2qt1 A 64 E H 
 2qt1 A 65 K H 
-2qt1 A 66 ? H 
-2qt1 A 67 ? H 
 2qt1 A 68 S H 
 2qt1 A 69 A H 
 2qt1 A 70 I H 
 2qt1 A 71 S H 
 2qt1 A 72 C H 
 2qt1 A 73 W H 
-2qt1 A 74 ? H 
 2qt1 A 75 E H 
 2qt1 A 76 S H 
 2qt1 A 77 A H 
@@ -37885,7 +37546,6 @@
 2qt1 A 147 V H 
 2qt1 A 148 W H 
 2qt1 A 149 P H 
-2qt1 A 150 ? H 
 2qt1 A 151 Y H 
 2qt1 A 152 L H 
 2qt1 A 153 K H 
@@ -37893,7 +37553,6 @@
 2qt1 A 155 R H 
 2qt1 A 156 Q H 
 2qt1 A 157 E H 
-2qt1 A 158 ? C 
 2qt1 A 159 Q C 
 2qt1 A 160 D C 
 2qt1 A 161 I C 
@@ -37928,7 +37587,6 @@
 1s29 A 1 G C 
 1s29 A 2 S C 
 1s29 A 3 H C 
-1s29 A 4 ? C 
 1s29 A 5 P C 
 1s29 A 6 L C 
 1s29 A 7 S C 
@@ -37961,7 +37619,6 @@
 1s29 A 34 K H 
 1s29 A 35 G H 
 1s29 A 36 K H 
-1s29 A 37 ? H 
 1s29 A 38 A C 
 1s29 A 39 E C 
 1s29 A 40 N C 
@@ -38008,7 +37665,6 @@
 1s29 A 81 D C 
 1s29 A 82 G C 
 1s29 A 83 L C 
-1s29 A 84 ? E 
 1s29 A 85 V E 
 1s29 A 86 R E 
 1s29 A 87 R E 
@@ -38812,7 +38468,6 @@
 2okf A 121 Q C 
 2okf A 122 V C 
 2okf A 123 K C 
-2okf A 124 ? E 
 2okf A 125 L E 
 2okf A 126 V E 
 2okf A 127 Y E 
@@ -38852,7 +38507,6 @@
 1tzp A 41 S C 
 1tzp A 42 N E 
 1tzp A 43 G E 
-1tzp A 44 ? E 
 1tzp A 45 I E 
 1tzp A 46 V E 
 1tzp A 47 G C 
@@ -38995,7 +38649,6 @@
 1tzp A 184 Q H 
 1tzp A 185 Q H 
 1tzp A 186 L H 
-1tzp A 187 ? H 
 1tzp A 188 L H 
 1tzp A 189 D H 
 1tzp A 190 A C 
@@ -39024,14 +38677,12 @@
 1tzp A 213 R E 
 1tzp A 214 L E 
 1tzp A 215 R C 
-1tzp A 216 ? C 
 1tzp A 217 P C 
 1tzp A 218 A C 
 1tzp A 219 D C 
 1tzp A 220 S C 
 1tzp A 221 L C 
 1tzp A 222 E C 
-1tzp A 223 ? C 
 1tzp A 224 E C 
 1tzp A 225 D C 
 1tzp A 226 Q C 
@@ -39043,7 +38694,6 @@
 1tzp A 232 G C 
 1tzp A 233 D C 
 1tzp A 234 G C 
-1tzp A 235 ? C 
 1tzp A 236 G C 
 1tzp A 237 A H 
 1tzp A 238 E H 
@@ -39058,7 +38708,6 @@
 1tzp A 262 P C 
 1tzp A 263 P H 
 1tzp A 264 S H 
-1tzp A 265 ? H 
 1tzp A 266 Q H 
 1tzp A 267 A H 
 1tzp A 268 L H 
@@ -39747,7 +39396,6 @@
 1qlw A 231 P C 
 1qlw A 232 G C 
 1qlw A 233 E C 
-1qlw A 234 ? C 
 1qlw A 235 P C 
 1qlw A 236 K C 
 1qlw A 237 P C 
@@ -39782,7 +39430,6 @@
 1qlw A 266 L H 
 1qlw A 267 K H 
 1qlw A 268 A H 
-1qlw A 269 ? H 
 1qlw A 270 H H 
 1qlw A 271 A H 
 1qlw A 272 F H 
@@ -39919,7 +39566,6 @@
 2ilk A 9 E C 
 2ilk A 10 N C 
 2ilk A 11 S C 
-2ilk A 12 ? C 
 2ilk A 13 T C 
 2ilk A 14 H C 
 2ilk A 15 F C 
@@ -39969,7 +39615,6 @@
 2ilk A 59 Y C 
 2ilk A 60 L C 
 2ilk A 61 G H 
-2ilk A 62 ? H 
 2ilk A 63 Q H 
 2ilk A 64 A H 
 2ilk A 65 L H 
@@ -40015,13 +39660,11 @@
 2ilk A 105 L H 
 2ilk A 106 R H 
 2ilk A 107 R H 
-2ilk A 108 ? C 
 2ilk A 109 H C 
 2ilk A 110 R C 
 2ilk A 111 F C 
 2ilk A 112 L C 
 2ilk A 113 P C 
-2ilk A 114 ? C 
 2ilk A 115 E C 
 2ilk A 116 N C 
 2ilk A 117 K C 
@@ -40224,11 +39867,9 @@
 1p6o A 156 I C 
 1p6o A 157 G C 
 1p6o A 158 E C 
-1ypq A 140 ? C 
 1ypq A 141 S C 
 1ypq A 142 A C 
 1ypq A 143 P C 
-1ypq A 144 ? C 
 1ypq A 145 P C 
 1ypq A 146 Q C 
 1ypq A 147 D C 
@@ -40239,7 +39880,6 @@
 1ypq A 152 G C 
 1ypq A 153 E C 
 1ypq A 154 N E 
-1ypq A 155 ? E 
 1ypq A 156 Y E 
 1ypq A 157 L E 
 1ypq A 158 F E 
@@ -40256,7 +39896,6 @@
 1ypq A 169 Q H 
 1ypq A 170 E H 
 1ypq A 171 K H 
-1ypq A 172 ? H 
 1ypq A 173 L H 
 1ypq A 174 S H 
 1ypq A 175 L C 
@@ -40327,7 +39966,6 @@
 1ypq A 240 S C 
 1ypq A 241 G C 
 1ypq A 242 T E 
-1ypq A 243 ? E 
 1ypq A 244 A E 
 1ypq A 245 Y E 
 1ypq A 246 I E 
@@ -40340,7 +39978,6 @@
 1ypq A 253 A E 
 1ypq A 254 E E 
 1ypq A 255 N E 
-1ypq A 256 ? C 
 1ypq A 257 I C 
 1ypq A 258 L C 
 1ypq A 259 A C 
@@ -40348,7 +39985,6 @@
 1ypq A 261 F E 
 1ypq A 262 S E 
 1ypq A 263 I E 
-1ypq A 264 ? E 
 1ypq A 265 Q E 
 1ypq A 266 K E 
 1ypq A 267 K E 
@@ -40473,7 +40109,6 @@
 2xod A 116 I H 
 2xod A 117 A C 
 2xod A 118 T C 
-1ylx A 1 ? C 
 1ylx A 2 E C 
 1ylx A 3 F C 
 1ylx A 4 A C 
@@ -40492,8 +40127,6 @@
 1ylx A 17 L H 
 1ylx A 18 E H 
 1ylx A 19 P H 
-1ylx A 20 ? H 
-1ylx A 21 ? H 
 1ylx A 22 E H 
 1ylx A 23 A H 
 1ylx A 24 Y H 
@@ -40525,12 +40158,10 @@
 1ylx A 50 D C 
 1ylx A 51 D C 
 1ylx A 52 E E 
-1ylx A 53 ? E 
 1ylx A 54 I E 
 1ylx A 55 T E 
 1ylx A 56 I E 
 1ylx A 57 H E 
-1ylx A 58 ? E 
 1ylx A 59 P E 
 1ylx A 60 F E 
 1ylx A 61 V E 
@@ -40566,7 +40197,6 @@
 1ylx A 91 Q H 
 1ylx A 92 E H 
 1ylx A 93 A H 
-1ylx A 94 ? H 
 1ylx A 95 E H 
 1ylx A 96 E H 
 1ylx A 97 V H 
@@ -41221,7 +40851,6 @@
 1mk0 A 95 T C 
 1mk0 A 96 F C 
 1mk0 A 97 G C 
-2i51 A 1 ? C 
 2i51 A 2 S C 
 2i51 A 3 L C 
 2i51 A 4 A C 
@@ -41309,7 +40938,6 @@
 2i51 A 86 Q E 
 2i51 A 87 F E 
 2i51 A 88 R E 
-2i51 A 89 ? E 
 2i51 A 90 A E 
 2i51 A 91 G E 
 2i51 A 92 D E 
@@ -41332,7 +40960,6 @@
 2i51 A 109 R H 
 2i51 A 110 I H 
 2i51 A 111 A H 
-2i51 A 112 ? H 
 2i51 A 113 W H 
 2i51 A 114 Q H 
 2i51 A 115 E H 
@@ -41430,12 +41057,10 @@
 2i5u A 11 F C 
 2i5u A 12 G C 
 2i5u A 13 L C 
-2i5u A 14 ? C 
 2i5u A 15 S C 
 2i5u A 16 S H 
 2i5u A 17 K H 
 2i5u A 18 T H 
-2i5u A 19 ? H 
 2i5u A 20 T H 
 2i5u A 21 D H 
 2i5u A 22 F H 
@@ -41500,8 +41125,6 @@
 1b3a A 7 T C 
 1b3a A 8 T E 
 1b3a A 9 P E 
-1b3a A 10 ? E 
-1b3a A 11 ? E 
 1b3a A 12 F C 
 1b3a A 13 A C 
 1b3a A 14 Y C 
@@ -41524,7 +41147,6 @@
 1b3a A 31 S C 
 1b3a A 32 G C 
 1b3a A 33 K C 
-1b3a A 34 ? C 
 1b3a A 35 S C 
 1b3a A 36 N C 
 1b3a A 37 P C 
@@ -41540,7 +41162,6 @@
 1b3a A 47 R C 
 1b3a A 48 Q E 
 1b3a A 49 V E 
-1b3a A 50 ? E 
 1b3a A 51 A E 
 1b3a A 52 N C 
 1b3a A 53 P C 
@@ -41584,7 +41205,6 @@
 1dy5 A 23 S C 
 1dy5 A 24 N C 
 1dy5 A 25 Y H 
-1dy5 A 26 ? H 
 1dy5 A 27 N H 
 1dy5 A 28 Q H 
 1dy5 A 29 M H 
@@ -41598,7 +41218,6 @@
 1dy5 A 37 K C 
 1dy5 A 38 D C 
 1dy5 A 39 R C 
-1dy5 A 40 ? C 
 1dy5 A 41 K C 
 1dy5 A 42 P C 
 1dy5 A 43 V E 
@@ -41616,21 +41235,17 @@
 1dy5 A 55 Q H 
 1dy5 A 56 A H 
 1dy5 A 57 V C 
-1dy5 A 58 ? C 
 1dy5 A 59 S C 
 1dy5 A 60 Q C 
 1dy5 A 61 K E 
 1dy5 A 62 N E 
 1dy5 A 63 V E 
 1dy5 A 64 A C 
-1dy5 A 65 ? C 
 1dy5 A 66 K C 
-1dy5 A 67 ? C 
 1dy5 A 68 G C 
 1dy5 A 69 Q C 
 1dy5 A 70 T C 
 1dy5 A 71 N C 
-1dy5 A 72 ? E 
 1dy5 A 73 Y E 
 1dy5 A 74 Q E 
 1dy5 A 75 S C 
@@ -41642,7 +41257,6 @@
 1dy5 A 81 I E 
 1dy5 A 82 T E 
 1dy5 A 83 D E 
-1dy5 A 84 ? E 
 1dy5 A 85 R E 
 1dy5 A 86 E E 
 1dy5 A 87 T C 
@@ -41653,7 +41267,6 @@
 1dy5 A 92 Y C 
 1dy5 A 93 P C 
 1dy5 A 94 N C 
-1dy5 A 95 ? C 
 1dy5 A 96 A C 
 1dy5 A 97 Y E 
 1dy5 A 98 K E 
@@ -41668,7 +41281,6 @@
 1dy5 A 107 I E 
 1dy5 A 108 V E 
 1dy5 A 109 A E 
-1dy5 A 110 ? E 
 1dy5 A 111 E E 
 1dy5 A 112 G C 
 1dy5 A 113 N C 
@@ -41687,11 +41299,9 @@
 1ql0 A 6 I C 
 1ql0 A 7 D C 
 1ql0 A 8 N C 
-1ql0 A 9 ? C 
 1ql0 A 10 A C 
 1ql0 A 11 V C 
 1ql0 A 12 G C 
-1ql0 A 13 ? C 
 1ql0 A 14 P C 
 1ql0 A 15 T C 
 1ql0 A 16 G C 
@@ -41879,7 +41489,6 @@
 1ql0 A 198 A C 
 1ql0 A 199 D C 
 1ql0 A 200 F C 
-1ql0 A 201 ? C 
 1ql0 A 202 Q C 
 1ql0 A 203 F C 
 1ql0 A 204 R C 
@@ -41921,11 +41530,9 @@
 1ql0 A 240 L C 
 1ql0 A 241 M C 
 1ql0 A 242 G C 
-1ql0 A 243 ? C 
 1ql0 A 244 K C 
 1ql0 A 245 N C 
 2nlv A 0 G C 
-2nlv A 1 ? H 
 2nlv A 2 D H 
 2nlv A 3 K H 
 2nlv A 4 L H 
@@ -41968,7 +41575,6 @@
 2nlv A 41 Y E 
 2nlv A 42 Q E 
 2nlv A 43 W E 
-2nlv A 44 ? E 
 2nlv A 45 N E 
 2nlv A 46 V E 
 2nlv A 47 G E 
@@ -42009,8 +41615,6 @@
 2nlv A 82 E H 
 2nlv A 83 L H 
 2nlv A 84 V H 
-2nlv A 85 ? H 
-2nlv A 86 ? C 
 2nlv A 87 G C 
 2nlv A 88 V C 
 2nlv A 89 P C 
@@ -42037,7 +41641,6 @@
 2nlv A 110 V C 
 2nlv A 111 A C 
 3b5o A 0 G C 
-3b5o A 1 ? H 
 3b5o A 2 E H 
 3b5o A 3 F H 
 3b5o A 4 N H 
@@ -42067,7 +41670,6 @@
 3b5o A 28 V C 
 3b5o A 29 V C 
 3b5o A 30 Q C 
-3b5o A 31 ? C 
 3b5o A 32 L C 
 3b5o A 33 S C 
 3b5o A 34 Q C 
@@ -42080,7 +41682,6 @@
 3b5o A 41 A H 
 3b5o A 42 Y H 
 3b5o A 43 V H 
-3b5o A 44 ? H 
 3b5o A 45 Q H 
 3b5o A 46 Q H 
 3b5o A 47 Y H 
@@ -42121,7 +41722,6 @@
 3b5o A 82 D H 
 3b5o A 83 E H 
 3b5o A 84 E H 
-3b5o A 85 ? C 
 3b5o A 86 G C 
 3b5o A 87 S C 
 3b5o A 88 T C 
@@ -42150,7 +41750,6 @@
 3b5o A 111 K C 
 3b5o A 112 N C 
 3b5o A 113 T C 
-3b5o A 114 ? C 
 3b5o A 115 P C 
 3b5o A 116 S C 
 3b5o A 117 V H 
@@ -42242,11 +41841,9 @@
 3b5o A 210 F H 
 3b5o A 211 R H 
 3b5o A 212 A H 
-3b5o A 213 ? H 
 3b5o A 214 I H 
 3b5o A 215 D H 
 3b5o A 216 A H 
-3b5o A 217 ? H 
 3b5o A 218 Q H 
 3b5o A 219 V H 
 3b5o A 220 W H 
@@ -42476,7 +42073,6 @@
 1llf A 57 G C 
 1llf A 58 P C 
 1llf A 59 S C 
-1llf A 60 ? C 
 1llf A 61 M C 
 1llf A 62 Q C 
 1llf A 63 Q C 
@@ -42513,7 +42109,6 @@
 1llf A 94 S C 
 1llf A 95 E C 
 1llf A 96 D C 
-1llf A 97 ? C 
 1llf A 98 L C 
 1llf A 99 T E 
 1llf A 100 I E 
@@ -42684,7 +42279,6 @@
 1llf A 265 S H 
 1llf A 266 A C 
 1llf A 267 G C 
-1llf A 268 ? C 
 1llf A 269 G C 
 1llf A 270 S C 
 1llf A 271 A C 
@@ -42693,7 +42287,6 @@
 1llf A 274 K H 
 1llf A 275 L H 
 1llf A 276 A H 
-1llf A 277 ? H 
 1llf A 278 L H 
 1llf A 279 R H 
 1llf A 280 S H 
@@ -43106,7 +42699,6 @@
 2nqw A 73 V E 
 2nqw A 74 T E 
 2nqw A 75 Q E 
-2nqw A 76 ? E 
 2nqw A 77 D C 
 2nqw A 78 K C 
 2nqw A 79 R C 
@@ -43132,7 +42724,6 @@
 2pof A 39 L H 
 2pof A 40 E H 
 2pof A 41 E C 
-2pof A 42 ? H 
 2pof A 43 L H 
 2pof A 44 P H 
 2pof A 45 N H 
@@ -43145,7 +42736,6 @@
 2pof A 52 P C 
 2pof A 53 S C 
 2pof A 54 P C 
-2pof A 55 ? C 
 2pof A 56 A C 
 2pof A 57 E E 
 2pof A 58 V E 
@@ -43169,7 +42759,6 @@
 2pof A 76 Y E 
 2pof A 77 L E 
 2pof A 78 L E 
-2pof A 79 ? E 
 2pof A 80 P E 
 2pof A 81 T C 
 2pof A 82 Y C 
@@ -43201,7 +42790,6 @@
 2pof A 108 R C 
 2pof A 109 D H 
 2pof A 110 F H 
-2pof A 111 ? H 
 2pof A 112 S H 
 2pof A 113 K H 
 2pof A 114 K H 
@@ -43235,7 +42823,6 @@
 2pof A 142 H E 
 2pof A 143 I E 
 2pof A 144 S E 
-2pof A 145 ? E 
 2pof A 146 I C 
 2pof A 147 R C 
 2pof A 148 P H 
@@ -43284,8 +42871,6 @@
 2pof A 191 S C 
 2pof A 192 P H 
 2pof A 193 F H 
-2pof A 194 ? H 
-2pof A 195 ? H 
 2pof A 196 L H 
 2pof A 197 A H 
 2pof A 198 E H 
@@ -43297,14 +42882,12 @@
 2pof A 204 R C 
 2pof A 205 E C 
 2pof A 206 H C 
-2pof A 207 ? C 
 2pof A 208 G C 
 2pof A 209 S C 
 2pof A 210 Y E 
 2pof A 211 G E 
 2pof A 212 L E 
 2pof A 213 A E 
-2pof A 214 ? E 
 2pof A 215 V E 
 2pof A 216 R E 
 2pof A 217 Q C 
@@ -43337,7 +42920,6 @@
 2pof A 244 D C 
 2pof A 245 H C 
 2pof A 246 Q C 
-2pof A 247 ? C 
 2pof A 248 E C 
 2pof A 249 I C 
 2pof A 250 L C 
@@ -43655,7 +43237,6 @@
 2aeb A 316 D C 
 2aeb A 317 Y C 
 2aeb A 318 L C 
-2aeb A 551 ? C 
 1t3y A 2 A C 
 1t3y A 3 T C 
 1t3y A 4 K E 
@@ -43886,7 +43467,6 @@
 2z26 A 99 T E 
 2z26 A 100 A E 
 2z26 A 101 A E 
-2z26 A 102 ? E 
 2z26 A 103 L E 
 2z26 A 104 Y C 
 2z26 A 105 P C 
@@ -44878,8 +44458,6 @@
 3gve A 18 H C 
 3gve A 19 A C 
 3gve A 20 N C 
-3gve A 21 ? C 
-3gve A 22 ? C 
 3gve A 23 D C 
 3gve A 24 Y E 
 3gve A 25 D E 
@@ -44950,7 +44528,6 @@
 3gve A 90 I H 
 3gve A 91 S H 
 3gve A 92 V H 
-3gve A 93 ? H 
 3gve A 94 N H 
 3gve A 95 A H 
 3gve A 96 L C 
@@ -45030,7 +44607,6 @@
 3gve A 170 P C 
 3gve A 171 Q C 
 3gve A 172 I H 
-3gve A 173 ? H 
 3gve A 174 T H 
 3gve A 175 W H 
 3gve A 176 D C 
@@ -45057,7 +44633,6 @@
 3gve A 197 I H 
 3gve A 198 P H 
 3gve A 199 K H 
-3gve A 200 ? H 
 3gve A 201 K H 
 3gve A 202 A H 
 3gve A 203 E C 
@@ -45133,7 +44708,6 @@
 3gve A 273 P E 
 3gve A 274 V E 
 3gve A 275 V E 
-3gve A 276 ? E 
 3gve A 277 P E 
 3gve A 278 S C 
 3gve A 279 S C 
@@ -45297,7 +44871,6 @@
 1lwb A 42 T C 
 1lwb A 43 D C 
 1lwb A 44 L C 
-1lwb A 45 ? C 
 1lwb A 46 T C 
 1lwb A 47 Q C 
 1lwb A 48 A C 
@@ -45313,7 +44886,6 @@
 1lwb A 58 N H 
 1lwb A 59 T H 
 1lwb A 60 A H 
-1lwb A 61 ? H 
 1lwb A 62 A H 
 1lwb A 63 R H 
 1lwb A 64 H H 
@@ -45348,7 +44920,6 @@
 1lwb A 93 K H 
 1lwb A 94 R H 
 1lwb A 95 V H 
-1lwb A 96 ? H 
 1lwb A 97 T C 
 1lwb A 98 G C 
 1lwb A 99 Y C 
@@ -45359,7 +44930,6 @@
 1lwb A 104 N H 
 1lwb A 105 T H 
 1lwb A 106 A H 
-1lwb A 107 ? H 
 1lwb A 108 N H 
 1lwb A 109 S H 
 1lwb A 110 T H 
@@ -45675,52 +45245,39 @@
 1ryl A 164 V E 
 1ryl A 165 I E 
 1ryl A 166 V C 
-1p9g A 1 ? C 
 1p9g A 2 T C 
-1p9g A 3 ? C 
 1p9g A 4 A C 
 1p9g A 5 S C 
 1p9g A 6 R C 
-1p9g A 7 ? C 
 1p9g A 8 P C 
 1p9g A 9 R C 
 1p9g A 10 P C 
-1p9g A 11 ? C 
 1p9g A 12 N C 
 1p9g A 13 A C 
 1p9g A 14 G C 
 1p9g A 15 L C 
-1p9g A 16 ? E 
-1p9g A 17 ? E 
 1p9g A 18 S E 
 1p9g A 19 I C 
 1p9g A 20 Y C 
 1p9g A 21 G C 
 1p9g A 22 Y C 
-1p9g A 23 ? E 
 1p9g A 24 G E 
 1p9g A 25 S C 
 1p9g A 26 G C 
 1p9g A 27 A H 
 1p9g A 28 A H 
 1p9g A 29 Y H 
-1p9g A 30 ? H 
 1p9g A 31 G C 
 1p9g A 32 A C 
 1p9g A 33 G C 
 1p9g A 34 N C 
-1p9g A 35 ? E 
 1p9g A 36 R E 
-1p9g A 37 ? E 
 1p9g A 38 Q C 
-1p9g A 39 ? C 
 1p9g A 40 R C 
 1p9g A 41 G C 
 1k4n A 1 G C 
 1k4n A 2 H C 
-1k4n A 3 ? C 
 1k4n A 4 I C 
-1k4n A 5 ? C 
 1k4n A 6 A C 
 1k4n A 7 N C 
 1k4n A 8 W C 
@@ -45790,7 +45347,6 @@
 1k4n A 72 S E 
 1k4n A 73 E E 
 1k4n A 74 N E 
-1k4n A 75 ? E 
 1k4n A 76 I E 
 1k4n A 77 N C 
 1k4n A 78 G C 
@@ -46002,9 +45558,7 @@
 3a8g A 109 C C 
 3a8g A 110 S C 
 3a8g A 111 L C 
-3a8g A 112 ? C 
 3a8g A 113 A C 
-3a8g A 114 ? C 
 3a8g A 115 T C 
 3a8g A 116 A C 
 3a8g A 117 W H 
@@ -46392,7 +45946,6 @@
 3by8 A 177 N H 
 3by8 A 178 D C 
 1i71 A 0 D C 
-1i71 A 1 ? E 
 1i71 A 2 Y E 
 1i71 A 3 H C 
 1i71 A 4 G C 
@@ -46413,7 +45966,6 @@
 1i71 A 19 G C 
 1i71 A 20 R C 
 1i71 A 21 T C 
-1i71 A 22 ? C 
 1i71 A 23 Q C 
 1i71 A 24 S C 
 1i71 A 25 W C 
@@ -46441,7 +45993,6 @@
 1i71 A 47 R C 
 1i71 A 48 N C 
 1i71 A 49 Y C 
-1i71 A 50 ? C 
 1i71 A 51 R C 
 1i71 A 52 N C 
 1i71 A 53 P C 
@@ -46452,7 +46003,6 @@
 1i71 A 58 R C 
 1i71 A 59 P C 
 1i71 A 60 W E 
-1i71 A 61 ? E 
 1i71 A 62 Y E 
 1i71 A 63 T C 
 1i71 A 64 M C 
@@ -46464,12 +46014,10 @@
 1i71 A 70 W E 
 1i71 A 71 E E 
 1i71 A 72 Y E 
-1i71 A 73 ? C 
 1i71 A 74 N C 
 1i71 A 75 L C 
 1i71 A 76 T E 
 1i71 A 77 Q E 
-1i71 A 78 ? C 
 1i71 A 79 P C 
 1i71 A 80 V C 
 1i71 A 81 M C 
@@ -46577,7 +46125,6 @@
 1x6z A 126 L E 
 1x6z A 127 W E 
 1x6z A 128 K E 
-1x6z A 129 ? E 
 1x6z A 130 T E 
 1x6z A 131 S E 
 1x6z A 132 D C 
@@ -46590,7 +46137,6 @@
 1x6z A 139 P C 
 1x6z A 140 K C 
 1x6z A 141 G C 
-1x6z A 142 ? E 
 1x6z A 143 S E 
 1x6z A 144 R C 
 2qzc A 3 I C 
@@ -46620,7 +46166,6 @@
 2qzc A 27 I H 
 2qzc A 28 L H 
 2qzc A 29 K H 
-2qzc A 30 ? H 
 2qzc A 31 R H 
 2qzc A 32 D C 
 2qzc A 33 G C 
@@ -46644,7 +46189,6 @@
 2qzc A 51 V H 
 2qzc A 52 E H 
 2qzc A 53 D H 
-2qzc A 54 ? H 
 2qzc A 55 L H 
 2qzc A 56 R H 
 2qzc A 57 A H 
@@ -46725,7 +46269,6 @@
 2qzc A 134 T H 
 2qzc A 135 P H 
 2qzc A 136 C H 
-2qzc A 137 ? H 
 2qzc A 138 F H 
 2qzc A 139 G H 
 2qzc A 140 Y H 
@@ -46804,7 +46347,6 @@
 2qzc A 213 Y C 
 2aib A 1 T C 
 2aib A 2 A C 
-2aib A 3 ? C 
 2aib A 4 T C 
 2aib A 5 A H 
 2aib A 6 T H 
@@ -46828,7 +46370,6 @@
 2aib A 24 F H 
 2aib A 25 S H 
 2aib A 26 Q H 
-2aib A 27 ? H 
 2aib A 28 S H 
 2aib A 29 K H 
 2aib A 30 D H 
@@ -46852,12 +46393,10 @@
 2aib A 48 K H 
 2aib A 49 L H 
 2aib A 50 M H 
-2aib A 51 ? H 
 2aib A 52 A H 
 2aib A 53 S C 
 2aib A 54 T H 
 2aib A 55 A H 
-2aib A 56 ? H 
 2aib A 57 N H 
 2aib A 58 T H 
 2aib A 59 M H 
@@ -46872,7 +46411,6 @@
 2aib A 68 P C 
 2aib A 69 P C 
 2aib A 70 D C 
-2aib A 71 ? C 
 2aib A 72 D E 
 2aib A 73 L E 
 2aib A 74 T E 
@@ -46896,7 +46434,6 @@
 2aib A 92 S H 
 2aib A 93 S H 
 2aib A 94 K H 
-2aib A 95 ? H 
 2aib A 96 A H 
 2aib A 97 S C 
 2aib A 98 L C 
@@ -46998,14 +46535,12 @@
 1xju A 41 A H 
 1xju A 42 E H 
 1xju A 43 G H 
-1xju A 44 ? H 
 1xju A 45 R H 
 1xju A 46 R H 
 1xju A 47 D C 
 1xju A 48 P C 
 1xju A 49 Y C 
 1xju A 50 M C 
-1xju A 51 ? C 
 1xju A 52 P C 
 1xju A 53 A C 
 1xju A 54 G C 
@@ -47043,7 +46578,6 @@
 1xju A 88 A H 
 1xju A 89 E H 
 1xju A 90 R H 
-1xju A 91 ? H 
 1xju A 92 I H 
 1xju A 93 N H 
 1xju A 94 Q H 
@@ -47070,7 +46604,6 @@
 1xju A 115 N H 
 1xju A 116 M H 
 1xju A 117 G C 
-1xju A 118 ? H 
 1xju A 119 N H 
 1xju A 120 S H 
 1xju A 121 L H 
@@ -47102,7 +46635,6 @@
 1xju A 147 V H 
 1xju A 148 N H 
 1xju A 149 M H 
-1xju A 150 ? H 
 1xju A 151 N H 
 1xju A 152 H C 
 1xju A 153 L C 
@@ -47130,7 +46662,6 @@
 1xju A 175 R H 
 1xju A 176 Q H 
 1xju A 177 L H 
-1xju A 178 ? H 
 1xju A 179 L H 
 1xju A 180 T C 
 1xju A 181 G C 
@@ -47141,23 +46672,19 @@
 1xju A 186 H C 
 2erl A 1 D C 
 2erl A 2 A H 
-2erl A 3 ? H 
 2erl A 4 E H 
 2erl A 5 Q H 
 2erl A 6 A H 
 2erl A 7 A H 
 2erl A 8 I H 
 2erl A 9 Q C 
-2erl A 10 ? C 
 2erl A 11 V C 
 2erl A 12 E H 
 2erl A 13 S H 
 2erl A 14 A H 
-2erl A 15 ? H 
 2erl A 16 E H 
 2erl A 17 S H 
 2erl A 18 L H 
-2erl A 19 ? C 
 2erl A 20 T C 
 2erl A 21 E C 
 2erl A 22 G C 
@@ -47166,7 +46693,6 @@
 2erl A 25 R H 
 2erl A 26 T H 
 2erl A 27 G H 
-2erl A 28 ? H 
 2erl A 29 Y H 
 2erl A 30 M H 
 2erl A 31 Y H 
@@ -47174,7 +46700,6 @@
 2erl A 33 Y H 
 2erl A 34 S H 
 2erl A 35 N H 
-2erl A 36 ? C 
 2erl A 37 P C 
 2erl A 38 P C 
 2erl A 39 Y C 
@@ -47240,7 +46765,6 @@
 2wnv B 151 G C 
 2wnv B 152 N C 
 2wnv B 153 L E 
-2wnv B 154 ? E 
 2wnv B 155 V E 
 2wnv B 156 N E 
 2wnv B 157 L E 
@@ -47257,7 +46781,6 @@
 2wnv B 168 V E 
 2wnv B 169 T E 
 2wnv B 170 F E 
-2wnv B 171 ? E 
 2wnv B 172 D E 
 2wnv B 173 Y C 
 2wnv B 174 A C 
@@ -47459,21 +46982,17 @@
 1aho A 9 D C 
 1aho A 10 V C 
 1aho A 11 N C 
-1aho A 12 ? C 
 1aho A 13 T C 
 1aho A 14 Y C 
 1aho A 15 F C 
-1aho A 16 ? C 
 1aho A 17 G C 
 1aho A 18 R C 
 1aho A 19 N H 
 1aho A 20 A H 
 1aho A 21 Y H 
-1aho A 22 ? H 
 1aho A 23 N H 
 1aho A 24 E H 
 1aho A 25 E H 
-1aho A 26 ? H 
 1aho A 27 T H 
 1aho A 28 K H 
 1aho A 29 L C 
@@ -47483,7 +47002,6 @@
 1aho A 33 S E 
 1aho A 34 G E 
 1aho A 35 Y E 
-1aho A 36 ? E 
 1aho A 37 Q E 
 1aho A 38 W E 
 1aho A 39 A E 
@@ -47493,9 +47011,7 @@
 1aho A 43 G E 
 1aho A 44 N E 
 1aho A 45 A E 
-1aho A 46 ? E 
 1aho A 47 Y E 
-1aho A 48 ? E 
 1aho A 49 Y E 
 1aho A 50 K E 
 1aho A 51 L E 
@@ -47510,9 +47026,7 @@
 1aho A 60 P C 
 1aho A 61 G C 
 1aho A 62 R C 
-1aho A 63 ? C 
 1aho A 64 H C 
-1wdd S 1 ? C 
 1wdd S 2 Q C 
 1wdd S 3 V C 
 1wdd S 4 W C 
@@ -47773,7 +47287,6 @@
 2pbd P 137 S C 
 2pbd P 138 Q C 
 2pbd P 139 Y C 
-2fup A 1 ? C 
 2fup A 2 P C 
 2fup A 3 D C 
 2fup A 4 S C 
@@ -47823,7 +47336,6 @@
 2fup A 48 Q H 
 2fup A 49 P H 
 2fup A 50 L H 
-2fup A 51 ? H 
 2fup A 52 Q H 
 2fup A 53 Q H 
 2fup A 54 L H 
@@ -47901,7 +47413,6 @@
 2fup A 128 I H 
 2fup A 129 L H 
 2fup A 130 R C 
-3fil A 1 ? C 
 3fil A 2 Q E 
 3fil A 3 Y E 
 3fil A 4 K E 
@@ -47999,10 +47510,8 @@
 1kng A 89 A C 
 1kng A 90 S C 
 1kng A 91 W C 
-1kng A 92 ? C 
 1kng A 93 V H 
 1kng A 94 P H 
-1kng A 95 ? H 
 1kng A 96 H H 
 1kng A 97 D H 
 1kng A 98 E H 
@@ -48115,7 +47624,6 @@
 3h7c X 12 G C 
 3h7c X 13 Y C 
 3h7c X 14 Y C 
-3h7c X 15 ? C 
 3h7c X 16 P C 
 3h7c X 17 A C 
 3h7c X 18 E C 
@@ -48185,9 +47693,7 @@
 3h7c X 82 V E 
 3h7c X 83 V E 
 3h7c X 84 E E 
-3h7c X 85 ? C 
 3h7c X 86 S C 
-3h7c X 87 ? C 
 3h7c X 88 N C 
 3h7c X 89 D C 
 3h7c X 90 S C 
@@ -48252,7 +47758,6 @@
 3h7c X 156 Q E 
 3h7c X 157 H E 
 3h7c X 158 S E 
-3h7c X 159 ? E 
 3h7c X 160 I E 
 3h7c X 161 L C 
 3h7c X 162 E C 
@@ -48283,7 +47788,6 @@
 3h7c X 187 N C 
 3h7c X 188 P C 
 3h7c X 189 H C 
-3h7c X 190 ? C 
 3h7c X 191 S C 
 3h7c X 192 K H 
 3h7c X 193 E H 
@@ -48321,7 +47825,6 @@
 3h7c X 225 I C 
 3h7c X 226 D C 
 3h7c X 227 N C 
-3h7c X 228 ? C 
 3h7c X 229 C E 
 3h7c X 230 C E 
 3h7c X 231 F E 
@@ -48377,7 +47880,6 @@
 3h7c X 281 P C 
 3h7c X 282 L C 
 3h7c X 283 Y C 
-3h7c X 284 ? C 
 3h7c X 285 T C 
 3h7c X 286 E H 
 3h7c X 287 E H 
@@ -48475,7 +47977,6 @@
 2vb1 A 3 F C 
 2vb1 A 4 G C 
 2vb1 A 5 R H 
-2vb1 A 6 ? H 
 2vb1 A 7 E H 
 2vb1 A 8 L H 
 2vb1 A 9 A H 
@@ -48499,7 +48000,6 @@
 2vb1 A 27 N H 
 2vb1 A 28 W H 
 2vb1 A 29 V H 
-2vb1 A 30 ? H 
 2vb1 A 31 A H 
 2vb1 A 32 A H 
 2vb1 A 33 K H 
@@ -48533,7 +48033,6 @@
 2vb1 A 61 R C 
 2vb1 A 62 W C 
 2vb1 A 63 W C 
-2vb1 A 64 ? C 
 2vb1 A 65 N C 
 2vb1 A 66 D C 
 2vb1 A 67 G C 
@@ -48545,11 +48044,9 @@
 2vb1 A 73 R C 
 2vb1 A 74 N C 
 2vb1 A 75 L C 
-2vb1 A 76 ? C 
 2vb1 A 77 N C 
 2vb1 A 78 I C 
 2vb1 A 79 P C 
-2vb1 A 80 ? C 
 2vb1 A 81 S C 
 2vb1 A 82 A C 
 2vb1 A 83 L C 
@@ -48563,7 +48060,6 @@
 2vb1 A 91 S H 
 2vb1 A 92 V H 
 2vb1 A 93 N H 
-2vb1 A 94 ? H 
 2vb1 A 95 A H 
 2vb1 A 96 K H 
 2vb1 A 97 K H 
@@ -48584,7 +48080,6 @@
 2vb1 A 112 R H 
 2vb1 A 113 N H 
 2vb1 A 114 R H 
-2vb1 A 115 ? C 
 2vb1 A 116 K C 
 2vb1 A 117 G C 
 2vb1 A 118 T C 
@@ -48596,14 +48091,12 @@
 2vb1 A 124 I C 
 2vb1 A 125 R C 
 2vb1 A 126 G C 
-2vb1 A 127 ? C 
 2vb1 A 128 R C 
 2vb1 A 129 L C 
 1g6x A 1 R C 
 1g6x A 2 P C 
 1g6x A 3 D C 
 1g6x A 4 F C 
-1g6x A 5 ? C 
 1g6x A 6 L C 
 1g6x A 7 E C 
 1g6x A 8 P C 
@@ -48612,7 +48105,6 @@
 1g6x A 11 A C 
 1g6x A 12 G C 
 1g6x A 13 A C 
-1g6x A 14 ? C 
 1g6x A 15 R C 
 1g6x A 16 A C 
 1g6x A 17 R C 
@@ -48628,7 +48120,6 @@
 1g6x A 27 A C 
 1g6x A 28 G C 
 1g6x A 29 L E 
-1g6x A 30 ? E 
 1g6x A 31 Q E 
 1g6x A 32 T E 
 1g6x A 33 F E 
@@ -48636,7 +48127,6 @@
 1g6x A 35 Y E 
 1g6x A 36 G C 
 1g6x A 37 G C 
-1g6x A 38 ? C 
 1g6x A 39 R C 
 1g6x A 40 A C 
 1g6x A 41 K C 
@@ -48649,11 +48139,9 @@
 1g6x A 48 A H 
 1g6x A 49 E H 
 1g6x A 50 D H 
-1g6x A 51 ? H 
 1g6x A 52 L H 
 1g6x A 53 R H 
 1g6x A 54 T H 
-1g6x A 55 ? H 
 1g6x A 56 G C 
 1g6x A 57 G C 
 1g6x A 58 A C 
@@ -48691,7 +48179,6 @@
 2qe8 A 38 Q C 
 2qe8 A 39 P C 
 2qe8 A 40 E C 
-2qe8 A 41 ? C 
 2qe8 A 42 Q C 
 2qe8 A 43 V E 
 2qe8 A 44 A E 
@@ -48731,7 +48218,6 @@
 2qe8 A 78 I E 
 2qe8 A 79 V E 
 2qe8 A 80 W E 
-2qe8 A 81 ? E 
 2qe8 A 82 L E 
 2qe8 A 83 D E 
 2qe8 A 84 N C 
@@ -48863,12 +48349,10 @@
 2qe8 A 210 L E 
 2qe8 A 211 S E 
 2qe8 A 212 P E 
-2qe8 A 213 ? C 
 2qe8 A 214 H C 
 2qe8 A 215 S C 
 2qe8 A 216 T C 
 2qe8 A 217 S E 
-2qe8 A 218 ? E 
 2qe8 A 219 Y E 
 2qe8 A 220 R E 
 2qe8 A 221 I E 
@@ -48996,34 +48480,27 @@
 1bx7 A 3 G C 
 1bx7 A 4 N C 
 1bx7 A 5 T C 
-1bx7 A 6 ? C 
 1bx7 A 7 G C 
 1bx7 A 8 G C 
 1bx7 A 9 E C 
 1bx7 A 10 T C 
-1bx7 A 11 ? C 
 1bx7 A 12 S C 
 1bx7 A 13 A C 
 1bx7 A 14 A C 
 1bx7 A 15 Q E 
 1bx7 A 16 V E 
-1bx7 A 17 ? E 
 1bx7 A 18 L E 
 1bx7 A 19 K C 
 1bx7 A 20 G C 
 1bx7 A 21 K E 
-1bx7 A 22 ? E 
 1bx7 A 23 V E 
-1bx7 A 24 ? E 
 1bx7 A 25 N C 
 1bx7 A 26 E C 
 1bx7 A 27 V C 
 1bx7 A 28 H C 
-1bx7 A 29 ? C 
 1bx7 A 30 R C 
 1bx7 A 31 I C 
 1bx7 A 32 R C 
-1bx7 A 33 ? C 
 1bx7 A 34 K C 
 1bx7 A 35 Y C 
 1bx7 A 36 G C 
@@ -49034,21 +48511,16 @@
 1bx7 A 41 E C 
 1bx7 A 42 N C 
 1bx7 A 43 G C 
-1bx7 A 44 ? C 
 1bx7 A 45 E C 
 1bx7 A 46 Y C 
 1bx7 A 47 P C 
-1bx7 A 48 ? C 
 1bx7 A 49 S C 
-1bx7 A 50 ? C 
 1bx7 A 51 A C 
 1bx7 A 52 K C 
 1bx7 A 53 A C 
-2bdr A 1 ? C 
 2bdr A 2 R E 
 2bdr A 3 T E 
 2bdr A 4 L C 
-2bdr A 5 ? C 
 2bdr A 6 I E 
 2bdr A 7 E E 
 2bdr A 8 P E 
@@ -49073,14 +48545,12 @@
 2bdr A 27 D C 
 2bdr A 28 H C 
 2bdr A 29 F E 
-2bdr A 30 ? E 
 2bdr A 31 I E 
 2bdr A 32 N C 
 2bdr A 33 N C 
 2bdr A 34 G C 
 2bdr A 35 S C 
 2bdr A 36 T E 
-2bdr A 37 ? E 
 2bdr A 38 R E 
 2bdr A 39 F E 
 2bdr A 40 H E 
@@ -49109,13 +48579,11 @@
 2bdr A 63 A C 
 2bdr A 64 Q C 
 2bdr A 65 D C 
-2bdr A 66 ? C 
 2bdr A 67 P C 
 2bdr A 68 L E 
 2bdr A 69 T E 
 2bdr A 70 V E 
 2bdr A 71 R C 
-2bdr A 72 ? E 
 2bdr A 73 L E 
 2bdr A 74 E E 
 2bdr A 75 R E 
@@ -49203,7 +48671,6 @@
 2bdr A 157 E C 
 2bdr A 158 E C 
 2bdr A 159 Q C 
-2bdr A 160 ? C 
 2bdr A 161 L E 
 2bdr A 162 I E 
 2bdr A 163 L E 
@@ -49222,7 +48689,6 @@
 1fcq A 19 T C 
 1fcq A 20 F C 
 1fcq A 21 M C 
-1fcq A 22 ? C 
 1fcq A 23 H C 
 1fcq A 24 K C 
 1fcq A 25 Y C 
@@ -49382,7 +48848,6 @@
 1fcq A 186 Y C 
 1fcq A 187 P C 
 1fcq A 188 Y C 
-1fcq A 189 ? C 
 1fcq A 190 Y C 
 1fcq A 191 N C 
 1fcq A 192 L C 
@@ -49394,7 +48859,6 @@
 1fcq A 198 S C 
 1fcq A 199 A C 
 1fcq A 200 Q C 
-1fcq A 201 ? C 
 1fcq A 202 E C 
 1fcq A 203 A H 
 1fcq A 204 T H 
@@ -49506,7 +48970,6 @@
 1fcq A 310 K H 
 1fcq A 311 A H 
 1fcq A 312 K H 
-1fcq A 313 ? H 
 1fcq A 314 L H 
 1fcq A 315 Q H 
 1fcq A 316 F H 
@@ -49642,7 +49105,6 @@
 1z67 A 120 S H 
 1z67 A 121 A H 
 1z67 A 122 G H 
-1z67 A 123 ? H 
 1z67 A 124 E H 
 1z67 A 125 L H 
 1z67 A 126 L H 
@@ -49735,7 +49197,6 @@
 1r6j A 273 F C 
 1r0r I 6 V C 
 1r0r I 7 D C 
-1r0r I 8 ? C 
 1r0r I 9 S C 
 1r0r I 10 E C 
 1r0r I 11 Y C 
@@ -49743,7 +49204,6 @@
 1r0r I 13 K C 
 1r0r I 14 P C 
 1r0r I 15 A E 
-1r0r I 16 ? E 
 1r0r I 17 T E 
 1r0r I 18 L C 
 1r0r I 19 E C 
@@ -49751,7 +49211,6 @@
 1r0r I 21 R C 
 1r0r I 22 P C 
 1r0r I 23 L E 
-1r0r I 24 ? E 
 1r0r I 25 G E 
 1r0r I 26 S C 
 1r0r I 27 D C 
@@ -49762,10 +49221,8 @@
 1r0r I 32 G C 
 1r0r I 33 N C 
 1r0r I 34 K H 
-1r0r I 35 ? H 
 1r0r I 36 N H 
 1r0r I 37 F H 
-1r0r I 38 ? H 
 1r0r I 39 N H 
 1r0r I 40 A H 
 1r0r I 41 V H 
@@ -49783,7 +49240,6 @@
 1r0r I 53 F E 
 1r0r I 54 G C 
 1r0r I 55 K C 
-1r0r I 56 ? C 
 1xd3 A 2 E C 
 1xd3 A 3 G C 
 1xd3 A 4 Q C 
@@ -51493,7 +50949,6 @@
 1psr A 43 L H 
 1psr A 44 S H 
 1psr A 45 A H 
-1psr A 46 ? H 
 1psr A 47 D H 
 1psr A 48 K H 
 1psr A 49 K C 
@@ -51542,7 +50997,6 @@
 1psr A 92 A C 
 1psr A 93 A C 
 1psr A 94 P C 
-1psr A 95 ? C 
 1psr A 96 S C 
 1psr A 97 G C 
 1psr A 98 G C 
@@ -52428,7 +51882,6 @@
 1qw2 A 18 G C 
 1qw2 A 19 H C 
 1qw2 A 20 M C 
-1qw2 A 21 ? E 
 1qw2 A 22 Q E 
 1qw2 A 23 I E 
 1qw2 A 24 D E 
@@ -52463,13 +51916,11 @@
 1qw2 A 53 G C 
 1qw2 A 54 Y E 
 1qw2 A 55 A E 
-1qw2 A 56 ? E 
 1qw2 A 57 C C 
 1qw2 A 58 G C 
 1qw2 A 59 Y C 
 1qw2 A 60 L C 
 1qw2 A 61 N C 
-1qw2 A 62 ? H 
 1qw2 A 63 E H 
 1qw2 A 64 T H 
 1qw2 A 65 S H 
@@ -52483,7 +51934,6 @@
 1qw2 A 73 V E 
 1qw2 A 74 R E 
 1qw2 A 75 V C 
-1qw2 A 76 ? C 
 1qw2 A 77 G C 
 1qw2 A 78 V C 
 1qw2 A 79 K C 
@@ -52491,7 +51941,6 @@
 1qw2 A 81 L H 
 1qw2 A 82 D H 
 1qw2 A 83 D H 
-1qw2 A 84 ? H 
 1qw2 A 85 L H 
 1qw2 A 86 S H 
 1qw2 A 87 A C 
@@ -52603,7 +52052,6 @@
 1wvq A 82 A C 
 1wvq A 83 A C 
 1wvq A 84 G C 
-1wvq A 85 ? C 
 1wvq A 86 V E 
 1wvq A 87 F E 
 1wvq A 88 V E 
@@ -52693,19 +52141,16 @@
 1fd3 A 5 P H 
 1fd3 A 6 V H 
 1fd3 A 7 T H 
-1fd3 A 8 ? H 
 1fd3 A 9 L H 
 1fd3 A 10 K H 
 1fd3 A 11 S C 
 1fd3 A 12 G C 
 1fd3 A 13 A C 
 1fd3 A 14 I E 
-1fd3 A 15 ? E 
 1fd3 A 16 H E 
 1fd3 A 17 P C 
 1fd3 A 18 V C 
 1fd3 A 19 F C 
-1fd3 A 20 ? C 
 1fd3 A 21 P C 
 1fd3 A 22 R C 
 1fd3 A 23 R C 
@@ -52715,19 +52160,15 @@
 1fd3 A 27 I E 
 1fd3 A 28 G E 
 1fd3 A 29 T C 
-1fd3 A 30 ? C 
 1fd3 A 31 G C 
 1fd3 A 32 L C 
 1fd3 A 33 P C 
 1fd3 A 34 G C 
 1fd3 A 35 T C 
 1fd3 A 36 K E 
-1fd3 A 37 ? E 
-1fd3 A 38 ? E 
 1fd3 A 39 K E 
 1fd3 A 40 K C 
 1fd3 A 41 P C 
-2f46 A 14 ? C 
 2f46 A 15 A C 
 2f46 A 16 I C 
 2f46 A 17 L E 
@@ -52840,7 +52281,6 @@
 2f46 A 124 A H 
 2f46 A 125 E C 
 2f46 A 126 G C 
-2f46 A 127 ? C 
 2f46 A 128 P C 
 2f46 A 129 V H 
 2f46 A 130 D H 
@@ -53092,7 +52532,6 @@
 1gu2 A 93 T H 
 1gu2 A 94 K H 
 1gu2 A 95 H H 
-1gu2 A 96 ? H 
 1gu2 A 97 N H 
 1gu2 A 98 D H 
 1gu2 A 99 I H 
@@ -53100,7 +52539,6 @@
 1gu2 A 101 G C 
 1gu2 A 102 A C 
 1gu2 A 103 D C 
-1gu2 A 104 ? C 
 1gu2 A 105 S C 
 1gu2 A 106 P H 
 1gu2 A 107 S H 
@@ -53395,7 +52833,6 @@
 2ask A 13 A C 
 2ask A 14 R C 
 2ask A 15 G C 
-2ask A 16 ? C 
 2ask A 17 R E 
 2ask A 18 L E 
 2ask A 19 R E 
@@ -53422,11 +52859,9 @@
 2ask A 40 F E 
 2ask A 41 R E 
 2ask A 42 F E 
-2ask A 43 ? E 
 2ask A 44 S E 
 2ask A 45 G C 
 2ask A 46 S C 
-2ask A 47 ? C 
 2ask A 48 R C 
 2ask A 49 R C 
 2ask A 50 A C 
@@ -53459,8 +52894,6 @@
 2ask A 77 S C 
 2ask A 78 Q C 
 2ask A 79 P C 
-2ask A 80 ? E 
-2ask A 81 ? E 
 2ask A 82 R E 
 2ask A 83 P E 
 2ask A 84 T E 
@@ -53488,12 +52921,9 @@
 2ask A 106 A E 
 2ask A 107 T E 
 2ask A 108 A E 
-2ask A 109 ? E 
 2ask A 110 G E 
-2ask A 111 ? E 
 2ask A 112 L E 
 2ask A 113 G C 
-3bhd A 1 ? C 
 3bhd A 2 A C 
 3bhd A 3 Q C 
 3bhd A 4 G C 
@@ -53540,7 +52970,6 @@
 3bhd A 45 L C 
 3bhd A 46 S H 
 3bhd A 47 L H 
-3bhd A 48 ? H 
 3bhd A 49 Q H 
 3bhd A 50 A C 
 3bhd A 51 D C 
@@ -53670,7 +53099,6 @@
 3bhd A 178 L H 
 3bhd A 179 S H 
 3bhd A 180 S H 
-3bhd A 181 ? H 
 3bhd A 182 L H 
 3bhd A 183 G C 
 3bhd A 184 V C 
@@ -53705,7 +53133,6 @@
 3bhd A 213 N H 
 3bhd A 214 S C 
 1tuk A 1 A C 
-1tuk A 2 ? C 
 1tuk A 3 Q C 
 1tuk A 4 A C 
 1tuk A 5 S C 
@@ -53713,7 +53140,6 @@
 1tuk A 7 L C 
 1tuk A 8 A C 
 1tuk A 9 V C 
-1tuk A 10 ? C 
 1tuk A 11 A H 
 1tuk A 12 S H 
 1tuk A 13 A H 
@@ -53727,8 +53153,6 @@
 1tuk A 21 S C 
 1tuk A 22 G H 
 1tuk A 23 E H 
-1tuk A 24 ? H 
-1tuk A 25 ? H 
 1tuk A 26 G H 
 1tuk A 27 N H 
 1tuk A 28 L H 
@@ -53737,9 +53161,7 @@
 1tuk A 31 Q H 
 1tuk A 32 Q C 
 1tuk A 33 G C 
-1tuk A 34 ? C 
 1tuk A 35 F H 
-1tuk A 36 ? H 
 1tuk A 37 Q H 
 1tuk A 38 Y H 
 1tuk A 39 A C 
@@ -53763,14 +53185,12 @@
 1tuk A 57 L H 
 1tuk A 58 T H 
 1tuk A 59 S H 
-1tuk A 60 ? C 
 1tuk A 61 G C 
 1tuk A 62 L C 
 1tuk A 63 A C 
 1tuk A 64 V C 
 1tuk A 65 P C 
 1tuk A 66 H C 
-1tuk A 67 ? C 
 1df4 A 3 I C 
 1df4 A 4 V H 
 1df4 A 5 Q H 
@@ -53863,7 +53283,6 @@
 2mcm A 33 V E 
 2mcm A 34 G E 
 2mcm A 35 Q E 
-2mcm A 36 ? E 
 2mcm A 37 A E 
 2mcm A 38 V E 
 2mcm A 39 V E 
@@ -53873,7 +53292,6 @@
 2mcm A 43 V E 
 2mcm A 44 I E 
 2mcm A 45 G E 
-2mcm A 46 ? E 
 2mcm A 47 D E 
 2mcm A 48 A C 
 2mcm A 49 T C 
@@ -53915,12 +53333,10 @@
 2mcm A 85 T E 
 2mcm A 86 V E 
 2mcm A 87 N E 
-2mcm A 88 ? C 
 2mcm A 89 K C 
 2mcm A 90 V C 
 2mcm A 91 V C 
 2mcm A 92 S C 
-2mcm A 93 ? E 
 2mcm A 94 S E 
 2mcm A 95 A E 
 2mcm A 96 G E 
@@ -54080,8 +53496,6 @@
 1kmt A 202 W C 
 3nir A 1 T C 
 3nir A 2 T E 
-3nir A 3 ? E 
-3nir A 4 ? C 
 3nir A 5 P C 
 3nir A 6 S C 
 3nir A 7 I H 
@@ -54093,7 +53507,6 @@
 3nir A 13 F H 
 3nir A 14 N H 
 3nir A 15 V H 
-3nir A 16 ? H 
 3nir A 17 R H 
 3nir A 18 L C 
 3nir A 19 P C 
@@ -54103,13 +53516,11 @@
 3nir A 23 E H 
 3nir A 24 A H 
 3nir A 25 L H 
-3nir A 26 ? H 
 3nir A 27 A H 
 3nir A 28 T H 
 3nir A 29 Y H 
 3nir A 30 T H 
 3nir A 31 G C 
-3nir A 32 ? C 
 3nir A 33 I E 
 3nir A 34 I E 
 3nir A 35 I C 
@@ -54117,7 +53528,6 @@
 3nir A 37 G C 
 3nir A 38 A C 
 3nir A 39 T C 
-3nir A 40 ? C 
 3nir A 41 P C 
 3nir A 42 G C 
 3nir A 43 D C 
@@ -54125,7 +53535,6 @@
 3nir A 45 A C 
 3nir A 46 N C 
 2qnl A 0 G C 
-2qnl A 1 ? H 
 2qnl A 2 H H 
 2qnl A 3 T H 
 2qnl A 4 Q H 
@@ -54184,7 +53593,6 @@
 2qnl A 57 H H 
 2qnl A 58 D H 
 2qnl A 59 A H 
-2qnl A 60 ? H 
 2qnl A 61 L H 
 2qnl A 62 P H 
 2qnl A 63 L H 
@@ -54273,7 +53681,6 @@
 2qnl A 146 T H 
 2qnl A 147 N H 
 2qnl A 148 H H 
-2qnl A 149 ? H 
 2qnl A 150 A H 
 2qnl A 151 Y H 
 2qnl A 152 H H 
@@ -54643,7 +54050,6 @@
 3eoj A 364 Y E 
 3eoj A 365 A E 
 3eoj A 366 Q C 
-1dfm A 1 ? C 
 1dfm A 2 K E 
 1dfm A 3 I E 
 1dfm A 4 D E 
@@ -54672,7 +54078,6 @@
 1dfm A 27 L H 
 1dfm A 28 L H 
 1dfm A 29 K H 
-1dfm A 30 ? C 
 1dfm A 31 P C 
 1dfm A 32 L E 
 1dfm A 33 H E 
@@ -54759,14 +54164,12 @@
 1dfm A 114 K H 
 1dfm A 115 S H 
 1dfm A 116 N C 
-1dfm A 117 ? C 
 1dfm A 118 D C 
 1dfm A 119 I C 
 1dfm A 120 D C 
 1dfm A 121 E C 
 1dfm A 122 E C 
 1dfm A 123 G C 
-1dfm A 124 ? C 
 1dfm A 125 K C 
 1dfm A 126 V E 
 1dfm A 127 A E 
@@ -54777,7 +54180,6 @@
 1dfm A 132 K E 
 1dfm A 133 G C 
 1dfm A 134 H C 
-1dfm A 135 ? C 
 1dfm A 136 F C 
 1dfm A 137 P C 
 1dfm A 138 A C 
@@ -54938,7 +54340,6 @@
 3bxu A 70 K E 
 3bxu A 71 K C 
 3czx A 0 A C 
-3czx A 1 ? C 
 3czx A 2 S C 
 3czx A 3 K C 
 3czx A 4 I C 
@@ -54969,7 +54370,6 @@
 3czx A 29 A H 
 3czx A 30 Q H 
 3czx A 31 D H 
-3czx A 32 ? H 
 3czx A 33 R H 
 3czx A 34 N H 
 3czx A 35 I H 
@@ -54995,7 +54395,6 @@
 3czx A 55 K C 
 3czx A 56 G C 
 3czx A 57 N C 
-3czx A 58 ? C 
 3czx A 59 P C 
 3czx A 60 L H 
 3czx A 61 R H 
@@ -55111,7 +54510,6 @@
 3czx A 171 A H 
 3czx A 172 I H 
 3czx A 173 A H 
-3czx A 174 ? H 
 3czx A 175 E H 
 3czx A 176 L H 
 3czx A 177 G C 
@@ -56017,7 +55415,6 @@
 1x9d A 524 H C 
 1x9d A 525 L C 
 1x9d A 526 V C 
-1x9d A 527 ? C 
 1x9d A 528 F H 
 1x9d A 529 L H 
 1x9d A 530 P H 
@@ -56046,7 +55443,6 @@
 1x9d A 553 M H 
 1x9d A 554 E H 
 1x9d A 555 T H 
-1x9d A 556 ? H 
 1x9d A 557 Y H 
 1x9d A 558 Q H 
 1x9d A 559 M H 
@@ -56324,10 +55720,6 @@
 2y1q A 144 N C 
 2y1q A 145 N C 
 3ed7 A 3 L C 
-3ed7 A 4 ? C 
-3ed7 A 5 ? C 
-3ed7 A 6 ? C 
-3ed7 A 7 ? C 
 3ed7 A 26 P C 
 3ed7 A 27 P C 
 3ed7 A 28 H C 
@@ -56926,7 +56318,6 @@
 1z72 A 61 F H 
 1z72 A 62 L H 
 1z72 A 63 S H 
-1z72 A 64 ? H 
 1z72 A 65 L H 
 1z72 A 66 G H 
 1z72 A 67 A H 
@@ -56988,7 +56379,6 @@
 1z72 A 123 Q H 
 1z72 A 124 D H 
 1z72 A 125 L H 
-1z72 A 126 ? H 
 1z72 A 127 Y H 
 1z72 A 128 S H 
 1z72 A 129 A H 
@@ -57003,7 +56393,6 @@
 1z72 A 138 L H 
 1z72 A 139 L H 
 1z72 A 140 V H 
-1z72 A 141 ? H 
 1z72 A 142 L H 
 1z72 A 143 V H 
 1z72 A 144 I H 
@@ -58014,7 +57403,6 @@
 1gy7 A 122 N E 
 1gy7 A 123 Y C 
 1gy7 A 124 S C 
-3agn A 1 ? C 
 3agn A 2 D C 
 3agn A 3 I C 
 3agn A 4 P C 
@@ -58022,7 +57410,6 @@
 3agn A 6 S E 
 3agn A 7 T E 
 3agn A 8 N E 
-3agn A 9 ? E 
 3agn A 10 G C 
 3agn A 11 G C 
 3agn A 12 N E 
@@ -58067,8 +57454,6 @@
 3agn A 51 I C 
 3agn A 52 T C 
 3agn A 53 L C 
-3agn A 54 ? C 
-3agn A 55 ? C 
 3agn A 56 G C 
 3agn A 57 S C 
 3agn A 58 G C 
@@ -58109,7 +57494,6 @@
 3agn A 93 G C 
 3agn A 94 E C 
 3agn A 95 F E 
-3agn A 96 ? E 
 3agn A 97 A E 
 3agn A 98 T E 
 3agn A 99 V E 
@@ -58126,7 +57510,6 @@
 3agn A 110 F C 
 3agn A 111 T E 
 3agn A 112 Q E 
-3agn A 113 ? C 
 3agn A 114 S C 
 1nki A 1 M C 
 1nki A 2 L E 
@@ -58264,40 +57647,33 @@
 1nki A 134 A C 
 1m9z A 26 A C 
 1m9z A 27 L E 
-1m9z A 28 ? E 
 1m9z A 29 K E 
 1m9z A 30 F C 
-1m9z A 31 ? C 
 1m9z A 32 D E 
 1m9z A 33 V E 
 1m9z A 34 R E 
 1m9z A 35 F E 
 1m9z A 36 S C 
 1m9z A 37 T C 
-1m9z A 38 ? C 
 1m9z A 39 D C 
 1m9z A 40 N C 
 1m9z A 41 Q C 
 1m9z A 42 K C 
 1m9z A 43 S E 
-1m9z A 44 ? E 
 1m9z A 45 M E 
 1m9z A 46 S C 
 1m9z A 47 N C 
-1m9z A 48 ? C 
 1m9z A 49 S C 
 1m9z A 50 I C 
 1m9z A 51 T E 
 1m9z A 52 S E 
 1m9z A 53 I E 
-1m9z A 54 ? C 
 1m9z A 55 E C 
 1m9z A 56 K C 
 1m9z A 57 P C 
 1m9z A 58 Q C 
 1m9z A 59 E C 
 1m9z A 60 V E 
-1m9z A 61 ? E 
 1m9z A 62 V E 
 1m9z A 63 A E 
 1m9z A 64 V E 
@@ -58314,7 +57690,6 @@
 1m9z A 75 E E 
 1m9z A 76 T E 
 1m9z A 77 V E 
-1m9z A 78 ? E 
 1m9z A 79 H E 
 1m9z A 80 D C 
 1m9z A 81 P C 
@@ -58334,7 +57709,6 @@
 1m9z A 95 S C 
 1m9z A 96 P C 
 1m9z A 97 T C 
-1m9z A 98 ? E 
 1m9z A 99 I E 
 1m9z A 100 M C 
 1m9z A 101 K E 
@@ -58349,14 +57723,11 @@
 1m9z A 110 F E 
 1m9z A 111 F E 
 1m9z A 112 M E 
-1m9z A 113 ? E 
 1m9z A 114 S E 
-1m9z A 115 ? E 
 1m9z A 116 S C 
 1m9z A 117 S C 
 1m9z A 118 D C 
 1m9z A 119 E C 
-1m9z A 120 ? C 
 1m9z A 121 N C 
 1m9z A 122 D C 
 1m9z A 123 N E 
@@ -58371,30 +57742,24 @@
 2oiz D 72 V C 
 2oiz D 73 N C 
 2oiz D 74 S C 
-2oiz D 75 ? C 
 2oiz D 76 D C 
 2oiz D 77 Y C 
 2oiz D 78 W C 
 2oiz D 79 R C 
 2oiz D 80 H C 
-2oiz D 81 ? C 
 2oiz D 82 A C 
 2oiz D 83 V C 
 2oiz D 84 D E 
 2oiz D 85 G E 
 2oiz D 86 F E 
 2oiz D 87 L C 
-2oiz D 88 ? C 
 2oiz D 89 S C 
-2oiz D 90 ? C 
-2oiz D 91 ? C 
 2oiz D 92 G C 
 2oiz D 93 G C 
 2oiz D 94 T C 
 2oiz D 95 T C 
 2oiz D 96 T C 
 2oiz D 97 T C 
-2oiz D 98 ? C 
 2oiz D 99 P C 
 2oiz D 100 P C 
 2oiz D 101 G C 
@@ -58405,11 +57770,9 @@
 2oiz D 106 P E 
 2oiz D 107 I E 
 2oiz D 108 S E 
-2oiz D 109 ? E 
 2oiz D 110 I E 
 2oiz D 111 G E 
 2oiz D 112 T E 
-2oiz D 113 ? E 
 2oiz D 114 H E 
 2oiz D 115 N C 
 2oiz D 116 P C 
@@ -58425,18 +57788,13 @@
 2oiz D 126 Y E 
 2oiz D 127 H E 
 2oiz D 128 D E 
-2oiz D 129 ? E 
-2oiz D 130 ? E 
 2oiz D 131 G C 
 2oiz D 132 K C 
 2oiz D 133 T C 
 2oiz D 134 A C 
-2oiz D 135 ? C 
 2oiz D 136 G C 
 2oiz D 137 R C 
-2oiz D 138 ? C 
 2oiz D 139 Q E 
-2oiz D 140 ? E 
 2oiz D 141 N E 
 2oiz D 142 T C 
 2oiz D 143 Q C 
@@ -58457,7 +57815,6 @@
 2oiz D 158 V C 
 2oiz D 159 N C 
 2oiz D 160 W C 
-2oiz D 161 ? C 
 2oiz D 162 M C 
 2oiz D 163 A C 
 2oiz D 164 N C 
@@ -58467,7 +57824,6 @@
 2oiz D 168 T C 
 2oiz D 169 F E 
 2oiz D 170 H E 
-2oiz D 171 ? E 
 2oiz D 172 T E 
 2oiz D 173 T C 
 2oiz D 174 S C 
@@ -58573,7 +57929,6 @@
 1g2r A 97 E C 
 1v6p A 1 L C 
 1v6p A 2 E E 
-1v6p A 3 ? E 
 1v6p A 4 H E 
 1v6p A 5 N C 
 1v6p A 6 Q C 
@@ -58587,14 +57942,12 @@
 1v6p A 14 T E 
 1v6p A 15 T E 
 1v6p A 16 G E 
-1v6p A 17 ? C 
 1v6p A 18 S C 
 1v6p A 19 G C 
 1v6p A 20 G C 
 1v6p A 21 E C 
 1v6p A 22 T C 
 1v6p A 23 N C 
-1v6p A 24 ? E 
 1v6p A 25 Y E 
 1v6p A 26 K E 
 1v6p A 27 K E 
@@ -58611,9 +57964,7 @@
 1v6p A 38 E E 
 1v6p A 39 R E 
 1v6p A 40 G E 
-1v6p A 41 ? E 
 1v6p A 42 G C 
-1v6p A 43 ? C 
 1v6p A 44 P C 
 1v6p A 45 S C 
 1v6p A 46 V C 
@@ -58624,13 +57975,10 @@
 1v6p A 51 E E 
 1v6p A 52 I E 
 1v6p A 53 N E 
-1v6p A 54 ? E 
-1v6p A 55 ? E 
 1v6p A 56 T C 
 1v6p A 57 T C 
 1v6p A 58 D C 
 1v6p A 59 R C 
-1v6p A 60 ? C 
 1v6p A 61 N C 
 1v6p A 62 N C 
 1vh5 A 0 S C 
@@ -59337,7 +58685,6 @@
 2p0n A 14 P H 
 2p0n A 15 I H 
 2p0n A 16 E H 
-2p0n A 17 ? H 
 2p0n A 18 L H 
 2p0n A 19 Y H 
 2p0n A 20 A H 
@@ -59354,7 +58701,6 @@
 2p0n A 31 Q H 
 2p0n A 32 V H 
 2p0n A 33 A H 
-2p0n A 34 ? H 
 2p0n A 35 L H 
 2p0n A 36 S H 
 2p0n A 37 D H 
@@ -59466,7 +58812,6 @@
 2p0n A 143 L H 
 2p0n A 144 F H 
 2p0n A 145 D H 
-2p0n A 146 ? H 
 2p0n A 147 G H 
 2p0n A 148 N H 
 2p0n A 149 T H 
@@ -59483,7 +58828,6 @@
 2p0n A 160 G H 
 2p0n A 161 E H 
 2p0n A 162 I H 
-2p0n A 163 ? H 
 2p0n A 164 A H 
 2p0n A 165 A H 
 2p0n A 166 R H 
@@ -60276,7 +59620,6 @@
 2fsr A 17 P C 
 2fsr A 18 L C 
 2fsr A 19 A C 
-2fsr A 20 ? C 
 2fsr A 21 A C 
 2fsr A 22 D C 
 2fsr A 23 F H 
@@ -60286,7 +59629,6 @@
 2fsr A 27 R H 
 2fsr A 28 D H 
 2fsr A 29 F H 
-2fsr A 30 ? H 
 2fsr A 31 A H 
 2fsr A 32 S C 
 2fsr A 33 P C 
@@ -60323,7 +59665,6 @@
 2fsr A 64 G C 
 2fsr A 65 A E 
 2fsr A 66 L E 
-2fsr A 67 ? E 
 2fsr A 68 I E 
 2fsr A 69 D E 
 2fsr A 70 L E 
@@ -60431,7 +59772,6 @@
 2qjz A 17 R H 
 2qjz A 18 H H 
 2qjz A 19 D H 
-2qjz A 20 ? H 
 2qjz A 21 L H 
 2qjz A 22 A H 
 2qjz A 23 W H 
@@ -60459,9 +59799,7 @@
 2qjz A 45 C H 
 2qjz A 46 Q H 
 2qjz A 47 F H 
-2qjz A 48 ? H 
 2qjz A 49 D H 
-2qjz A 50 ? H 
 2qjz A 51 L H 
 2qjz A 52 F C 
 2qjz A 53 P C 
@@ -60496,7 +59834,6 @@
 2qjz A 82 F H 
 2qjz A 83 K H 
 2qjz A 84 R H 
-2qjz A 85 ? H 
 2qjz A 86 G C 
 2qjz A 87 V C 
 2qjz A 88 D C 
@@ -60603,7 +59940,6 @@
 1i4u A 9 P E 
 1i4u A 10 G C 
 1i4u A 11 K C 
-1i4u A 12 ? C 
 1i4u A 13 A C 
 1i4u A 14 S C 
 1i4u A 15 V C 
@@ -60642,7 +59978,6 @@
 1i4u A 48 I E 
 1i4u A 49 E E 
 1i4u A 50 K E 
-1i4u A 51 ? E 
 1i4u A 52 V E 
 1i4u A 53 R E 
 1i4u A 54 N E 
@@ -60708,11 +60043,9 @@
 1i4u A 114 N C 
 1i4u A 115 Y E 
 1i4u A 116 A E 
-1i4u A 117 ? E 
 1i4u A 118 L E 
 1i4u A 119 Y E 
 1i4u A 120 S E 
-1i4u A 121 ? E 
 1i4u A 122 I E 
 1i4u A 123 D E 
 1i4u A 124 Y C 
@@ -60741,7 +60074,6 @@
 1i4u A 147 V H 
 1i4u A 148 K H 
 1i4u A 149 K H 
-1i4u A 150 ? H 
 1i4u A 151 E H 
 1i4u A 152 A H 
 1i4u A 153 A H 
@@ -60764,7 +60096,6 @@
 1i4u A 170 G C 
 1i4u A 171 S C 
 1i4u A 172 S C 
-1i4u A 173 ? C 
 1i4u A 174 P C 
 1i4u A 175 Y H 
 1i4u A 176 D H 
@@ -60986,7 +60317,6 @@
 3ca7 A 51 T C 
 3ca7 A 52 Y C 
 3ca7 A 53 K C 
-3ca7 A 54 ? C 
 3ca7 A 55 P C 
 3ca7 A 56 E H 
 3ca7 A 57 T H 
@@ -60995,13 +60325,11 @@
 3ca7 A 60 A H 
 3ca7 A 61 W H 
 3ca7 A 62 Y C 
-3ca7 A 63 ? C 
 3ca7 A 64 L C 
 3ca7 A 65 N C 
 3ca7 A 66 D C 
 3ca7 A 67 A C 
 3ca7 A 68 H E 
-3ca7 A 69 ? E 
 3ca7 A 70 F E 
 3ca7 A 71 A E 
 3ca7 A 72 V E 
@@ -61014,9 +60342,7 @@
 3ca7 A 79 V E 
 3ca7 A 80 Y E 
 3ca7 A 81 S E 
-3ca7 A 82 ? E 
 3ca7 A 83 E E 
-3ca7 A 84 ? C 
 3ca7 A 85 A C 
 3ca7 A 86 I C 
 3ca7 A 87 G C 
@@ -61025,7 +60351,6 @@
 3ca7 A 90 G C 
 3ca7 A 91 Q C 
 3ca7 A 92 R C 
-3ca7 A 93 ? C 
 3ca7 A 94 E C 
 3ca7 A 95 Y E 
 3ca7 A 96 K E 
@@ -61049,7 +60374,6 @@
 3os4 A 19 K H 
 3os4 A 20 L H 
 3os4 A 21 H H 
-3os4 A 22 ? H 
 3os4 A 23 Q H 
 3os4 A 24 Q H 
 3os4 A 25 A H 
@@ -61088,7 +60412,6 @@
 3os4 A 58 V H 
 3os4 A 59 T H 
 3os4 A 60 L H 
-3os4 A 61 ? H 
 3os4 A 62 G C 
 3os4 A 63 Q C 
 3os4 A 64 L C 
@@ -61147,7 +60470,6 @@
 3os4 A 117 E H 
 3os4 A 118 V H 
 3os4 A 119 I C 
-3os4 A 120 ? C 
 3os4 A 121 W C 
 3os4 A 122 E H 
 3os4 A 123 V H 
@@ -61199,7 +60521,6 @@
 3os4 A 169 F C 
 3os4 A 170 K C 
 3os4 A 171 L E 
-3os4 A 172 ? E 
 3os4 A 173 D E 
 3os4 A 174 F C 
 3os4 A 175 G C 
@@ -61290,7 +60611,6 @@
 3os4 A 260 C C 
 3os4 A 261 I C 
 3os4 A 262 T C 
-3os4 A 263 ? H 
 3os4 A 264 D H 
 3os4 A 265 A H 
 3os4 A 266 F H 
@@ -61334,7 +60654,6 @@
 3os4 A 304 I C 
 3os4 A 305 D C 
 3os4 A 306 P C 
-3os4 A 307 ? C 
 3os4 A 308 K C 
 3os4 A 309 K C 
 3os4 A 310 V E 
@@ -61425,7 +60744,6 @@
 3os4 A 395 P C 
 2ccw A 1 A C 
 2ccw A 2 Q C 
-2ccw A 3 ? C 
 2ccw A 4 E E 
 2ccw A 5 A E 
 2ccw A 6 T E 
@@ -61448,7 +60766,6 @@
 2ccw A 23 D C 
 2ccw A 24 K C 
 2ccw A 25 S C 
-2ccw A 26 ? C 
 2ccw A 27 K C 
 2ccw A 28 Q E 
 2ccw A 29 F E 
@@ -61643,7 +60960,6 @@
 1m1q A 90 K C 
 1m1q A 91 K C 
 2iay A 0 G C 
-2iay A 1 ? C 
 2iay A 2 A C 
 2iay A 3 Y C 
 2iay A 4 T C 
@@ -61670,7 +60986,6 @@
 2iay A 25 Y H 
 2iay A 26 T H 
 2iay A 27 L H 
-2iay A 28 ? H 
 2iay A 29 D H 
 2iay A 30 L C 
 2iay A 31 G C 
@@ -61702,7 +61017,6 @@
 2iay A 57 K E 
 2iay A 58 L E 
 2iay A 59 K E 
-2iay A 60 ? E 
 2iay A 61 T E 
 2iay A 62 V E 
 2iay A 63 N C 
@@ -61713,7 +61027,6 @@
 2iay A 68 G C 
 2iay A 69 F E 
 2iay A 70 K E 
-2iay A 71 ? E 
 2iay A 72 T E 
 2iay A 73 T E 
 2iay A 74 V E 
@@ -61994,7 +61307,6 @@
 1z70 X 1215 V H 
 1z70 X 1216 A H 
 1z70 X 1217 Y H 
-1z70 X 1218 ? H 
 1z70 X 1219 T H 
 1z70 X 1220 W H 
 1z70 X 1221 A C 
@@ -62011,7 +61323,6 @@
 1z70 X 1232 E H 
 1z70 X 1233 Y H 
 1z70 X 1234 S H 
-1z70 X 1235 ? H 
 1z70 X 1236 R H 
 1z70 X 1237 G C 
 1z70 X 1238 G C 
@@ -62112,17 +61423,14 @@
 1z70 X 1333 S C 
 1z70 X 1334 Y C 
 1z70 X 1335 M C 
-1z70 X 1336 ? C 
 1z70 X 1337 H C 
 1z70 X 1338 R C 
 1z70 X 1339 S C 
 1z70 X 1340 Y C 
-1z70 X 1341 ? C 
 1z70 X 1342 Y C 
 1z70 X 1343 R C 
 1z70 X 1344 Y C 
 1z70 X 1345 R C 
-1z70 X 1346 ? C 
 1z70 X 1347 A C 
 1z70 X 1348 A C 
 1z70 X 1349 R C 
@@ -62141,7 +61449,6 @@
 1z70 X 1362 G E 
 1z70 X 1363 F C 
 1z70 X 1364 R C 
-1z70 X 1365 ? C 
 1z70 X 1366 A E 
 1z70 X 1367 A E 
 1z70 X 1368 D C 
@@ -62495,7 +61802,6 @@
 1t9i A 154 S C 
 2fb6 A -1 N C 
 2fb6 A 0 A C 
-2fb6 A 1 ? C 
 2fb6 A 2 S C 
 2fb6 A 3 A C 
 2fb6 A 4 N C 
@@ -62516,10 +61822,8 @@
 2fb6 A 19 V H 
 2fb6 A 20 F H 
 2fb6 A 21 N H 
-2fb6 A 22 ? C 
 2fb6 A 23 L H 
 2fb6 A 24 A H 
-2fb6 A 25 ? H 
 2fb6 A 26 Y H 
 2fb6 A 27 A H 
 2fb6 A 28 L H 
@@ -62558,7 +61862,6 @@
 2fb6 A 61 I H 
 2fb6 A 62 L H 
 2fb6 A 63 E H 
-2fb6 A 64 ? H 
 2fb6 A 65 L H 
 2fb6 A 66 Q H 
 2fb6 A 67 S H 
@@ -62591,7 +61894,6 @@
 2fb6 A 94 V E 
 2fb6 A 95 R E 
 2fb6 A 96 Y C 
-2fb6 A 97 ? C 
 2fb6 A 98 G H 
 2fb6 A 99 I H 
 2fb6 A 100 P H 
@@ -62726,7 +62028,6 @@
 2cyj A 115 H E 
 2cyj A 116 V C 
 2cyj A 117 T C 
-2cyj A 118 ? C 
 1t8k A 1 S C 
 1t8k A 2 T C 
 1t8k A 3 I H 
@@ -63130,7 +62431,6 @@
 2qsw A 258 V H 
 2qsw A 259 E H 
 2qsw A 260 E H 
-2qsw A 261 ? H 
 2qsw A 262 L H 
 2qsw A 263 E H 
 2qsw A 264 Q H 
@@ -63393,7 +62693,6 @@
 1mkk A 23 R H 
 1mkk A 24 S H 
 1mkk A 25 Y C 
-1mkk A 26 ? C 
 1mkk A 27 H E 
 1mkk A 28 P E 
 1mkk A 29 I E 
@@ -63418,16 +62717,13 @@
 1mkk A 48 K E 
 1mkk A 49 P C 
 1mkk A 50 S C 
-1mkk A 51 ? E 
 1mkk A 52 V E 
 1mkk A 53 P E 
 1mkk A 54 L E 
 1mkk A 55 M E 
 1mkk A 56 R E 
-1mkk A 57 ? E 
 1mkk A 58 G E 
 1mkk A 59 G C 
-1mkk A 60 ? C 
 1mkk A 61 A C 
 1mkk A 62 N C 
 1mkk A 63 D C 
@@ -63435,7 +62731,6 @@
 1mkk A 65 G C 
 1mkk A 66 L C 
 1mkk A 67 E E 
-1mkk A 68 ? E 
 1mkk A 69 V E 
 1mkk A 70 P E 
 1mkk A 71 T E 
@@ -63469,7 +62764,6 @@
 1mkk A 99 H E 
 1mkk A 100 N E 
 1mkk A 101 K E 
-1mkk A 102 ? E 
 1mkk A 103 E E 
 1mkk A 104 A E 
 1mkk A 105 R E 
@@ -63628,7 +62922,6 @@
 3nso A 27 Y C 
 3nso A 28 K E 
 3nso A 29 L E 
-3nso A 30 ? C 
 3nso A 31 Q H 
 3nso A 32 A H 
 3nso A 33 E H 
@@ -63666,7 +62959,6 @@
 3nso A 65 N C 
 3nso A 66 K C 
 3nso A 67 D C 
-3nso A 68 ? C 
 3nso A 69 E C 
 3nso A 70 V E 
 3nso A 71 D E 
@@ -63860,7 +63152,6 @@
 1o82 A 70 W C 
 2fma A 131 E C 
 2fma A 132 A C 
-2fma A 133 ? C 
 2fma A 134 K E 
 2fma A 135 F E 
 2fma A 136 L E 
@@ -63871,7 +63162,6 @@
 2fma A 141 M C 
 2fma A 142 D C 
 2fma A 143 V C 
-2fma A 144 ? C 
 2fma A 145 E C 
 2fma A 146 T C 
 2fma A 147 H H 
@@ -63885,7 +63175,6 @@
 2fma A 155 K H 
 2fma A 156 E H 
 2fma A 157 T H 
-2fma A 158 ? H 
 2fma A 159 S H 
 2fma A 160 E H 
 2fma A 161 K C 
@@ -63901,7 +63190,6 @@
 2fma A 171 L E 
 2fma A 172 L E 
 2fma A 173 P E 
-2fma A 174 ? E 
 2fma A 175 G C 
 2fma A 176 I C 
 2fma A 177 D C 
@@ -63913,8 +63201,6 @@
 2fma A 183 E E 
 2fma A 184 F E 
 2fma A 185 V E 
-2fma A 186 ? E 
-2fma A 187 ? E 
 2fma A 188 P E 
 2fma A 189 L C 
 3kpe A 159 H C 
@@ -64231,7 +63517,6 @@
 1ok0 A 8 A C 
 1ok0 A 9 P C 
 1ok0 A 10 S C 
-1ok0 A 11 ? C 
 1ok0 A 12 V E 
 1ok0 A 13 T E 
 1ok0 A 14 L E 
@@ -64247,7 +63532,6 @@
 1ok0 A 24 D E 
 1ok0 A 25 N E 
 1ok0 A 26 G C 
-1ok0 A 27 ? C 
 1ok0 A 28 A C 
 1ok0 A 29 E C 
 1ok0 A 30 T C 
@@ -64265,7 +63549,6 @@
 1ok0 A 42 E C 
 1ok0 A 43 G C 
 1ok0 A 44 L C 
-1ok0 A 45 ? C 
 1ok0 A 46 Y E 
 1ok0 A 47 A E 
 1ok0 A 48 V E 
@@ -64293,7 +63576,6 @@
 1ok0 A 70 L E 
 1ok0 A 71 A E 
 1ok0 A 72 R E 
-1ok0 A 73 ? C 
 1ok0 A 74 L C 
 3rnq A 34 S C 
 3rnq A 35 L E 
@@ -64315,7 +63597,6 @@
 3rnq A 51 T E 
 3rnq A 52 F E 
 3rnq A 53 T E 
-3rnq A 54 ? E 
 3rnq A 55 S E 
 3rnq A 56 L E 
 3rnq A 57 S C 
@@ -64384,7 +63665,6 @@
 3rnq A 120 I E 
 3rnq A 121 Y E 
 3rnq A 122 L E 
-3rnq A 123 ? E 
 3rnq A 124 G E 
 3rnq A 125 A E 
 3rnq A 126 I E 
@@ -64588,7 +63868,6 @@
 1vr7 A 27 E H 
 1vr7 A 28 Q H 
 1vr7 A 29 E H 
-1vr7 A 30 ? H 
 1vr7 A 31 K H 
 1vr7 A 32 Q H 
 1vr7 A 33 A H 
@@ -65290,7 +64569,6 @@
 2fuf A 173 K H 
 2fuf A 174 K H 
 2fuf A 175 I H 
-2fuf A 176 ? H 
 2fuf A 177 E H 
 2fuf A 178 K H 
 2fuf A 179 Y C 
@@ -65346,7 +64624,6 @@
 2fuf A 229 E H 
 2fuf A 230 Y H 
 2fuf A 231 L H 
-2fuf A 232 ? H 
 2fuf A 233 Y H 
 2fuf A 234 S H 
 2fuf A 235 A H 
@@ -65607,9 +64884,7 @@
 1mc2 A 1024 L C 
 1mc2 A 1025 Y C 
 1mc2 A 1026 G C 
-1mc2 A 1027 ? C 
 1mc2 A 1028 N C 
-1mc2 A 1029 ? C 
 1mc2 A 1030 G C 
 1mc2 A 1031 V C 
 1mc2 A 1032 G C 
@@ -65624,21 +64899,16 @@
 1mc2 A 1041 T H 
 1mc2 A 1042 D H 
 1mc2 A 1043 R H 
-1mc2 A 1044 ? H 
-1mc2 A 1045 ? H 
 1mc2 A 1046 F H 
 1mc2 A 1047 V H 
 1mc2 A 1048 H H 
 1mc2 A 1049 K H 
-1mc2 A 1050 ? H 
-1mc2 A 1051 ? H 
 1mc2 A 1052 Y H 
 1mc2 A 1053 K C 
 1mc2 A 1057 K C 
 1mc2 A 1058 L C 
 1mc2 A 1059 T C 
 1mc2 A 1060 D C 
-1mc2 A 1061 ? C 
 1mc2 A 1067 D C 
 1mc2 A 1068 S C 
 1mc2 A 1069 K C 
@@ -65656,27 +64926,22 @@
 1mc2 A 1081 A E 
 1mc2 A 1082 I E 
 1mc2 A 1083 V E 
-1mc2 A 1084 ? E 
 1mc2 A 1086 G C 
 1mc2 A 1087 K C 
 1mc2 A 1088 N C 
 1mc2 A 1089 Q C 
 1mc2 A 1090 P H 
-1mc2 A 1091 ? H 
 1mc2 A 1092 M H 
 1mc2 A 1093 Q H 
 1mc2 A 1094 E H 
 1mc2 A 1095 M H 
-1mc2 A 1096 ? H 
 1mc2 A 1097 E H 
-1mc2 A 1098 ? H 
 1mc2 A 1099 D H 
 1mc2 A 1100 K H 
 1mc2 A 1101 A H 
 1mc2 A 1102 F H 
 1mc2 A 1103 A H 
 1mc2 A 1104 I H 
-1mc2 A 1105 ? H 
 1mc2 A 1106 L H 
 1mc2 A 1107 R H 
 1mc2 A 1108 E H 
@@ -65696,14 +64961,12 @@
 1mc2 A 1122 K C 
 1mc2 A 1123 P C 
 1mc2 A 1124 S C 
-1mc2 A 1125 ? C 
 1mc2 A 1128 K C 
 1mc2 A 1129 K C 
 1mc2 A 1130 T C 
 1mc2 A 1131 S C 
 1mc2 A 1132 E C 
 1mc2 A 1133 Q C 
-1mc2 A 1134 ? C 
 2x02 A 21 S C 
 2x02 A 22 I E 
 2x02 A 23 T E 
@@ -65727,14 +64990,12 @@
 2x02 A 41 F E 
 2x02 A 42 V E 
 2x02 A 43 L E 
-2x02 A 44 ? E 
 2x02 A 45 K E 
 2x02 A 46 S C 
 2x02 A 47 S C 
 2x02 A 48 S C 
 2x02 A 49 K C 
 2x02 A 50 S C 
-2x02 A 51 ? E 
 2x02 A 52 A E 
 2x02 A 53 T E 
 2x02 A 54 N C 
@@ -65753,7 +65014,6 @@
 2x02 A 67 S C 
 2x02 A 68 T C 
 2x02 A 69 F C 
-2x02 A 70 ? H 
 2x02 A 71 I H 
 2x02 A 72 P H 
 2x02 A 73 N H 
@@ -66079,7 +65339,6 @@
 1l9l A 4 Y H 
 1l9l A 5 R H 
 1l9l A 6 T H 
-1l9l A 7 ? H 
 1l9l A 8 L H 
 1l9l A 9 T H 
 1l9l A 10 I H 
@@ -66106,7 +65365,6 @@
 1l9l A 31 T H 
 1l9l A 32 R H 
 1l9l A 33 V C 
-1l9l A 34 ? C 
 1l9l A 35 R C 
 1l9l A 36 T C 
 1l9l A 37 G C 
@@ -66117,7 +65375,6 @@
 1l9l A 42 R H 
 1l9l A 43 D H 
 1l9l A 44 V H 
-1l9l A 45 ? H 
 1l9l A 46 R H 
 1l9l A 47 N H 
 1l9l A 48 F H 
@@ -66142,7 +65399,6 @@
 1l9l A 67 Q H 
 1l9l A 68 Q H 
 1l9l A 69 I H 
-1l9l A 70 ? H 
 1l9l A 71 E C 
 1l9l A 72 D C 
 1l9l A 73 L C 
@@ -66587,7 +65843,6 @@
 3mmh A 72 P C 
 3mmh A 73 L C 
 3mmh A 74 A C 
-3mmh A 75 ? C 
 3mmh A 76 T C 
 3mmh A 77 R E 
 3mmh A 78 I E 
@@ -66621,7 +65876,6 @@
 3mmh A 106 H C 
 3mmh A 107 I C 
 3mmh A 108 A C 
-3mmh A 109 ? C 
 3mmh A 110 S C 
 3mmh A 111 S C 
 3mmh A 112 L C 
@@ -66680,7 +65934,6 @@
 3mmh A 165 Q H 
 3mmh A 166 A C 
 3mmh A 167 V C 
-3mmh A 168 ? C 
 2x4k A 0 S C 
 2x4k A 1 M C 
 2x4k A 2 M C 
@@ -67038,7 +66291,6 @@
 1lni A 4 G C 
 1lni A 5 T E 
 1lni A 6 V E 
-1lni A 7 ? E 
 1lni A 8 L C 
 1lni A 9 S C 
 1lni A 10 A C 
@@ -67127,20 +66379,15 @@
 1lni A 93 D E 
 1lni A 94 Q C 
 1lni A 95 T C 
-1lni A 96 ? C 
-3bed A 1 ? C 
-3bed A 2 ? C 
 3bed A 3 P C 
 3bed A 4 K E 
 3bed A 5 L E 
 3bed A 6 I E 
 3bed A 7 L E 
-3bed A 8 ? E 
 3bed A 9 S E 
 3bed A 10 H E 
 3bed A 11 G C 
 3bed A 12 R C 
-3bed A 13 ? H 
 3bed A 14 A H 
 3bed A 15 E H 
 3bed A 16 E H 
@@ -67150,7 +66397,6 @@
 3bed A 20 S H 
 3bed A 21 T H 
 3bed A 22 Q H 
-3bed A 23 ? H 
 3bed A 24 I H 
 3bed A 25 V H 
 3bed A 26 G C 
@@ -67163,7 +66409,6 @@
 3bed A 33 I E 
 3bed A 34 V E 
 3bed A 35 S E 
-3bed A 36 ? E 
 3bed A 37 T C 
 3bed A 38 A C 
 3bed A 39 E C 
@@ -67195,7 +66440,6 @@
 3bed A 65 A E 
 3bed A 66 D C 
 3bed A 67 L C 
-3bed A 68 ? C 
 3bed A 69 G C 
 3bed A 70 G C 
 3bed A 71 T H 
@@ -67204,10 +66448,7 @@
 3bed A 74 N H 
 3bed A 75 V H 
 3bed A 76 A H 
-3bed A 77 ? H 
-3bed A 78 ? H 
 3bed A 79 A H 
-3bed A 80 ? C 
 3bed A 81 G C 
 3bed A 82 T C 
 3bed A 83 Y C 
@@ -67223,7 +66464,6 @@
 3bed A 93 N C 
 3bed A 94 L H 
 3bed A 95 A H 
-3bed A 96 ? H 
 3bed A 97 A H 
 3bed A 98 I H 
 3bed A 99 E H 
@@ -67720,7 +66960,6 @@
 1ooh A 14 R H 
 1ooh A 15 S H 
 1ooh A 16 G C 
-1ooh A 17 ? C 
 1ooh A 18 A C 
 1ooh A 19 P C 
 1ooh A 20 K C 
@@ -67749,11 +66988,9 @@
 1ooh A 43 D H 
 1ooh A 44 L H 
 1ooh A 45 M H 
-1ooh A 46 ? H 
 1ooh A 47 Y H 
 1ooh A 48 T H 
 1ooh A 49 K H 
-1ooh A 50 ? H 
 1ooh A 51 V H 
 1ooh A 52 S H 
 1ooh A 53 L H 
@@ -67795,7 +67032,6 @@
 1ooh A 89 V H 
 1ooh A 90 E H 
 1ooh A 91 A H 
-1ooh A 92 ? H 
 1ooh A 93 R C 
 1ooh A 94 D C 
 1ooh A 95 T C 
@@ -67806,7 +67042,6 @@
 1ooh A 100 K C 
 1ooh A 101 E C 
 1ooh A 102 S H 
-1ooh A 103 ? H 
 1ooh A 104 E H 
 1ooh A 105 R H 
 1ooh A 106 V H 
@@ -67815,7 +67050,6 @@
 1ooh A 109 T H 
 1ooh A 110 A H 
 1ooh A 111 K H 
-1ooh A 112 ? H 
 1ooh A 113 F H 
 1ooh A 114 S H 
 1ooh A 115 E H 
@@ -68251,7 +67485,6 @@
 2chh A 112 L C 
 2chh A 113 G C 
 2o8q A 0 G C 
-2o8q A 1 ? C 
 2o8q A 2 K C 
 2o8q A 3 L C 
 2o8q A 4 Q C 
@@ -68287,7 +67520,6 @@
 2o8q A 36 T H 
 2o8q A 37 G C 
 2o8q A 38 G C 
-2o8q A 39 ? C 
 2o8q A 40 F C 
 2o8q A 41 G E 
 2o8q A 42 A E 
@@ -68328,7 +67560,6 @@
 2o8q A 82 G E 
 2o8q A 83 A E 
 2o8q A 84 V E 
-2o8q A 85 ? E 
 2o8q A 86 L E 
 2o8q A 87 E E 
 2o8q A 88 A C 
@@ -68372,7 +67603,6 @@
 2o8q A 126 D C 
 2o8q A 127 L C 
 2o8q A 128 E C 
-1vmg A 1 ? C 
 1vmg A 2 D C 
 1vmg A 3 L C 
 1vmg A 4 E C 
@@ -68383,10 +67613,8 @@
 1vmg A 9 Q H 
 1vmg A 10 S H 
 1vmg A 11 K H 
-1vmg A 12 ? H 
 1vmg A 13 K H 
 1vmg A 14 E H 
-1vmg A 15 ? H 
 1vmg A 16 Y H 
 1vmg A 17 F H 
 1vmg A 18 E H 
@@ -68455,7 +67683,6 @@
 1vmg A 81 Y C 
 1vmg A 82 K C 
 1vmg A 83 L C 
-2w15 A 1 ? C 
 2w15 A 2 R C 
 2w15 A 3 F C 
 2w15 A 4 S C 
@@ -68571,7 +67798,6 @@
 2w15 A 114 G C 
 2w15 A 115 G C 
 2w15 A 116 M C 
-2w15 A 117 ? C 
 2w15 A 118 D C 
 2w15 A 119 P C 
 2w15 A 120 R C 
@@ -68611,14 +67837,11 @@
 2w15 A 154 T C 
 2w15 A 155 G C 
 2w15 A 156 S C 
-2w15 A 157 ? C 
 2w15 A 158 S C 
-2w15 A 159 ? C 
 2w15 A 160 G C 
 2w15 A 161 A C 
 2w15 A 162 K C 
 2w15 A 163 S E 
-2w15 A 164 ? E 
 2w15 A 165 I C 
 2w15 A 166 M C 
 2w15 A 167 A C 
@@ -68635,7 +67858,6 @@
 2w15 A 178 F C 
 2w15 A 179 S C 
 2w15 A 180 D H 
-2w15 A 181 ? H 
 2w15 A 182 S H 
 2w15 A 183 Q H 
 2w15 A 184 N H 
@@ -68651,13 +67873,11 @@
 2w15 A 194 N C 
 2w15 A 195 P C 
 2w15 A 196 Q C 
-2w15 A 197 ? C 
 2w15 A 198 I C 
 2w15 A 199 L C 
 2w15 A 200 N C 
 2w15 A 201 K C 
 2w15 A 202 P C 
-2w15 A 1204 ? C 
 1fsg A 0 H C 
 1fsg A 1 M C 
 1fsg A 2 A C 
@@ -69424,7 +68644,6 @@
 1xdz A 236 P C 
 1xdz A 237 I C 
 1xdz A 238 E C 
-3ba3 A 1 ? C 
 3ba3 A 2 D C 
 3ba3 A 3 I C 
 3ba3 A 4 S H 
@@ -69516,7 +68735,6 @@
 3ba3 A 90 T C 
 3ba3 A 91 K C 
 3ba3 A 92 T C 
-3ba3 A 93 ? H 
 3ba3 A 94 T H 
 3ba3 A 95 D H 
 3ba3 A 96 L H 
@@ -69585,7 +68803,6 @@
 2bcm A 16 T E 
 2bcm A 17 E C 
 2bcm A 18 E C 
-2bcm A 19 ? C 
 2bcm A 20 R E 
 2bcm A 21 V E 
 2bcm A 22 Q E 
@@ -69617,7 +68834,6 @@
 2bcm A 48 A E 
 2bcm A 49 L E 
 2bcm A 50 G C 
-2bcm A 51 ? C 
 2bcm A 52 N C 
 2bcm A 53 G C 
 2bcm A 54 L C 
@@ -69839,7 +69055,6 @@
 1kdv A 134 L C 
 1kdv A 135 G C 
 1kdv A 136 W E 
-1kdv A 137 ? E 
 1kdv A 138 E H 
 1kdv A 139 A H 
 1kdv A 140 D H 
@@ -69878,7 +69093,6 @@
 1kdv A 173 V C 
 1kdv A 174 Y C 
 1kdv A 175 E C 
-1kdv A 176 ? C 
 1kdv A 177 N C 
 1kdv A 178 N C 
 1kdv A 179 R C 
@@ -70215,7 +69429,6 @@
 2qsb A 10 N H 
 2qsb A 11 E H 
 2qsb A 12 V H 
-2qsb A 13 ? H 
 2qsb A 14 Y H 
 2qsb A 15 L H 
 2qsb A 16 L H 
@@ -70259,11 +69472,9 @@
 2qsb A 54 V H 
 2qsb A 55 L H 
 2qsb A 56 S H 
-2qsb A 57 ? H 
 2qsb A 58 L H 
 2qsb A 59 D H 
 2qsb A 60 E H 
-2qsb A 61 ? H 
 2qsb A 62 A H 
 2qsb A 63 N C 
 2qsb A 64 D C 
@@ -70484,7 +69695,6 @@
 1nxm A 196 D C 
 1nxm A 197 L C 
 2qjw A 0 G C 
-2qjw A 1 ? C 
 2qjw A 2 S C 
 2qjw A 3 R C 
 2qjw A 4 G C 
@@ -70585,13 +69795,11 @@
 2qjw A 99 L E 
 2qjw A 100 F E 
 2qjw A 101 L E 
-2qjw A 102 ? E 
 2qjw A 103 V C 
 2qjw A 104 P C 
 2qjw A 105 P C 
 2qjw A 106 T C 
 2qjw A 107 K C 
-2qjw A 108 ? C 
 2qjw A 109 G C 
 2qjw A 110 P C 
 2qjw A 111 L C 
@@ -70716,7 +69924,6 @@
 1ws8 A 55 F H 
 1ws8 A 56 K H 
 1ws8 A 57 S H 
-1ws8 A 58 ? C 
 1ws8 A 59 N C 
 1ws8 A 60 S C 
 1ws8 A 61 S C 
@@ -70750,7 +69957,6 @@
 1ws8 A 89 P C 
 1ws8 A 90 G C 
 1ws8 A 91 H C 
-1ws8 A 92 ? C 
 1ws8 A 93 Q C 
 1ws8 A 94 L C 
 1ws8 A 95 G C 
@@ -70789,14 +69995,12 @@
 1n8v A 26 Y H 
 1n8v A 27 V H 
 1n8v A 28 N H 
-1n8v A 29 ? H 
 1n8v A 30 V H 
 1n8v A 31 M C 
 1n8v A 32 E C 
 1n8v A 33 R C 
 1n8v A 34 G C 
 1n8v A 35 K C 
-1n8v A 36 ? C 
 1n8v A 37 S C 
 1n8v A 38 P H 
 1n8v A 39 E H 
@@ -70815,10 +70019,8 @@
 1n8v A 52 E H 
 1n8v A 53 N H 
 1n8v A 54 G C 
-1n8v A 55 ? C 
 1n8v A 56 K C 
 1n8v A 57 K C 
-1n8v A 58 ? C 
 1n8v A 59 T C 
 1n8v A 60 E H 
 1n8v A 61 N H 
@@ -71286,7 +70488,6 @@
 1ow4 A 13 V H 
 1ow4 A 14 R H 
 1ow4 A 15 E H 
-1ow4 A 16 ? H 
 1ow4 A 17 M C 
 1ow4 A 18 G C 
 1ow4 A 19 S C 
@@ -71313,11 +70514,9 @@
 1ow4 A 40 T H 
 1ow4 A 41 A H 
 1ow4 A 42 Q H 
-1ow4 A 43 ? H 
 1ow4 A 44 L H 
 1ow4 A 45 L H 
 1ow4 A 46 A H 
-1ow4 A 47 ? H 
 1ow4 A 48 A H 
 1ow4 A 49 L H 
 1ow4 A 50 D H 
@@ -71362,7 +70561,6 @@
 1ow4 A 89 V H 
 1ow4 A 90 N H 
 1ow4 A 91 D H 
-1ow4 A 92 ? H 
 1ow4 A 93 A H 
 1ow4 A 94 N H 
 1ow4 A 95 Q H 
@@ -71374,7 +70572,6 @@
 1ow4 A 101 P C 
 1ow4 A 102 D C 
 1ow4 A 103 R H 
-1ow4 A 104 ? H 
 1ow4 A 105 D H 
 1ow4 A 106 L H 
 1ow4 A 107 I H 
@@ -71383,7 +70580,6 @@
 1ow4 A 110 F H 
 1ow4 A 111 T H 
 1ow4 A 112 D H 
-1ow4 A 113 ? H 
 1ow4 A 114 V H 
 1ow4 A 115 R H 
 1ow4 A 116 N H 

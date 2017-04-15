@@ -21,6 +21,7 @@ for i in range(0, len(list), 3):
     temp.append(list[i + 2].strip())
     list2.append(temp)
 f.close()
+print(list2)
 # dealing the statistics
 fsrm = {}
 # initialize
@@ -36,7 +37,7 @@ for i in ['C', 'E', 'H']:
         for k in amino:
             temp = {}
             for n in range(1, 9):
-                temp[n] = 0
+                temp[n] = 1
 
             temp2[k] = temp
 
@@ -46,6 +47,7 @@ for i in ['C', 'E', 'H']:
 for i in list2:
     for j in range(len(i[0])):
         for k in range(1, 9):
+
             fsrm[i[1][j]][i[0][j]][i[0][k]][k] += 1
 
 for i in fsrm.keys():
@@ -62,6 +64,8 @@ def gor3(alist):
             (fs['H'] + fs['E']) / fs['C'])
         sheet = log(fsr['E'][alist[i]] / (fsr['C'][alist[i]] + fsr['H'][alist[i]])) + log(
             (fs['H'] + fs['C']) / fs['E'])
+
+
         for j in range(-8, 9):
             t = i + j
             if t > 0 and t < len(alist):
@@ -77,7 +81,6 @@ def gor3(alist):
                         fsrm['H'][alist[i]][alist[t]][abs(j)] + fsrm['C'][alist[i]][alist[t]][abs(j)])) + log(
                         (fsr['H'][alist[i]] + fsr['C'][alist[i]]) / fsr['E'][alist[i]])
 
-
         if coil == max(sheet, coil, helix):
             result.append('C')
         elif sheet == max(sheet, coil, helix):
@@ -85,9 +88,50 @@ def gor3(alist):
 
         else:
             result.append('H')
+
+
+
     return ''.join(result)
 
-alistt = 'ADPPPVHDTDGHELRADANYYVLSANRAHGGGLTMAPGHGRHCPLFVSQDPNGQHDGFPVRITPYGVAPSDKIIRLSTDVRISFRAYTTCLQSTEWHIDSELAAGRRHVITGPVKDPSPSGRENAFRIEKYSGAEVHEYKLMSCGDWCQDLGVFRDLKGGAWFLGATEPYHVVVFKKAPPA'
-print(gor3(alistt))
-a='CCCCECECCCCCECECCCEEEEEECCHHHCCCEEEEEECCEEEEEEEEECCCCCCCCCCEEEEECCCCCCCCECECCCCEEEEECCCCCCCCCCECEECCCCECCECEEECCCCCCCCCCCHHHCEEEEECECCCCCCEEEEEECCCEEECEEECCCCCCCCEEECCCCECCEEEEEECCC'
-print(a)
+
+
+'''
+f = open('dssp_protein')
+protein=[]
+stru =[]
+
+t = f.readlines()
+for i in range(0,len(t),3):
+    protein.append(t[i+1].strip())
+    stru.append(t[i+2].strip())
+f.close()
+
+f = open("aa.txt",'w')
+for i in protein:
+    f.write(gor3(i))
+f.write('\n')
+for i in stru:
+    f.write(i)
+f.close()
+'''
+
+'''
+f = open('dssp_protein')
+protein=[]
+stru =[]
+
+t = f.readlines()
+for i in range(0,len(t),3):
+    protein.append(t[i+1].strip())
+    stru.append(t[i+2].strip())
+f.close()
+
+
+aaa = 'G?NQSIIFTEQLTWDVQLSAIHFTAQQQG?VIDCYIGQKVLEHLAAEKINNSEQALSLFEQFRFDIEEQAEKLIEQEAFDVQGHIQVERVD'
+bbb ='CCCCCEEECCCCEEECCCCEEEEEEEECCEEEEEEEEHHHHHHHHCCCCCCHHHHHHHHHHCHHHHHHHHHHHHHCCCCCCCCCEEECCCC'
+f = open("aa.txt",'w')
+f.write(gor3(aaa))
+f.write('\n')
+f.write(bbb)
+
+'''
