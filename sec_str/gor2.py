@@ -2,8 +2,8 @@ from pre_process import *
 from numpy import log
 import matplotlib.pyplot as plt
 
-dssp = pre_process("dssp_info.txt", "dssp.txt")
-stride = pre_process("stride_info.txt", "stride.txt")
+dssp = pre_process("./txtfile/dssp_info.txt", "./txtfile/dssp_predict.txt")
+stride = pre_process("./txtfile/stride_info.txt", "./txtfile/stride.txt")
 
 fsr,fs,fr= fSR(dssp)
 #print(fs)
@@ -119,9 +119,6 @@ def gor2_list(alist):
             predict2.append('H')
     return ''.join(predict2)
 
-alistt = 'ADPPPVHDTDGHELRADANYYVLSANRAHGGGLTMAPGHGRHCPLFVSQDPNGQHDGFPVRITPYGVAPSDKIIRLSTDVRISFRAYTTCLQSTEWHIDSELAAGRRHVITGPVKDPSPSGRENAFRIEKYSGAEVHEYKLMSCGDWCQDLGVFRDLKGGAWFLGATEPYHVVVFKKAPPA'
-print(gor2_list(alistt))
-a='CCCCECECCCCCECECCCEEEEEECCHHHCCCEEEEEECCEEEEEEEEECCCCCCCCCCEEEEECCCCCCCCECECCCCEEEEECCCCCCCCCCECEECCCCECCECEEECCCCCCCCCCCHHHCEEEEECECCCCCCEEEEEECCCEEECEEECCCCCCCCEEECCCCECCEEEEEECCC'
 #gor2(dssp,'predict2.txt')
 
 
@@ -158,4 +155,3 @@ def printwrong(str,str2):
     print("right",rate/len(str) )
     plt.show()
 
-printwrong(gor2_list(alistt),a)

@@ -1,9 +1,11 @@
 from pre_process import *
 from numpy import log
+import time
 import matplotlib.pyplot as plt
 
-dssp2 = pre_process("dssp_info.txt", "dssp.txt")
-stride = pre_process("stride_info.txt", "stride.txt")
+t1 = time.time()
+dssp2 = pre_process("./txtfile/dssp_info.txt", "./txtfile/dssp.txt")
+stride = pre_process("./txtfile/stride_info.txt", "./txtfile/stride.txt")
 
 fsr, fs, fr = fSR(dssp2)
 # print(fs)
@@ -11,7 +13,7 @@ fsr, fs, fr = fSR(dssp2)
 total = fs['C'] + fs['E'] + fs['C']
 
 # do some pre_process, read the protein sequence and structure in to a 2d list
-f = open("dssp_protein")
+f = open("./txtfile/dssp_protein")
 
 list = f.readlines()
 list2 = []
@@ -19,9 +21,10 @@ for i in range(0, len(list), 3):
     temp = []
     temp.append(list[i + 1].strip())
     temp.append(list[i + 2].strip())
+    temp.append(list[i].strip())
     list2.append(temp)
 f.close()
-print(list2)
+#print(list2)
 # dealing the statistics
 fsrm = {}
 # initialize
@@ -29,7 +32,7 @@ amino = []
 for i in amino_dict.keys():
     amino.append(amino_dict[i])
 amino.append('?')
-print(amino)
+#print(amino)
 for i in ['C', 'E', 'H']:
     temp3 = {}
     for j in amino:
@@ -45,10 +48,10 @@ for i in ['C', 'E', 'H']:
     fsrm[i] = temp3
 
 for i in list2:
-    for j in range(len(i[0])):
+    for j in range(len(i[0])-8):
         for k in range(1, 9):
 
-            fsrm[i[1][j]][i[0][j]][i[0][k]][k] += 1
+            fsrm[i[1][j]][i[0][j]][i[0][k+j]][k] += 1
 
 for i in fsrm.keys():
     print(fsrm[i])
@@ -94,8 +97,40 @@ def gor3(alist):
     return ''.join(result)
 
 
+f=open("./txtfile/dssp_predict.txt",'w')
+
+for i in list2:
+    # leave one out procedure
+    for j in range(len(i[0])-8):
+        for k in range(1,9):
+            fsrm[i[1][j]][i[0][j]][i[0][k + j]][k] -= 1
+
+    f.write(i[2]+'\n')
+    f.write(i[0]+'\n')
+    # write the right structure
+    f.write(i[1]+'\n')
+    # write the predict structure
+    f.write(gor3(i[0])+'\n')
+
+
+    # restore
+    for j in range(len(i[0])-8):
+        for k in range(1,9):
+            fsrm[i[1][j]][i[0][j]][i[0][k + j]][k] += 1
+
+
+f.close()
+
+
+t2 = time.time()
+
+print(t2-t1)
+
+
+
 
 '''
+
 f = open('dssp_protein')
 protein=[]
 stru =[]

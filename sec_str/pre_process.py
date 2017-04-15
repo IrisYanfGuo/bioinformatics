@@ -17,14 +17,14 @@ def read_txt(filename):
 # print(len(dssp),len(stride),len(cath))
 
 
-f = open("amino_dict.txt")
+f = open("./txtfile/amino_dict.txt")
 amino_dict = {}
 for i in f.readlines():
     temp = i.strip().split()
     amino_dict[temp[0].upper()] = temp[1]
 f.close()
 
-f = open("stru_dict.txt")
+f = open("./txtfile/stru_dict.txt")
 stru_dict = {}
 for i in f.readlines():
     temp = i.strip().split()

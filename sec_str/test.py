@@ -1,2 +1,11 @@
-from numpy import log
-print(log(19/5)+log(17/17))
+import timeit
+
+import time
+
+t1 = time.time()
+t2 = time.time()
+
+print(t2-t1)
+
+
+

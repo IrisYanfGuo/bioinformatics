@@ -1,8 +1,8 @@
-f = open("dssp.txt")
+f = open("dssp_predict.txt")
 
 
 
-# transfer dssp.txt file into format like fasta
+# transfer dssp_predict.txt file into format like fasta
 
 def tofasta(file,newfile):
     f = open(file)
@@ -42,5 +42,5 @@ def tofasta(file,newfile):
     f.close()
     f2.close()
 
-tofasta('dssp.txt','dssp_protein')
+tofasta('dssp_predict.txt','dssp_protein')
 tofasta('stride.txt','stride_protein')
