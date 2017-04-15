@@ -11,6 +11,7 @@ stride = pre_process("./txtfile/stride_info.txt", "./txtfile/stride.txt")
 fsr, fs, fr = fSR(dssp2)
 # print(fs)
 # print(fr)
+
 total = fs['C'] + fs['E'] + fs['C']
 
 # do some pre_process, read the protein sequence and structure in to a 2d list
