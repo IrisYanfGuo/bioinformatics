@@ -1,6 +1,7 @@
 from pre_process import *
 from numpy import log
 import time
+from numpy import sqrt
 import matplotlib.pyplot as plt
 
 t1 = time.time()
@@ -24,7 +25,7 @@ for i in range(0, len(list), 3):
     temp.append(list[i].strip())
     list2.append(temp)
 f.close()
-#print(list2)
+# print(list2)
 # dealing the statistics
 fsrm = {}
 # initialize
@@ -32,7 +33,7 @@ amino = []
 for i in amino_dict.keys():
     amino.append(amino_dict[i])
 amino.append('?')
-#print(amino)
+# print(amino)
 for i in ['C', 'E', 'H']:
     temp3 = {}
     for j in amino:
@@ -48,10 +49,9 @@ for i in ['C', 'E', 'H']:
     fsrm[i] = temp3
 
 for i in list2:
-    for j in range(len(i[0])-8):
+    for j in range(len(i[0]) - 8):
         for k in range(1, 9):
-
-            fsrm[i[1][j]][i[0][j]][i[0][k+j]][k] += 1
+            fsrm[i[1][j]][i[0][j]][i[0][k + j]][k] += 1
 
 for i in fsrm.keys():
     print(fsrm[i])
@@ -68,13 +68,12 @@ def gor3(alist):
         sheet = log(fsr['E'][alist[i]] / (fsr['C'][alist[i]] + fsr['H'][alist[i]])) + log(
             (fs['H'] + fs['C']) / fs['E'])
 
-
         for j in range(-8, 9):
             t = i + j
             if t > 0 and t < len(alist):
                 if j != 0:
                     helix += log(fsrm['H'][alist[i]][alist[t]][abs(j)] / (
-                    fsrm['E'][alist[i]][alist[t]][abs(j)] + fsrm['C'][alist[i]][alist[t]][abs(j)])) + log(
+                        fsrm['E'][alist[i]][alist[t]][abs(j)] + fsrm['C'][alist[i]][alist[t]][abs(j)])) + log(
                         (fsr['E'][alist[i]] + fsr['C'][alist[i]]) / fsr['H'][alist[i]])
 
                     coil += log(fsrm['C'][alist[i]][alist[t]][abs(j)] / (
@@ -92,42 +91,104 @@ def gor3(alist):
         else:
             result.append('H')
 
-
-
     return ''.join(result)
 
 
-f=open("./txtfile/dssp_predict.txt",'w')
+f = open("./txtfile/dssp_predict.txt", 'w')
+
+predict = ""
+right = ""
 
 for i in list2:
     # leave one out procedure
-    for j in range(len(i[0])-8):
-        for k in range(1,9):
+
+    for j in range(len(i[0]) - 8):
+        for k in range(1, 9):
             fsrm[i[1][j]][i[0][j]][i[0][k + j]][k] -= 1
 
-    f.write(i[2]+'\n')
-    f.write(i[0]+'\n')
-    # write the right structure
-    f.write(i[1]+'\n')
-    # write the predict structure
-    f.write(gor3(i[0])+'\n')
 
+    f.write(i[2] + '\n')
+    f.write(i[0] + '\n')
+    # write the right structure
+    f.write(i[1] + '\n')
+    right += i[1]
+
+    # write the predict structure
+    temp = gor3(i[0])
+    predict += temp
+    f.write(temp + '\n')
 
     # restore
-    for j in range(len(i[0])-8):
-        for k in range(1,9):
+
+    for j in range(len(i[0]) - 8):
+        for k in range(1, 9):
             fsrm[i[1][j]][i[0][j]][i[0][k + j]][k] += 1
 
 
 f.close()
 
+enum = 0
+hnum = 0
+cnum = 0
+for i in right:
+    if i == 'C':
+        cnum += 1
+    elif i == 'E':
+        enum += 1
+    else:
+        hnum += 1
+
+ewrong = 0
+hwrong = 0
+cwrong = 0
+num = 0
+for i in range(len(predict)):
+    if predict[i] == right[i]:
+        num += 1
+    elif right[i] == 'E':
+        ewrong += 1
+    elif right[i] == 'C':
+        cwrong += 1
+    else:
+        hwrong += 1
+
+print(num / len(predict))
+
+
+def mcc(predict, right, stru):
+    TP, FP, FN, TN = 0, 0, 0, 0
+    for i in range(len(predict)):
+        if predict[i] == stru:
+            if right[i] == stru:
+                TP += 1
+            else:
+                FP += 1
+        else:
+            if right[i] == stru:
+                FN += 1
+            else:
+                TN += 1
+    MCC = (TP * TN - FP * FN) / sqrt((TP + FP) * (TP + FN) * (TN + FP) * (TN + FN))
+    TRP = TP / (TP + FN)
+    SPC = TN / (FP + TN)
+
+    print(TP, FP, TN, FN)
+
+    return MCC, TRP, SPC
+
+
+# predict1 = 'HHHHCCCCCHHHHCCCHHCCCCHHHH'
+# right1 = 'HHHHHCCCCEEEECCCEEECCCHHHH'
+
+print(mcc(predict, right, 'H'))
+print(mcc(predict,right,'E'))
+print(mcc(predict,right,'C'))
 
 t2 = time.time()
 
-print(t2-t1)
+# calculate the overall
 
-
-
+print(t2 - t1)
 
 '''
 
