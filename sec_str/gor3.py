@@ -94,7 +94,7 @@ def gor3(alist):
 
     return ''.join(result)
 
-
+'''
 f = open("./txtfile/dssp_predict.txt", 'w')
 
 predict = ""
@@ -176,20 +176,20 @@ def mcc(predict, right, stru):
     print(TP, FP, TN, FN)
 
     return MCC, TRP, SPC
-
+'''
 
 # predict1 = 'HHHHCCCCCHHHHCCCHHCCCCHHHH'
 # right1 = 'HHHHHCCCCEEEECCCEEECCCHHHH'
 
-print(mcc(predict, right, 'H'))
-print(mcc(predict,right,'E'))
-print(mcc(predict,right,'C'))
+#print(mcc(predict, right, 'H'))
+#print(mcc(predict,right,'E'))
+#print(mcc(predict,right,'C'))
 
 t2 = time.time()
 
 # calculate the overall
 
-print(t2 - t1)
+#print(t2 - t1)
 
 '''
 
