@@ -5,6 +5,7 @@ from numpy import sqrt
 import matplotlib.pyplot as plt
 
 t1 = time.time()
+'''
 dssp2 = pre_process("./txtfile/dssp_info.txt", "./txtfile/dssp.txt")
 stride = pre_process("./txtfile/stride_info.txt", "./txtfile/stride.txt")
 
@@ -53,9 +54,7 @@ for i in list2:
     for j in range(len(i[0]) - 8):
         for k in range(1, 9):
             fsrm[i[1][j]][i[0][j]][i[0][k + j]][k] += 1
-
-for i in fsrm.keys():
-    print(fsrm[i])
+'''
 
 
 def gor3(alist):
@@ -191,44 +190,74 @@ t2 = time.time()
 
 #print(t2 - t1)
 
-'''
 
-f = open('dssp_protein')
-protein=[]
-stru =[]
+def gor3_file(filename,resultfile):
+    '''
 
-t = f.readlines()
-for i in range(0,len(t),3):
-    protein.append(t[i+1].strip())
-    stru.append(t[i+2].strip())
-f.close()
+    :param filename: read the dssp_protein file or stride_protein file
+    :return: the predict structure, and write the result to the file.
+    '''
 
-f = open("aa.txt",'w')
-for i in protein:
-    f.write(gor3(i))
-f.write('\n')
-for i in stru:
-    f.write(i)
-f.close()
-'''
+    f = open(filename)
 
-'''
-f = open('dssp_protein')
-protein=[]
-stru =[]
+    list = f.readlines()
+    list2 = []
 
-t = f.readlines()
-for i in range(0,len(t),3):
-    protein.append(t[i+1].strip())
-    stru.append(t[i+2].strip())
-f.close()
+    list_fsr=''
+    for i in range(0, len(list), 3):
+        temp=[]
+        temp.append(list[i + 1].strip()) #list2[i][0], amino acid
+        temp.append(list[i + 2].strip()) #list2[i][1] right structure
+        temp.append(list[i].strip())   #list2[i][2] name, information
+        list2.append(temp)
+    f.close()
+
+    fsr = fSR2(list2)
+
+    fsrm = {}
+    # initialize
+    amino = []
+    for i in amino_dict.keys():
+        amino.append(amino_dict[i])
+    amino.insert(0, "?")
+
+    # initialize
+    for i in ['C', 'E', 'H']:
+        temp3 = {}
+        for j in amino:
+            temp2 = {}
+            for k in amino:
+                temp = {}
+                for n in range(1, 9):
+                    temp[n] = 1
+
+                temp2[k] = temp
+
+            temp3[j] = temp2
+        fsrm[i] = temp3
+
+    for i in list2:
+        for j in range(len(i[0]) - 8):
+            for k in range(1, 9):
+                fsrm[i[1][j]][i[0][j]][i[0][k + j]][k] += 1
 
 
-aaa = 'G?NQSIIFTEQLTWDVQLSAIHFTAQQQG?VIDCYIGQKVLEHLAAEKINNSEQALSLFEQFRFDIEEQAEKLIEQEAFDVQGHIQVERVD'
-bbb ='CCCCCEEECCCCEEECCCCEEEEEEEECCEEEEEEEEHHHHHHHHCCCCCCHHHHHHHHHHCHHHHHHHHHHHHHCCCCCCCCCEEECCCC'
-f = open("aa.txt",'w')
-f.write(gor3(aaa))
-f.write('\n')
-f.write(bbb)
+    # begin predict
+    fw = open(resultfile,'w')
+    for i in list2:
+        fw.write(list2[2]+'\n')
+        fw.write(list2[0]+'\n')
+        fw.write(list2[1]+'\n')
+        fw.write(gor3(list2[1])+'\n')
+    fw.close()
 
-'''
+
+
+
+
+
+
+
+
+
+

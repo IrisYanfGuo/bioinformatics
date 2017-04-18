@@ -1,0 +1,20 @@
+c.fasta  61->67,  62.1%
+e.fasta 60--> 49
+b.fasta 55--45
+a.fasta 47 ->57
+f.fasta 55-->63
+
+
+APRIL 17 MORNING TEST
+d 48-->49   identity 98%  searchcondition E-thresh value 10, 1000 value, not good result
+E 60-> 60   no improvement
+c_align1 60%->61% according to identity
+a_align1 47% ->56%  %65 identity
+c_align2 61%->68%   select different region csequence
+b_align  55%-> 58%  19 sequence
+b_align1 55%->59.6%
+b_align2 55%->61.8% 40 sequence
+b_align3 55% --> 60% 26 sequence
+e_align1  60%-72%  33 seqs
+
+

@@ -2,8 +2,8 @@ from pre_process import *
 from numpy import log
 import matplotlib.pyplot as plt
 
-dssp = pre_process("./txtfile/dssp_info.txt", "./txtfile/dssp_predict.txt")
-stride = pre_process("./txtfile/stride_info.txt", "./txtfile/stride.txt")
+dssp = pre_process("./txtfile/dssp_info.txt", "./txtfile/dssp_protein.txt")
+stride = pre_process("./txtfile/stride_info.txt", "./txtfile/stride_protein.txt")
 
 fsr,fs,fr= fSR(dssp)
 #print(fs)

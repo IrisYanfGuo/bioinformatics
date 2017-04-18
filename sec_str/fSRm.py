@@ -1,6 +1,6 @@
 
 # do some pre_process, read the protein sequence and structure in to a 2d list
-f = open("dssp_protein")
+f = open("./txtfile/dssp_protein")
 
 list = f.readlines()
 list2 =[]

@@ -24,12 +24,18 @@ for i in f.readlines():
     amino_dict[temp[0].upper()] = temp[1]
 f.close()
 
+
 f = open("./txtfile/stru_dict.txt")
 stru_dict = {}
 for i in f.readlines():
     temp = i.strip().split()
     stru_dict[temp[0].upper()] = temp[1]
 f.close()
+
+
+
+
+
 
 
 
@@ -97,5 +103,35 @@ def fSR(list_2):
             fR[i[3]] = 1
 
     return result, fS, fR
+
+def fSR2(list_2_2):
+    result = {}
+    fS = {}
+    fR = {}
+    for i in list_2_2:
+        # calculate fSR
+        if i[1] in result.keys():
+            if i[0] in result[i[1]].keys():
+                result[i[1]][i[0]] += 1
+            else:
+
+                result[i[1]][i[0]] = 1
+        else:
+            temp = {}
+            temp[i[0]] = 1
+            result[i[1]] = temp
+        # calcuate fS
+        if i[1] in fS.keys():
+            fS[i[1]] += 1
+        else:
+            fS[i[1]] = 1
+        # calculate fR
+        if i[0] in fR.keys():
+            fR[i[0]] += 1
+        else:
+            fR[i[0]] = 1
+
+    return result, fS, fR
+
 
 

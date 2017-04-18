@@ -49,9 +49,9 @@ for i in range(0, len(list), 4):
 # print(list2)
 
 def family_predict(alist):
-    cnum = 0
-    enum = 0
-    hnum = 0
+    cnum = 1
+    enum = 1
+    hnum = 1
     for i in alist:
         if i == 'C':
             cnum += 1
@@ -60,7 +60,11 @@ def family_predict(alist):
         else:
             hnum += 1
 
-    return (hnum - enum) / (len(alist) - cnum)
+    return (hnum-enum)/(len(alist)-cnum)
+
+
+
+
 
 
 result = []
@@ -73,7 +77,7 @@ for i in list2:
     t.append(i[4])
     result.append(t)
 
-print(result)
+#print(result)
 
 
 def q3(right, predict):
@@ -113,7 +117,7 @@ for i in range(len(right)):
 
     if result[i][0] > 0.45:
         t.append('A')
-    elif result[i][0] < -0.24:
+    elif result[i][0] < -0.25:
         t.append('B')
     else:
         t.append('AB')
@@ -149,7 +153,7 @@ for i in temp:
 
 
 temp.sort()
-f = open("./txtfile/cathinfo.csv", 'w')
+f = open("./txtfile/cathinfo2.csv", 'w')
 f.write('H-E,')
 f.write('actual family,')
 f.write('predict family,')
@@ -176,4 +180,4 @@ for i in temp:
     f.write(str(i[9]) + ',')
     f.write(str(i[10]) + '\n')
 
-print(temp)
+#print(temp)
