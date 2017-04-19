@@ -87,7 +87,7 @@ def q3(right, predict):
 
 
 def mcc(predict, right, stru):
-    TP, FP, FN, TN = 1, 1, 1, 1
+    TP, FP, FN, TN = 0.001, 0.001, 0.001, 0.001
     for i in range(len(predict)):
         if predict[i] == stru:
             if right[i] == stru:
@@ -98,13 +98,14 @@ def mcc(predict, right, stru):
             if right[i] == stru:
                 FN += 1
             else:
-                TN += 1
+                if predict[i]==right[i]:
+                    TN += 1
+    print(TP,FP,FN,TN)
     MCC = (TP * TN - FP * FN) / sqrt((TP + FP) * (TP + FN) * (TN + FP) * (TN + FN))
     TRP = TP / (TP + FN)
     SPC = TN / (FP + TN)
 
     return MCC
-
 
 sumB = 0
 sumA = 0

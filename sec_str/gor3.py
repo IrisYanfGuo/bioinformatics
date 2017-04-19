@@ -177,7 +177,9 @@ def mcc(predict, right, stru):
             if right[i] == stru:
                 FN += 1
             else:
-                TN += 1
+                if predict[i]==right[i]:
+                    TN += 1
+    print(TP,FP,FN,TN)
     MCC = (TP * TN - FP * FN) / sqrt((TP + FP) * (TP + FN) * (TN + FP) * (TN + FN))
     TRP = TP / (TP + FN)
     SPC = TN / (FP + TN)
