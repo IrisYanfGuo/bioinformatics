@@ -65,7 +65,12 @@ def pre_process(file, newfile):
     return list_2
 
 
-
+fsrm = {}
+# initialize
+amino = []
+for i in amino_dict.keys():
+    amino.append(amino_dict[i])
+amino.insert(0,"?")
 
 
 # print(stride)
@@ -79,28 +84,26 @@ def fSR(list_2):
     result = {}
     fS = {}
     fR = {}
+
+    # initialize result
+    for i in ['C','E','H']:
+        temp ={}
+        for j in amino:
+            temp[j] =0.001
+        result[i] = temp
+
+    # initialize fs
+
+    for i in ['C', 'E', 'H']:
+        fS[i] =0
+    for i in amino:
+        fR[i] = 0
+
     for i in list_2:
         # calculate fSR
-        if i[4] in result.keys():
-            if i[3] in result[i[4]].keys():
-                result[i[4]][i[3]] += 1
-            else:
-
-                result[i[4]][i[3]] = 1
-        else:
-            temp = {}
-            temp[i[3]] = 1
-            result[i[4]] = temp
-        # calcuate fS
-        if i[4] in fS.keys():
-            fS[i[4]] += 1
-        else:
-            fS[i[4]] = 1
-        # calculate fR
-        if i[3] in fR.keys():
-            fR[i[3]] += 1
-        else:
-            fR[i[3]] = 1
+        result[i[4]][i[3]] +=1
+        fS[i[4]] +=1
+        fR[i[3]] +=1
 
     return result, fS, fR
 

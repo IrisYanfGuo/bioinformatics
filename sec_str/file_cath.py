@@ -30,6 +30,7 @@ for i in f.readlines():
     t.append(i.strip().split()[0])
     t.append(i.strip().split()[2])
     right.append(t)
+print(right)
 
 f.close()
 
@@ -60,11 +61,7 @@ def family_predict(alist):
         else:
             hnum += 1
 
-    return (hnum-enum)/(len(alist)-cnum)
-
-
-
-
+    return (hnum - enum) / (len(alist) - cnum)
 
 
 result = []
@@ -76,8 +73,9 @@ for i in list2:
     t.append(i[3])
     t.append(i[4])
     result.append(t)
-
 #print(result)
+
+# print(result)
 
 
 def q3(right, predict):
@@ -108,6 +106,24 @@ def mcc(predict, right, stru):
     return MCC
 
 
+sumB = 0
+sumA = 0
+numB = 0.01
+numA = 0.01
+sumAB = 0
+numAB = 0.01
+for i in range(len(right)):
+
+    if right[i][1] == 'A':
+        sumA += result[i][0]
+        numA += 1
+    elif right[i][1] =='B':
+        sumB += result[i][0]
+        numB += 1
+    else:
+        sumAB += result[i][0]
+        numAB += 1
+
 temp = []
 accuracy = 0
 for i in range(len(right)):
@@ -115,9 +131,9 @@ for i in range(len(right)):
     t.append(result[i][0])
     t.append(right[i][1])
 
-    if result[i][0] > 0.45:
+    if result[i][0] > sumA/numA:
         t.append('A')
-    elif result[i][0] < -0.25:
+    elif result[i][0] < sumB/numB:
         t.append('B')
     else:
         t.append('AB')
@@ -180,4 +196,4 @@ for i in temp:
     f.write(str(i[9]) + ',')
     f.write(str(i[10]) + '\n')
 
-#print(temp)
+# print(temp)

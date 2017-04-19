@@ -9,6 +9,10 @@ dssp2 = pre_process("./txtfile/dssp_info.txt", "./txtfile/dssp.txt")
 stride = pre_process("./txtfile/stride_info.txt", "./txtfile/stride.txt")
 
 fsr, fs, fr = fSR(dssp2)
+
+print(fsr)
+print(fs)
+print(fr)
 # print(fs)
 # print(fr)
 
@@ -33,7 +37,7 @@ fsrm = {}
 amino = []
 for i in amino_dict.keys():
     amino.append(amino_dict[i])
-amino.insert(0,"?")
+amino.insert(0, "?")
 # print(amino)
 for i in ['C', 'E', 'H']:
     temp3 = {}
@@ -42,7 +46,8 @@ for i in ['C', 'E', 'H']:
         for k in amino:
             temp = {}
             for n in range(1, 9):
-                temp[n] = 1
+                # solve the divided by 0 problem
+                temp[n] = 0.001
 
             temp2[k] = temp
 
@@ -94,8 +99,14 @@ def gor3(alist):
 
     return ''.join(result)
 
-'''
+
 f = open("./txtfile/dssp_predict.txt", 'w')
+def q3(right, predict):
+    num = 0
+    for i in range(len(right)):
+        if right[i] == predict[i]:
+            num += 1
+    return num / len(right)
 
 predict = ""
 right = ""
@@ -106,7 +117,6 @@ for i in list2:
     for j in range(len(i[0]) - 8):
         for k in range(1, 9):
             fsrm[i[1][j]][i[0][j]][i[0][k + j]][k] -= 1
-
 
     f.write(i[2] + '\n')
     f.write(i[0] + '\n')
@@ -124,7 +134,6 @@ for i in list2:
     for j in range(len(i[0]) - 8):
         for k in range(1, 9):
             fsrm[i[1][j]][i[0][j]][i[0][k + j]][k] += 1
-
 
 f.close()
 
@@ -173,62 +182,63 @@ def mcc(predict, right, stru):
     TRP = TP / (TP + FN)
     SPC = TN / (FP + TN)
 
-    print(TP, FP, TN, FN)
+    return MCC
 
-    return MCC, TRP, SPC
-'''
-
-# predict1 = 'HHHHCCCCCHHHHCCCHHCCCCHHHH'
-# right1 = 'HHHHHCCCCEEEECCCEEECCCHHHH'
-
-#print(mcc(predict, right, 'H'))
-#print(mcc(predict,right,'E'))
-#print(mcc(predict,right,'C'))
 
 t2 = time.time()
 
 # calculate the overall
 
-#print(t2 - t1)
+# print(t2 - t1)
 
-'''
+print("MCC SCORE FOR 'H' ", mcc(predict, right, 'H'))
+print("MCC SCORE FOR 'E' ", mcc(predict, right, 'E'))
+print("MCC SCORE FOR 'C' ", mcc(predict, right, 'C'))
 
-f = open('dssp_protein')
-protein=[]
-stru =[]
+f = open("./txtfile/cath.txt")
+f = open("./txtfile/cath.txt")
+right1 = []
+for i in f.readlines():
+    t = []
+    t.append(i.strip().split()[0])
+    t.append(i.strip().split()[2])
+    right1.append(t)
+print(right1)
 
-t = f.readlines()
-for i in range(0,len(t),3):
-    protein.append(t[i+1].strip())
-    stru.append(t[i+2].strip())
 f.close()
 
-f = open("aa.txt",'w')
-for i in protein:
-    f.write(gor3(i))
-f.write('\n')
-for i in stru:
-    f.write(i)
-f.close()
-'''
+f = open("./txtfile/dssp_predict.txt")
+list = f.readlines()
+list2 = []
+for i in range(0, len(list), 4):
+    t = []
+    t.append(list[i].strip().split()[0])
+    t.append(list[i + 3].strip())
+    t.append(list[i + 2].strip())
+    list2.append(t)
 
-'''
-f = open('dssp_protein')
-protein=[]
-stru =[]
+familyA = ''
+familyA_pred = ''
+familyAB_pred = ''
+familyB_pred = ''
+familyB = ''
+familyAB = ''
 
-t = f.readlines()
-for i in range(0,len(t),3):
-    protein.append(t[i+1].strip())
-    stru.append(t[i+2].strip())
-f.close()
+for i in range(len(right1)):
+    if right1[i][1] == 'A':
+        familyA += list2[i][1]
+        familyA_pred += list2[i][2]
+    elif right1[i][1] =='B':
+        familyB += list2[i][1]
+        familyB_pred += list2[i][2]
+    else:
+        familyAB += list2[i][1]
+        familyAB_pred += list2[i][2]
 
+print(q3(familyA,familyA_pred))
+print(mcc(familyA,familyA_pred,'H'))
+print(mcc(familyA,familyA_pred,'E'))
+print(mcc(familyA,familyA_pred,'C'))
+print(q3(familyB,familyB_pred))
 
-aaa = 'G?NQSIIFTEQLTWDVQLSAIHFTAQQQG?VIDCYIGQKVLEHLAAEKINNSEQALSLFEQFRFDIEEQAEKLIEQEAFDVQGHIQVERVD'
-bbb ='CCCCCEEECCCCEEECCCCEEEEEEEECCEEEEEEEEHHHHHHHHCCCCCCHHHHHHHHHHCHHHHHHHHHHHHHCCCCCCCCCEEECCCC'
-f = open("aa.txt",'w')
-f.write(gor3(aaa))
-f.write('\n')
-f.write(bbb)
-
-'''
+print(q3(familyAB,familyAB_pred))
